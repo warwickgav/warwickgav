@@ -1,0 +1,22 @@
+.site-header {
+	background-color: transparent;
+	position: relative;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	@include transition(padding, 0.3s, ease-in-out);
+	@include transition(background-color, 0.3s, ease-in-out);
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.sticky .site-header {
+	background-color: rgb(255,255,255);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	z-index: 1000;
+}
+
+

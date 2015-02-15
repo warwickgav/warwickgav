@@ -1,0 +1,71 @@
+/* =============================================================================
+
+  $VARIABLES
+
+============================================================================= */
+
+// Group: Widths
+$small: 30em;
+//480+ sm
+$medium: 45em;
+//720+ md
+$large: 62em;
+//992+ lg - good desktop view - nice spacing for tablets
+$wide: 75em;
+//1200+ wi - larger
+$x-wide: 100em;
+//1600+ xw
+
+$gutter: 20px;
+
+$full: 100%;
+$half: 50%;
+$third: 33.333333%;
+$quarter: 25%;
+$fifth: 20%;
+
+$three-quarters: ($quarter * 3);
+$three-fifths: ($fifth * 3);
+$four-fifths: ($fifth * 4);
+$two-fifths: ($fifth * 2);
+$two-thirds: ($third * 2);
+
+// Group: Fonts
+
+$base-font-size: (18/16)*100%;
+$baseline-unitless: 28/(16*($base-font-size/100%));
+$baseline: $baseline-unitless * 1rem;
+
+$font-name-sans: 'brandon-groutesque';
+$font-name-serif: 'kepler-std';
+$font-name-code: 'source-code-pro';
+
+$font-serif: $font-name-serif, Georgia, serif;
+
+$font-sans: $font-name-sans, Helvetica Neue, Verdana, san-serif;
+
+$font-code: $font-name-code, Monaco, monospace;
+
+// Group: Colors
+
+$light-grey: rgb(248, 248, 248);
+
+$lighter-grey: rgb(246, 246, 246);
+
+$dark-grey-blue: rgb(36, 47, 49);
+
+$mid-grey-blue: rgb(97, 100, 108);
+
+$light-grey-blue: rgb(130, 141, 146);
+
+$highlight: rgb(35, 205, 163);
+
+
+
+
+
+
+
+
+
+

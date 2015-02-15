@@ -1,0 +1,32 @@
+.side-border-left,
+.side-border-right {
+	background-color: $light-grey;
+	background-color: rgba(0,0,0,0.05);
+	width: 1px;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+}
+
+.side-border-left {
+	left: 5px;
+	@include respond-to(medium) {
+		left: 100px;
+	}
+}
+
+.side-border-right {
+	right: 5px;
+	@include respond-to(medium) {
+		right: 100px;
+	}
+}
+
+.site-content {
+	min-height: 900px;
+}
+
+.sticky .site-content {
+	padding-top: 70px;
+}

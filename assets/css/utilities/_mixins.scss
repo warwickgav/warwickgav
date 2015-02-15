@@ -1,0 +1,31 @@
+@mixin respond-to($screen) {
+	@if $screen == small{
+		@media only screen and (min-width: $small) {
+			@content;
+		}
+	} @else if $screen == medium {
+		@media only screen and (min-width: $medium) {
+			@content;
+		}
+	} @else if $screen == large {
+		@media only screen and (min-width: $large) {
+			@content;
+		}
+	} @else if $screen == wide {
+		@media only screen and (min-width: $wide) {
+			@content;
+		}
+	} @else if $screen == x-wide {
+		@media only screen and (min-width: $x-wide) {
+			@content;
+		}
+	}
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+	-webkit-transition: $transition-property $transition-time $method;
+	-moz-transition: $transition-property $transition-time $method;
+	-ms-transition: $transition-property $transition-time $method;
+	-o-transition: $transition-property $transition-time $method;
+	transition: $transition-property $transition-time $method;
+}
