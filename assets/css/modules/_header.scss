@@ -1,22 +1,35 @@
 .site-header {
 	background-color: transparent;
-	position: relative;
+	background-color: rgba(255,255,255,0);
+	position: fixed;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	@include transition(padding, 0.3s, ease-in-out);
-	@include transition(background-color, 0.3s, ease-in-out);
 	width: 100%;
 	top: 0;
 	left: 0;
+	z-index: 1;
+	@include transition(all, 350ms, ease-in-out);
+	@include respond-to(medium) {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
 }
 
 .sticky .site-header {
-	background-color: rgb(255,255,255);
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	position: fixed;
 	z-index: 1000;
+	@include respond-to(medium) {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+}
+
+.sticky .site-header:hover {
+	background-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,0.1);
 }
 
 

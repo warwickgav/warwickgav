@@ -1,12 +1,16 @@
 html {
 	font-family: $font-serif;
 	font-size: $base-font-size;
+	color: $dark-grey-blue;
 }
 
 p {
+	line-height: $baseline;
+	margin-bottom: 1em;
 }
 
 h1, .alpha {
+ font-size: $h1;
 }
 
 h2, .beta {
@@ -22,4 +26,39 @@ h5 {
 }
 
 h6 {
+}
+
+hr, .hr {
+	border-width: 6px 0 0;
+	border-color: $dark-grey-blue;
+	width: 38px;
+	height: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 70px;
+	@include respond-to(medium) {
+		margin-bottom: 80px;
+	}
+}
+
+.blurb {
+	font-size: 1.25em;
+	font-style: italic;
+	line-height: 36px;
+}
+
+.subtitle {
+	font-size: 0.75em;
+	font-family: $font-sans;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+}
+
+
+.lede {
+	@include respond-to(medium) {
+		font-size: 1.5em;
+		line-height: 1.25em;
+	}
 }

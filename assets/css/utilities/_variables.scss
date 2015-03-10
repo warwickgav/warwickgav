@@ -36,7 +36,7 @@ $base-font-size: (18/16)*100%;
 $baseline-unitless: 28/(16*($base-font-size/100%));
 $baseline: $baseline-unitless * 1rem;
 
-$font-name-sans: 'brandon-groutesque';
+$font-name-sans: 'brandon-grotesque';
 $font-name-serif: 'kepler-std';
 $font-name-code: 'source-code-pro';
 
@@ -45,6 +45,20 @@ $font-serif: $font-name-serif, Georgia, serif;
 $font-sans: $font-name-sans, Helvetica Neue, Verdana, san-serif;
 
 $font-code: $font-name-code, Monaco, monospace;
+
+// Group: Headings
+
+$h1: (36/16)*100%;
+
+$h2: 28px;
+
+$h3: 26px;
+
+$h4: 24px;
+
+$h5: 1em;
+
+$h6: 1em;
 
 // Group: Colors
 
@@ -61,7 +75,11 @@ $light-grey-blue: rgb(130, 141, 146);
 $highlight: rgb(35, 205, 163);
 
 
+// Group: Applied Colours
 
+$meta: $light-grey-blue;
+
+$mid-range-text: $mid-grey-blue;
 
 
 

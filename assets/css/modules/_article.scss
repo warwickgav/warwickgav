@@ -1,0 +1,35 @@
+.entry {
+
+}
+
+.entry-title {
+	font-size: 48px;
+	font-weight: normal;
+}
+
+.date {
+	color: $meta;
+	font-family: $font-name-sans;
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 15px;
+	letter-spacing: 0.25em;
+}
+
+.entry-teaser {
+	text-align: center;
+}
+
+.entry-teaser .entry-title {
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+
+.entry-excerpt {
+	color: $mid-range-text;
+	margin-bottom: 50px;
+	@include respond-to(medium) {
+		margin-bottom: 70px;
+	}
+}
+

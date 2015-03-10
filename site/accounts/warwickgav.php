@@ -6,4 +6,4 @@ password: >
   $2a$10$3sxdeRebEWD5zMS3.lUafOXdMfMIBNB4G1YoOwcnAl/ZOmAA85Pem
 language: en
 role: admin
-token: ce5f583be4293dd9c1feace6290f49866294468e
+token: a440c4d25acd55d62e5bfc9efe63664f7bf91db7

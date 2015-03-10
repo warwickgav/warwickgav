@@ -1,5 +1,32 @@
-@import 'utilities/base', 'utilities/normalize', 'utilities/mixins', 'utilities/variables', 'utilities/zindex', 'utilities/grid', 'utilities/visibility';
-@import 'globals/typography', 'globals/images', 'globals/links', 'globals/forms', 'globals/tables';
-@import 'objects/logo';
-@import 'modules/header', 'modules/footer', 'modules/main';
-@import 'templates/index', 'templates/portfolio', 'templates/journal', 'templates/about';
+@import 'utilities/normalize',
+		'utilities/base',
+		'utilities/mixins',
+		'utilities/variables',
+		'utilities/zindex',
+		'utilities/grid',
+		'utilities/visibility',
+		'utilities/icons';
+
+@import 'globals/typography',
+		'globals/images',
+		'globals/links',
+		'globals/forms',
+		'globals/tables';
+
+@import 'objects/logo',
+		'objects/headings',
+		'objects/navigation',
+		'objects/page-lead',
+		'objects/pagination',
+		'objects/breadcrumb';
+
+@import 'modules/header',
+		'modules/footer',
+		'modules/main',
+		'modules/page',
+		'modules/article';
+
+@import 'templates/index',
+		'templates/portfolio',
+		'templates/journal',
+		'templates/about';

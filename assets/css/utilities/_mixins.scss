@@ -29,3 +29,9 @@
 	-o-transition: $transition-property $transition-time $method;
 	transition: $transition-property $transition-time $method;
 }
+
+@mixin content-width {
+	max-width: 560px;
+	margin-left: auto;
+	margin-right: auto;
+}

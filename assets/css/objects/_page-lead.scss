@@ -1,0 +1,26 @@
+.page-lead {
+	background-color: $lighter-grey;
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	@include respond-to(medium) {
+		padding-top: 9em;
+		padding-bottom: 9em;
+	}
+}
+
+.page-title {
+	font-family: $font-sans;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 1;
+	font-size: 1.5em;
+	letter-spacing: 0.25em;
+	@include respond-to(medium) {
+		font-size: 3em;
+	}
+}
+
+.page-lead .subtitle {
+	color: $mid-grey-blue;
+}

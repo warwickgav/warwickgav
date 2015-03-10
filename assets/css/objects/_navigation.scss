@@ -1,0 +1,67 @@
+.site-nav {
+	font-family: $font-sans;
+}
+
+.menu-trigger {
+	position: fixed;
+	right: 5%;
+	font-size: 0.85em;
+	top: 75px;
+	z-index: 1500;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.menu-trigger > span {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.menu-trigger > i {
+	font-size: 1.35em;
+	vertical-align: middle;
+}
+
+.main-menu {
+	background-color: $highlight;
+	background-color: rgba(35, 205, 163, 0);
+	display: none;
+	opacity: 0;
+	@include transition(all, 280ms, cubic-bezier(.4, 0, .2, 1));
+}
+
+.show-menu .main-menu {
+	background-color: rgba(35, 205, 163, 1);
+	display: block;
+	opacity: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+
+}
+
+.show-menu .menu-trigger {
+	color: #fff;
+}
+
+.sticky .menu-trigger {
+	top: 39px;
+}
+
+.main-menu {
+	padding: 182px 0;
+}
+
+.main-menu > li {
+	text-align: center;
+	height: 33.33333333%;
+}
+
+.main-menu > li > a {
+	color: rgb(255,255,255);
+	display: block;
+}
+

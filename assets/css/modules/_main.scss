@@ -5,28 +5,32 @@
 	width: 1px;
 	height: 100%;
 	position: fixed;
-	z-index: 1;
+	z-index: 5000;
 	top: 0;
 }
 
 .side-border-left {
-	left: 5px;
+	left: 5%;
 	@include respond-to(medium) {
 		left: 100px;
 	}
 }
 
 .side-border-right {
-	right: 5px;
+	right: 5%;
 	@include respond-to(medium) {
 		right: 100px;
 	}
 }
 
 .site-content {
-	min-height: 900px;
+	padding-top: 39px;
+	@include respond-to(medium) {
+		padding-top: 91px;
+	}
 }
 
-.sticky .site-content {
-	padding-top: 70px;
+.content-wrapper {
+	padding-left: 10%;
+	padding-right: 10%;
 }

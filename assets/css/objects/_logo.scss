@@ -1,7 +1,7 @@
 .logo {
 	background-color: $dark-grey-blue;
 	border: 2px solid $dark-grey-blue;
-	color: #ffffff;
+	color: #fff;
 	text-decoration: none;
 	font-family: $font-sans;
 	font-size: 0.85em;
@@ -9,7 +9,7 @@
 	display: block;
 	padding: 8px 15px;
 	text-align: center;
-	width: 100px;
+	width: 102px;
 	margin: 0 auto;
 }
 
@@ -17,5 +17,14 @@
 	background-color: $highlight;
 	border-color: $highlight;
 	color: #fff;
+}
 
+.show-menu .logo {
+	background-color: rgba(36, 47, 49, 0.85);
+	border-color: rgba(36, 47, 49, 0.85);
+}
+
+.show-menu .logo:hover {
+	background-color: rgba(36, 47, 49, 1);
+	border-color: rgba(36, 47, 49, 1);
 }

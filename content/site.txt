@@ -1,17 +1,17 @@
-Title: Kirby Starterkit
+Title: Warwick Paul Gavaghan
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Warwick Paul Gavaghan
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Warwick Paul Gavaghan is designer & some time developer
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: designer, web designer, portfolio, blog, journal
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: © 2009-(date: Year) (link: http://warwickgav.com text: Warwick Paul Gavaghan.)

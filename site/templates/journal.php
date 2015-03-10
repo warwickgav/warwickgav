@@ -1,16 +1,28 @@
 <?php snippet('head') ?>
 <?php snippet('header') ?>
 
-    <main class="main" role="main">
+    <main class="site-content" role="main">
 
-        <div class="text">
-            <h1><?php echo $page->title()->html() ?></h1>
-            <?php echo $page->text()->kirbytext() ?>
-        </div>
+		<div class="page-lead">
+			<div class="content-wrapper">
+				<div class="lead-group">
+					<span class="subtitle">Writing</span>
+					<h1 class="page-title"><?php echo $page->title()->html() ?></h1>
+				</div>
+			</div>
+		</div>
 
-        <hr>
+		<div class="page-content">
 
+			<div class="wrap">
 
+				<h6 class="subtitle">Contents</h6>
+
+				<?php snippet('journal-entries') ?>
+
+			</div>
+
+		</div>
 
     </main>
 
