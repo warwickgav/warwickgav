@@ -32,11 +32,10 @@ $two-thirds: ($third * 2);
 
 // Group: Fonts
 
-$base-font-size: (18/16)*100%;
-$baseline-unitless: 28/(16*($base-font-size/100%));
-$baseline: $baseline-unitless * 1rem;
+$base-font-size: 0.875em;
+$baseline: 1.625;
 
-$font-name-sans: 'brandon-grotesque';
+$font-name-sans: 'aktiv-grotesk';
 $font-name-serif: 'kepler-std';
 $font-name-code: 'source-code-pro';
 

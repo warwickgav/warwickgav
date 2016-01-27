@@ -1,7 +1,7 @@
 <nav class="site-nav" role="navigation">
-	<a class="menu-trigger">
-		<span>Menu</span><i class="icon icon-menu"></i>
-	</a>
+<!--	<a class="menu-trigger">-->
+<!--		<span>Menu</span><i class="icon icon-menu"></i>-->
+<!--	</a>-->
     <ol class="nav main-menu">
         <?php foreach ($pages->visible() as $p): ?>
             <li<?php e($p->isOpen(), ' class="active"') ?>>

@@ -17,7 +17,5 @@
 
     </head>
 
-    <body class="<?php echo $page->template() ?>">
+    <body class="<?php echo $page->uid() ?>">
 
-		<div class="side-border-left"></div>
-		<div class="side-border-right"></div>

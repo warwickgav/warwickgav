@@ -1,20 +1,12 @@
-.home .page-lead {
-	background: rgb(244, 244, 244) url("/warwickgav/assets/images/bg-leadspace-home.jpg") no-repeat center top;
-	background-size: cover;
-	min-height: 281px;
-	@include respond-to(medium) {
-		min-height: 680px;
-		padding-top: 257.5px;
+.intro {
+	@include respond-to(large) {
+		padding-top: 130px;
+		padding-bottom: 130px;
 	}
 }
 
-.home .page-title {
-	font-size: 1.75em;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.home .blurb {
-	@include content-width();
+.intro-body {
+	font-size: 38px;
+	font-weight: 500;
 }
 

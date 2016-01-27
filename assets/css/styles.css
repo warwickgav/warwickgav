@@ -644,7 +644,7 @@ hr, .hr {
 
 .subtitle {
   font-size: 0.75em;
-  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
+  font-family: "aktiv-grotesk", Helvetica Neue, Verdana, san-serif;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5em; }
@@ -682,97 +682,39 @@ picture img {
 a, a:hover {
   color: #23cda3;
   text-decoration: none;
-  -webkit-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
-  -moz-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
-  -ms-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
-  -o-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); }
+  -webkit-transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1); }
 
 .logo {
-  background-color: #242f31;
-  border: 2px solid #242f31;
-  color: #fff;
+  color: #242f31;
   text-decoration: none;
-  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
-  font-size: 0.85em;
-  letter-spacing: 1em;
-  display: block;
-  padding: 8px 15px;
-  text-align: center;
-  width: 102px;
-  margin: 0 auto; }
-
-.logo:hover {
-  background-color: #23cda3;
-  border-color: #23cda3;
-  color: #fff; }
-
-.show-menu .logo {
-  background-color: rgba(36, 47, 49, 0.85);
-  border-color: rgba(36, 47, 49, 0.85); }
-
-.show-menu .logo:hover {
-  background-color: #242f31;
-  border-color: #242f31; }
-
-.site-nav {
-  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; }
-
-.menu-trigger {
-  position: fixed;
-  right: 5%;
-  font-size: 0.85em;
-  top: 75px;
-  z-index: 1500;
-  padding: 5px 10px;
-  text-transform: uppercase;
-  cursor: pointer; }
-
-.menu-trigger > span {
-  margin-right: 10px;
-  vertical-align: middle; }
-
-.menu-trigger > i {
-  font-size: 1.35em;
-  vertical-align: middle; }
-
-.main-menu {
-  background-color: #23cda3;
-  background-color: rgba(35, 205, 163, 0);
-  display: none;
-  opacity: 0;
+  font-family: "aktiv-grotesk", Helvetica Neue, Verdana, san-serif;
+  margin: 0 auto;
   -webkit-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
   -moz-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
   -ms-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
   -o-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); }
 
-.show-menu .main-menu {
-  background-color: #23cda3;
-  display: block;
-  opacity: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%; }
+.logo:hover {
+  color: #23cda3; }
 
-.show-menu .menu-trigger {
-  color: #fff; }
+.logo-icon {
+  background-color: #242f31;
+  width: 80px;
+  display: inline-block; }
 
-.sticky .menu-trigger {
-  top: 39px; }
+.logo-icon:hover {
+  background-color: #23cda3; }
 
-.main-menu {
-  padding: 182px 0; }
-
-.main-menu > li {
-  text-align: center;
-  height: 33.33333333%; }
-
-.main-menu > li > a {
-  color: white;
-  display: block; }
+.logo-text {
+  display: inline-block; }
+  .logo-text .role {
+    letter-spacing: 1px;
+    color: #828d92; }
 
 .page-lead {
   background-color: #f6f6f6;
@@ -785,7 +727,7 @@ a, a:hover {
       padding-bottom: 9em; } }
 
 .page-title {
-  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
+  font-family: "aktiv-grotesk", Helvetica Neue, Verdana, san-serif;
   font-weight: 500;
   text-transform: uppercase;
   line-height: 1;
@@ -800,7 +742,7 @@ a, a:hover {
 
 .pagination {
   font-size: 14px;
-  font-family: "brandon-grotesque";
+  font-family: "aktiv-grotesk";
   text-transform: uppercase;
   letter-spacing: 0.25em;
   text-align: center; }
@@ -915,7 +857,7 @@ a, a:hover {
 
 .date {
   color: #828d92;
-  font-family: "brandon-grotesque";
+  font-family: "aktiv-grotesk";
   font-size: 14px;
   display: inline-block;
   margin-bottom: 15px;
@@ -936,7 +878,7 @@ a, a:hover {
       margin-bottom: 70px; } }
 
 .home .page-lead {
-  background: #f4f4f4 url("/warwickgav/assets/images/bg-leadspace-home.jpg") no-repeat center top;
+  background: #f4f4f4 url("/assets/images/bg-leadspace-home.jpg") no-repeat center top;
   background-size: cover;
   min-height: 281px; }
   @media only screen and (min-width: 45em) {

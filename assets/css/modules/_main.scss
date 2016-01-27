@@ -1,36 +1,15 @@
-.side-border-left,
-.side-border-right {
-	background-color: $light-grey;
-	background-color: rgba(0,0,0,0.05);
-	width: 1px;
-	height: 100%;
-	position: fixed;
-	z-index: 5000;
-	top: 0;
+.content-wrap {
+	max-width: 680px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-.side-border-left {
-	left: 5%;
-	@include respond-to(medium) {
-		left: 100px;
-	}
+.container {
+	@include clearfix();
 }
 
-.side-border-right {
-	right: 5%;
-	@include respond-to(medium) {
-		right: 100px;
-	}
-}
-
-.site-content {
-	padding-top: 39px;
-	@include respond-to(medium) {
-		padding-top: 91px;
-	}
-}
-
-.content-wrapper {
-	padding-left: 10%;
-	padding-right: 10%;
+.content-header {
+	text-align: center;
 }

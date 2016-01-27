@@ -1,30 +1,47 @@
 .logo {
-	background-color: $dark-grey-blue;
-	border: 2px solid $dark-grey-blue;
-	color: #fff;
+	color: $dark-grey-blue;
 	text-decoration: none;
 	font-family: $font-sans;
-	font-size: 0.85em;
-	letter-spacing: 1em;
-	display: block;
-	padding: 8px 15px;
-	text-align: center;
-	width: 102px;
 	margin: 0 auto;
+	display: block;
+	@include transition(all, 280ms, cubic-bezier(.4, 0, .2, 1));
 }
 
 .logo:hover {
-	background-color: $highlight;
-	border-color: $highlight;
-	color: #fff;
+	color: $highlight;
 }
 
-.show-menu .logo {
-	background-color: rgba(36, 47, 49, 0.85);
-	border-color: rgba(36, 47, 49, 0.85);
+.brand-line {
+	background-color: $dark-grey-blue;
+	float: left;
+	width: 120px;
+	height: 14px;
+	display: inline-block;
+	vertical-align: top;
+	@include transition(all, 280ms, cubic-bezier(.4, 0, .2, 1));
 }
 
-.show-menu .logo:hover {
-	background-color: rgba(36, 47, 49, 1);
-	border-color: rgba(36, 47, 49, 1);
+.logo-text {
+	display: inline-block;
+	margin-left: 40px;
+	vertical-align: top;
+	letter-spacing: 0.15em;
+	line-height: 1;
+	.name {
+		display: block;
+		margin-bottom: 6px;
+	}
+	.role {
+		font-size: 0.75em;
+		text-transform: uppercase;
+		display: block;
+		color: $light-grey-blue;
+		margin-bottom: 6px;
+	}
+	.line {
+		background-color: $dark-grey-blue;
+		display: block;
+		width: 15px;
+		height: 2px;
+	}
 }
