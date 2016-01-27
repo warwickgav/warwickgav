@@ -15,8 +15,8 @@
 		<div class="page-content">
 
 			<div class="wrap">
-
-				<h6 class="subtitle">Contents</h6>
+f
+				<h6 class="subtitle">Contentsf</h6>
 
 				<?php snippet('journal-entries') ?>
 
