@@ -16,7 +16,7 @@
 
 			<div class="wrap">
 f
-				<h6 class="subtitle">Contentsfwerew</h6>
+				<h6 class="subtitle">Contents</h6>
 
 				<?php snippet('journal-entries') ?>
 

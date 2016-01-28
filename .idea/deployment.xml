@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Warwicks' Server" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;.ftpsettings;.codekit;mixture.json" autoUploadExternalChanges="true">
-    <serverData>
-      <paths name="Warwicks' Server">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/warwickgav.com/public_html/" local="$PROJECT_DIR$" web="" />
-          </mappings>
-        </serverdata>
-      </paths>
-    </serverData>
-  </component>
+  <component name="PublishConfigData" serverName="Warwicks' Server" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;.ftpsettings;.codekit;mixture.json" autoUploadExternalChanges="true" />
 </project>
-
