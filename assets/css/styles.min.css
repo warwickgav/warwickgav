@@ -615,7 +615,7 @@ ul, ol {
 
 html {
   font-family: "kepler-std", Georgia, serif;
-  font-size: 0.875em;
+  font-size: 1.125em;
   color: #242f31; }
 
 p {
@@ -623,7 +623,7 @@ p {
   margin-bottom: 1em; }
 
 h1, .alpha {
-  font-size: 225%; }
+  font-size: 3em; }
 
 hr, .hr {
   border-width: 6px 0 0;
@@ -644,7 +644,7 @@ hr, .hr {
 
 .sub-title {
   font-size: 1em;
-  font-family: "aktiv-grotesk", Helvetica Neue, Verdana, san-serif;
+  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.15em; }
@@ -691,7 +691,11 @@ a, a:hover {
 .logo {
   color: #242f31;
   text-decoration: none;
-  font-family: "aktiv-grotesk", Helvetica Neue, Verdana, san-serif;
+  font-size: 0.825em;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
+  letter-spacing: 1px;
   margin: 0 auto;
   display: block;
   -webkit-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -699,6 +703,9 @@ a, a:hover {
   -ms-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
   -o-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); }
+
+.logo-mark {
+  display: block; }
 
 .logo:hover {
   color: #23cda3; }
@@ -741,7 +748,7 @@ a, a:hover {
   text-align: right; }
 
 .nav {
-  font-family: "aktiv-grotesk", Helvetica Neue, Verdana, san-serif; }
+  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; }
 
 .nav > li {
   display: inline-block;
@@ -767,7 +774,6 @@ a, a:hover {
   border-color: #23cda3; }
 
 .page-lead {
-  background-color: #f6f6f6;
   text-align: center;
   padding-top: 75px;
   padding-bottom: 75px; }
@@ -777,22 +783,15 @@ a, a:hover {
       padding-bottom: 9em; } }
 
 .page-title {
-  font-family: "aktiv-grotesk", Helvetica Neue, Verdana, san-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  line-height: 1;
-  font-size: 1.5em;
-  letter-spacing: 0.25em; }
-  @media only screen and (min-width: 45em) {
-    .page-title {
-      font-size: 3em; } }
+  font-family: "kepler-std", Georgia, serif;
+  font-weight: 500; }
 
 .page-lead .subtitle {
   color: #61646c; }
 
 .pagination {
   font-size: 14px;
-  font-family: "aktiv-grotesk";
+  font-family: "brandon-grotesque";
   text-transform: uppercase;
   letter-spacing: 0.25em;
   text-align: center; }
@@ -804,25 +803,30 @@ a, a:hover {
 .site-header {
   background-color: transparent;
   background-color: rgba(255, 255, 255, 0);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 100%;
+  padding: 1em;
   top: 0;
   left: 0;
   z-index: 1;
+  border: 1px solid #f5f3f4;
+  border-bottom-width: 0;
+  margin: 10px 10px 0;
+  zoom: 1;
   -webkit-transition: all 350ms ease-in-out;
   -moz-transition: all 350ms ease-in-out;
   -ms-transition: all 350ms ease-in-out;
   -o-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out; }
+  .site-header:after, .site-header:before {
+    display: table;
+    clear: both;
+    content: ""; }
   @media only screen and (min-width: 45em) {
     .site-header {
-      padding-top: 70px;
-      padding-bottom: 70px; } }
+      padding: 4em;
+      margin: 40px 40px 0; } }
 
-@media only screen and (min-width: 45em) {
-  .site-header .logo {
-    float: left; } }
+.site-header .logo {
+  text-align: center; }
 
 @media only screen and (min-width: 45em) {
   .site-header .site-nav {
@@ -835,6 +839,16 @@ a, a:hover {
   padding-top: 25px;
   padding-bottom: 25px;
   text-align: center; }
+
+.site-content {
+  border: 1px solid #f5f3f4;
+  border-width: 0 1px 1px;
+  margin: 0 10px 10px;
+  height: 100vh; }
+  @media only screen and (min-width: 45em) {
+    .site-content {
+      margin: 0 40px 40px;
+      padding-bottom: 40px; } }
 
 .content-wrap {
   max-width: 680px;
@@ -885,7 +899,7 @@ a, a:hover {
 
 .date {
   color: #828d92;
-  font-family: "aktiv-grotesk";
+  font-family: "brandon-grotesque";
   font-size: 14px;
   display: inline-block;
   margin-bottom: 15px;
@@ -913,3 +927,21 @@ a, a:hover {
 .intro-body {
   font-size: 38px;
   font-weight: 500; }
+
+html {
+  min-height: 100%; }
+
+body {
+  background: #f5f3f4 url("/assets/images/lead-mountains.jpg") no-repeat center bottom;
+  background-size: cover;
+  min-height: 100%; }
+
+.home .page-lead {
+  background-size: cover; }
+  @media only screen and (min-width: 45em) {
+    .home .page-lead {
+      height: 660px; } }
+
+.home .page-lead h2 {
+  max-width: 780px;
+  margin: 0 auto; }

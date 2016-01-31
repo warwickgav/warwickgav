@@ -1,11 +1,11 @@
-@import 'utilities/normalize',
+@import 'vendor/normalize',
 		'utilities/base',
 		'utilities/mixins',
 		'utilities/variables',
 		'utilities/zindex',
 		'utilities/grid',
 		'utilities/visibility',
-		'utilities/icons';
+		'vendor/icons';
 
 @import 'globals/typography',
 		'globals/images',

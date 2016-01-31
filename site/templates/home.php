@@ -1,18 +1,11 @@
 <?php snippet('head') ?>
 <?php snippet('header') ?>
-
 	<main class="site-content" role="main">
+		<div class="page-lead">
+			<h2 class="page-title">2016 Portfolio Coming Soon
+<!--				I help shape UX & UI at <a href="//shopfrontpro.com">ShopFrontPro</a> and build my own products as one half of <a href="//yanodesigns.com.au">Yano Designs</a>.-->
 
-		<div class="intro">
-			<div class="content-wrap">
-				<h1 class="intro-body"><?php echo $page->text()->kirbytext() ?></h1>
-			</div>
+			</h2>
 		</div>
-
-		<div class="">
-			<?php snippet('projects') ?>
-		</div>
-
     </main>
-
 <?php snippet('footer') ?>

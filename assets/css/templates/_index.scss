@@ -10,3 +10,26 @@
 	font-weight: 500;
 }
 
+html {
+	min-height: 100%;
+}
+
+body {
+	background: $light-grey url('/assets/images/lead-mountains.jpg') no-repeat center bottom;
+	background-size: cover;
+	min-height: 100%;
+
+}
+
+.home .page-lead {
+	//background: $light-grey url('/assets/images/lead-mountains.jpg') no-repeat center bottom;
+	background-size: cover;
+	@include respond-to(medium) {
+		height: 660px;
+	}
+}
+
+.home .page-lead h2 {
+	max-width: 780px;
+	margin: 0 auto;
+}
