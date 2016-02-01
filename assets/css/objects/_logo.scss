@@ -1,13 +1,13 @@
 .logo {
-	color: $dark-grey-blue;
+	color: $base-color;
 	text-decoration: none;
-	font-size: 0.825em;
+	font-size: 0.875em;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-family: $font-sans;
 	letter-spacing: 1px;
 	margin: 0 auto;
-	display: block;
+	display: inline-block;
 	@include transition(all, 280ms, cubic-bezier(.4, 0, .2, 1));
 }
 
@@ -20,7 +20,7 @@
 }
 
 .brand-line {
-	background-color: $dark-grey-blue;
+	background-color: $base-color;
 	float: left;
 	width: 120px;
 	height: 14px;
@@ -31,7 +31,6 @@
 
 .logo-text {
 	display: inline-block;
-	margin-left: 40px;
 	vertical-align: top;
 	letter-spacing: 0.15em;
 	line-height: 1;
@@ -43,11 +42,11 @@
 		font-size: 0.75em;
 		text-transform: uppercase;
 		display: block;
-		color: $light-grey-blue;
+		color: $base-75;
 		margin-bottom: 6px;
 	}
 	.line {
-		background-color: $dark-grey-blue;
+		background-color: $base-color;
 		display: block;
 		width: 15px;
 		height: 2px;

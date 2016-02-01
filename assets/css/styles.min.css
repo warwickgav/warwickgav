@@ -614,16 +614,44 @@ ul, ol {
   content: "\e600"; }
 
 html {
-  font-family: "kepler-std", Georgia, serif;
-  font-size: 1.125em;
-  color: #242f31; }
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 1em;
+  color: #242f31;
+  -ms-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "liga" 1, "kern" 1;
+  font-feature-settings: "liga" 1, "kern" 1;
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased; }
 
 p {
   line-height: 1.625;
   margin-bottom: 1em; }
 
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em;
+  font-weight: 500; }
+
 h1, .alpha {
   font-size: 3em; }
+
+h2, .beta {
+  font-size: 2em; }
+
+h3, .gamma {
+  font-size: 1.8em; }
+
+h4, .delta {
+  font-size: 1.5em; }
+
+h5 {
+  font-size: 1em; }
+
+h6 {
+  font-size: 1em; }
 
 hr, .hr {
   border-width: 6px 0 0;
@@ -653,6 +681,20 @@ hr, .hr {
   .lede {
     font-size: 1.5em;
     line-height: 1.25em; } }
+
+blockquote {
+  margin-bottom: 1em; }
+
+.bq-standard {
+  font-style: italic;
+  text-align: center;
+  font-size: 3em; }
+
+.bq-line {
+  color: #61646c;
+  font-style: italic;
+  padding: 1em;
+  border-left: 3px solid #23cda3; }
 
 figure img,
 picture img {
@@ -688,16 +730,19 @@ a, a:hover {
   -o-transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 280ms cubic-bezier(0.4, 0, 0.2, 1); }
 
+a:hover {
+  color: #1ca180; }
+
 .logo {
   color: #242f31;
   text-decoration: none;
-  font-size: 0.825em;
+  font-size: 0.875em;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
   letter-spacing: 1px;
   margin: 0 auto;
-  display: block;
+  display: inline-block;
   -webkit-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
   -moz-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
   -ms-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -725,7 +770,6 @@ a, a:hover {
 
 .logo-text {
   display: inline-block;
-  margin-left: 40px;
   vertical-align: top;
   letter-spacing: 0.15em;
   line-height: 1; }
@@ -736,7 +780,7 @@ a, a:hover {
     font-size: 0.75em;
     text-transform: uppercase;
     display: block;
-    color: #828d92;
+    color: #e7eced;
     margin-bottom: 6px; }
   .logo-text .line {
     background-color: #242f31;
@@ -744,94 +788,233 @@ a, a:hover {
     width: 15px;
     height: 2px; }
 
+nav > ol, nav > ul {
+  padding-left: 0; }
+
 .site-nav {
-  text-align: right; }
+  display: none;
+  background-color: #23cda3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000; }
+  @media only screen and (min-width: 45em) {
+    .site-nav {
+      background-color: #fff;
+      position: static;
+      display: block !important; } }
 
-.nav {
-  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; }
+.open-site-nav .site-nav {
+  display: block; }
 
-.nav > li {
-  display: inline-block;
-  letter-spacing: 0.15em;
-  margin-left: 90px; }
+.site-nav ol {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%); }
+  @media only screen and (min-width: 45em) {
+    .site-nav ol {
+      position: static;
+      top: 0;
+      transform: translateY(0);
+      text-align: right; } }
 
-.nav a {
+.site-nav ol > li {
   display: block;
-  border-bottom: 2px solid white;
-  padding-bottom: 10px;
-  -webkit-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
-  -moz-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
-  -ms-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
-  -o-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); }
+  font-size: 1.5em;
+  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3em 1.5em; }
+  @media only screen and (min-width: 45em) {
+    .site-nav ol > li {
+      display: inline-block;
+      font-size: 0.875em;
+      padding: 0;
+      margin-left: 3em;
+      letter-spacing: 1px; } }
 
-.nav a:hover,
-.nav > .active > a:hover {
+.site-nav li > a {
+  color: #fff;
+  display: inline-block;
+  position: relative; }
+  @media only screen and (min-width: 45em) {
+    .site-nav li > a {
+      color: #242f31; } }
+
+.site-nav a:hover:after {
+  border-bottom: 3px solid #fff;
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+
+@media only screen and (min-width: 45em) {
+  .site-nav li > a:hover {
+    color: #23cda3;
+    padding: 0; } }
+
+@media only screen and (min-width: 45em) {
+  .site-nav .active > a {
+    color: #23cda3;
+    padding: 0; } }
+
+@media only screen and (min-width: 45em) {
+  .site-nav .active > a:hover {
+    color: #1ca180;
+    padding: 0; } }
+
+.menu-btn {
   color: #242f31;
-  border-color: #242f31; }
+  font-size: 1.5em;
+  position: absolute;
+  left: 40px;
+  top: 2em;
+  margin-top: 26px;
+  z-index: 50;
+  cursor: pointer; }
+  @media only screen and (min-width: 45em) {
+    .menu-btn {
+      display: none; } }
 
-.nav > .active > a {
-  border-color: #23cda3; }
+.menu-close {
+  color: #fff;
+  display: none; }
+
+.menu-close:hover {
+  color: #9beed9; }
+
+.open-site-nav .menu-close {
+  display: block;
+  font-size: 1.5em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  z-index: 1100;
+  cursor: pointer; }
 
 .page-lead {
+  background-color: #f5f7f8;
   text-align: center;
-  padding-top: 75px;
-  padding-bottom: 75px; }
+  padding: 3em 40px;
+  position: relative;
+  overflow: hidden; }
   @media only screen and (min-width: 45em) {
     .page-lead {
-      padding-top: 9em;
-      padding-bottom: 9em; } }
+      margin: 0 40px; } }
 
-.page-title {
-  font-family: "kepler-std", Georgia, serif;
-  font-weight: 500; }
+.page-lead .title {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-weight: 500;
+  font-size: 1.25em; }
+  @media only screen and (min-width: 30em) {
+    .page-lead .title {
+      font-size: 1.5em; } }
+  @media only screen and (min-width: 45em) {
+    .page-lead .title {
+      font-size: 2em; } }
 
 .page-lead .subtitle {
   color: #61646c; }
 
-.pagination {
-  font-size: 14px;
-  font-family: "brandon-grotesque";
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  text-align: center; }
-
 .pagination .icon {
-  font-size: 1.25em;
-  vertical-align: -2px; }
+  font-size: 3em;
+  position: absolute;
+  top: -4px; }
+
+.pagination-entry-name {
+  font-size: 1.125em; }
+
+.pagination-label {
+  color: #9db3b7;
+  font-size: 0.875em;
+  display: block;
+  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.pagination > a {
+  position: relative;
+  display: block; }
+
+.pagination .next {
+  text-align: right;
+  padding-right: 3em;
+  position: absolute;
+  right: 20px;
+  bottom: 40px; }
+  @media only screen and (min-width: 45em) {
+    .pagination .next {
+      bottom: 80px;
+      right: 40px; } }
+
+.pagination .next .icon {
+  right: 0; }
+
+.pagination .prev {
+  padding-left: 3em;
+  position: absolute;
+  left: 20px;
+  bottom: 40px; }
+  @media only screen and (min-width: 45em) {
+    .pagination .prev {
+      bottom: 80px;
+      left: 40px; } }
+
+.pagination .prev .icon {
+  left: 0; }
 
 .site-header {
   background-color: transparent;
   background-color: rgba(255, 255, 255, 0);
-  padding: 1em;
+  padding: 10px 10px 0;
   top: 0;
   left: 0;
-  z-index: 1;
-  border: 1px solid #f5f3f4;
-  border-bottom-width: 0;
-  margin: 10px 10px 0;
+  z-index: 1; }
+  @media only screen and (min-width: 45em) {
+    .site-header {
+      padding: 40px 40px 0; } }
+
+.header-inner {
+  padding: 4em 40px;
   zoom: 1;
   -webkit-transition: all 350ms ease-in-out;
   -moz-transition: all 350ms ease-in-out;
   -ms-transition: all 350ms ease-in-out;
   -o-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out; }
-  .site-header:after, .site-header:before {
+  .header-inner:after, .header-inner:before {
     display: table;
     clear: both;
     content: ""; }
   @media only screen and (min-width: 45em) {
-    .site-header {
-      padding: 4em;
-      margin: 40px 40px 0; } }
+    .header-inner {
+      border: 1px solid #f5f7f8;
+      border-bottom-width: 0; } }
 
 .site-header .logo {
   text-align: center; }
+  @media only screen and (min-width: 45em) {
+    .site-header .logo {
+      text-align: left; } }
 
 @media only screen and (min-width: 45em) {
   .site-header .site-nav {
     float: right;
-    margin-right: 80px; } }
+    width: 60%; } }
+
+.site-header-brand {
+  text-align: center; }
+  @media only screen and (min-width: 45em) {
+    .site-header-brand {
+      text-align: left;
+      float: left;
+      width: 40%; } }
 
 .site-footer {
   background-color: #242f31;
@@ -840,40 +1023,39 @@ a, a:hover {
   padding-bottom: 25px;
   text-align: center; }
 
-.site-content {
-  border: 1px solid #f5f3f4;
-  border-width: 0 1px 1px;
-  margin: 0 10px 10px;
-  height: 100vh; }
-  @media only screen and (min-width: 45em) {
-    .site-content {
-      margin: 0 40px 40px;
-      padding-bottom: 40px; } }
-
-.content-wrap {
-  max-width: 680px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px; }
-
 .container {
+  max-width: 100em;
+  margin: 0 auto;
   zoom: 1; }
   .container:after, .container:before {
     display: table;
     clear: both;
     content: ""; }
 
-.content-header {
+.content {
+  max-width: 640px;
+  margin: 0 auto;
+  zoom: 1; }
+  .content:after, .content:before {
+    display: table;
+    clear: both;
+    content: ""; }
+
+.page-title {
+  padding: 2em 0;
   text-align: center; }
 
 .page-content {
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  border-width: 0 1px;
+  margin: 0 10px 10px;
+  position: relative;
+  padding-bottom: 4em; }
   @media only screen and (min-width: 45em) {
     .page-content {
-      padding-top: 80px;
-      padding-bottom: 80px; } }
+      border: 1px solid #f5f7f8;
+      border-width: 0 1px;
+      margin: 0 40px;
+      padding-bottom: 8em; } }
 
 .page-content .subtitle {
   text-align: center;
@@ -893,31 +1075,72 @@ a, a:hover {
       margin-right: auto;
       max-width: 520px; } }
 
-.entry-title {
-  font-size: 48px;
-  font-weight: normal; }
-
-.date {
-  color: #828d92;
-  font-family: "brandon-grotesque";
-  font-size: 14px;
-  display: inline-block;
-  margin-bottom: 15px;
-  letter-spacing: 0.25em; }
-
 .entry-teaser {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 6em;
+  position: relative; }
+  .entry-teaser:after {
+    content: '';
+    border: 1px solid #e7eced;
+    position: absolute;
+    bottom: 1.5em;
+    left: 50%;
+    height: 3em; }
 
 .entry-teaser .entry-title {
-  font-size: 28px;
-  margin-bottom: 5px; }
+  font-size: 2em;
+  margin: 0.5em 0; }
 
-.entry-excerpt {
-  color: #61646c;
-  margin-bottom: 50px; }
+.entry-header {
+  text-align: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 5em; }
   @media only screen and (min-width: 45em) {
-    .entry-excerpt {
-      margin-bottom: 70px; } }
+    .entry-header {
+      padding-top: 3em;
+      padding-bottom: 9em; } }
+  .entry-header:after {
+    content: '';
+    border: 1px solid #e7eced;
+    position: absolute;
+    bottom: 3em;
+    left: 50%;
+    height: 3em; }
+
+.journal-entry .entry-title {
+  font-size: 4em;
+  margin: 0.5em 0; }
+
+.tags,
+.date {
+  color: #9db3b7;
+  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
+  font-size: 0.875em;
+  display: inline-block;
+  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.entry-content {
+  max-width: 640px;
+  margin: 0 auto; }
+
+.entry-article {
+  position: relative;
+  padding-bottom: 5em; }
+  @media only screen and (min-width: 45em) {
+    .entry-article {
+      padding-top: 3em;
+      padding-bottom: 9em; } }
+  .entry-article:after {
+    content: '';
+    border: 1px solid #e7eced;
+    position: absolute;
+    bottom: 3em;
+    left: 50%;
+    height: 3em; }
 
 @media only screen and (min-width: 62em) {
   .intro {
@@ -932,16 +1155,81 @@ html {
   min-height: 100%; }
 
 body {
-  background: #f5f3f4 url("/assets/images/lead-mountains.jpg") no-repeat center bottom;
-  background-size: cover;
   min-height: 100%; }
 
 .home .page-lead {
-  background-size: cover; }
+  background: #e7eced url("/assets/images/lead-mountains.jpg") no-repeat center bottom;
+  background-size: cover;
+  min-height: 340px; }
   @media only screen and (min-width: 45em) {
     .home .page-lead {
-      height: 660px; } }
+      min-height: 660px; } }
 
-.home .page-lead h2 {
-  max-width: 780px;
-  margin: 0 auto; }
+.home .page-lead .title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 10%; }
+  @media only screen and (min-width: 30em) {
+    .home .page-lead .title {
+      padding: 0 10%; } }
+  @media only screen and (min-width: 62em) {
+    .home .page-lead .title {
+      padding: 0 10%; } }
+  @media only screen and (min-width: 75em) {
+    .home .page-lead .title {
+      padding: 0 15%; } }
+  @media only screen and (min-width: 100em) {
+    .home .page-lead .title {
+      padding: 0 15%; } }
+
+.project-list {
+  margin-bottom: 2em; }
+  @media only screen and (min-width: 45em) {
+    .project-list {
+      margin-bottom: 6em; } }
+
+.project-list .project {
+  border-top: 1px solid #e7eced;
+  padding: 1.5em 20px; }
+  @media only screen and (min-width: 45em) {
+    .project-list .project {
+      padding: 2em 20px; } }
+
+.project-list .last {
+  border-bottom: 1px solid #e7eced; }
+
+.project-list .project:hover {
+  background-color: #F6FCF9; }
+
+.project .title {
+  font-size: 2em; }
+
+.project .details {
+  font-size: 0.875em;
+  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.project .date,
+.project .information,
+.project .motif {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 -0.25em; }
+
+.project .date {
+  width: 20%; }
+
+.project .information {
+  width: 80%; }
+
+.journal .page-content {
+  padding-top: 3em; }
+  @media only screen and (min-width: 45em) {
+    .journal .page-content {
+      padding-top: 4em; } }
+
+@media only screen and (min-width: 45em) {
+  .journal-entry .page-content {
+    padding-bottom: 16em; } }

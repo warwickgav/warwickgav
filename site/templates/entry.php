@@ -3,37 +3,44 @@
 
 	<main class="site-content" role="main">
 
-		<article class="entry entry-article">
-
-			<div class="page-lead">
-				<div class="content-wrapper">
-					<div class="lead-group">
-						<time class="date" datetime="<?php echo $page->date('c') ?>"><?php echo $page->short_date(); ?></time>
-						<h1 class="entry-title"><?php echo $page->title()->html() ?></h1>
-					</div>
+		<div class="page-content">
+			<article class="entry entry-article">
+				<div class="entry-header">
+					<time class="date" datetime="<?php echo $page->date('c') ?>" pubdate="pubdate"><?php echo $page->date('M Y') ?></time>
+					<h1 class="entry-title"><?php echo $page->title()->html() ?></h1>
+<!--					<div class="tags"></div>-->
 				</div>
-			</div>
-
-			<div class="page-content">
-
-				<div class="wrap">
-
+				<div class="entry-content">
 					<?php echo kirbytext($page->text()) ?>
-
 				</div>
+			</article>
 
-			</div>
+<!--			--><?php //$teaser = $pages->find('journal')->children()->visible()->flip()->shuffle()->first(); ?>
+<!--			<article class="entry entry-teaser">-->
+<!--				<time class="date" datetime="--><?php //echo $page->date('c') ?><!--" pubdate="pubdate">--><?php //echo $page->date('M Y') ?><!--</time>-->
+<!--				<h3 class="entry-title"><a href="--><?php //echo $teaser->url() ?><!--">--><?php //echo $teaser->title()->html() ?><!--</a></h3>-->
+<!--				<p class="entry-excerpt">--><?php //echo $teaser->excerpt() ?><!--</p>-->
+<!--			</article>-->
 
-		</article>
+			<nav class="pagination">
+				<?php if($prev = $page->prevVisible()): ?>
+					<a class="prev" href="<?php echo $prev->url() ?>">
+						<i class="icon icon-chevron-left"></i>
+						<span class="pagination-entry-name"><?php echo $page->prev()->title() ?></span>
+						<span class="pagination-label">Previous</span>
+					</a>
+				<?php endif ?>
+				<?php if($next = $page->nextVisible()): ?>
+					<a class="next" href="<?php echo $next->url() ?>">
+						<span class="pagination-entry-name"><?php echo $page->next()->title() ?></span>
+						<span class="pagination-label">Next</span>
+						<i class="icon icon-chevron-right"></i>
+					</a>
+				<?php endif ?>
+			</nav>
 
-		<?php $teaser = $pages->find('journal')->children()->shuffle()->first(); ?>
-		<article class="entry entry-teaser">
-			<time class="date" datetime="<?php echo $teaser->date('c') ?>"><?php echo $teaser->short_date() ?></time>
-			<h3 class="entry-title"><a href="<?php echo $teaser->url() ?>"><?php echo $teaser->title()->html() ?></a></h3>
-			<p class="entry-excerpt"><?php echo $teaser->excerpt() ?></p>
-			<hr>
-		</article>
 
+		</div>
 	</main>
 
 <?php snippet('footer') ?>

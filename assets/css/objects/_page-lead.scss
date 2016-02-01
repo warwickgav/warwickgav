@@ -1,18 +1,25 @@
 .page-lead {
-	//background-color: $lighter-grey;
+	background-color: $base-80;
 	text-align: center;
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding: 3em 40px;
+	position: relative;
+	overflow: hidden;
 	@include respond-to(medium) {
-		padding-top: 9em;
-		padding-bottom: 9em;
+		margin: 0 40px;
 	}
 }
 
-.page-title {
+
+.page-lead .title {
 	font-family: $font-serif;
 	font-weight: 500;
+	font-size: 1.25em;
+
+	@include respond-to(small) {
+		font-size: 1.5em;
+	}
 	@include respond-to(medium) {
+		font-size: 2em;
 
 	}
 }

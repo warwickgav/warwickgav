@@ -1,5 +1,12 @@
-
-.journal {
+.journal .page-content {
+	padding-top: 3em;
+	@include respond-to(medium) {
+		padding-top: 4em;
+	}
+}
+.journal-entry .page-content {
+	@include respond-to(medium) {
+		padding-bottom: 16em;
+	}
 
 }
-

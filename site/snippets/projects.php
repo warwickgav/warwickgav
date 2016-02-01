@@ -1,18 +1,28 @@
-<div class="content-header">
-	<h3 class="sub-title">Selected Projects & Activities</h3>
-</div>
-<?php foreach(page('portfolio')->children()->visible()->limit(3) as $project): ?>
-	<div class="project-teaser <?php echo $project->uid() ?>">
-		<div class="project-details">
-			<date class="project-date"><?php echo $project->date() ?></date>
-			<h2 class="project-title"><?php echo $project->title()->html() ?></h2>
-			<p class="project-excerpt"><?php echo $project->text()->project_excerpt() ?></p>
-			<p><a href="<?php echo $project->url() ?>">Read More</a></p>
-			<?php if($image = $project->images()->sortBy('sort', 'asc')->first()): ?>
-				<a href="<?php echo $project->url() ?>">
-		            <img src="<?php echo $image->url() ?>" alt="<?php echo $project->title()->html() ?>" >
-				</a>
-			<?php endif ?>
+<?php
+	$project = $pages->find('portfolio')->children()->visible()->paginate(12);
+	$last = $project->last();
+	$first = $project->first();
+?>
+<div class="project-list">
+<?php foreach($project as $item): ?>
+	<div class="project<?php if($item == $first) echo ' first' ?><?php if($item == $last) echo ' last' ?>">
+		<time class="date" datetime="<?php echo $item->date('c') ?>"><?php echo $item->project_date() ?></time>
+		<div class="motif"></div>
+		<div class="information">
+			<h3 class="title"><a href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a></h3>
+			<div class="details"><?php echo $item->details() ?></div>
 		</div>
 	</div>
 <?php endforeach ?>
+</div>
+
+<?php if($project->pagination()->hasPages()): // pagination ?>
+	<nav class="pagination">
+		<?php if($project->pagination()->hasNextPage()): ?>
+			<a class="" href="<?php echo $project->pagination()->nextPageURL() ?>"><i class="icon icon-arrow-back"></i>Older</a>
+		<?php endif ?>
+		<?php if($project->pagination()->hasPrevPage()): ?>
+			<a class="" href="<?php echo $project->pagination()->prevPageURL() ?>">Recent<i class="icon icon-arrow-forward"></i></a>
+		<?php endif ?>
+	</nav>
+<?php endif ?>

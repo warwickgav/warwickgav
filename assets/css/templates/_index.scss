@@ -15,21 +15,33 @@ html {
 }
 
 body {
-	background: $light-grey url('/assets/images/lead-mountains.jpg') no-repeat center bottom;
-	background-size: cover;
 	min-height: 100%;
-
 }
 
 .home .page-lead {
-	//background: $light-grey url('/assets/images/lead-mountains.jpg') no-repeat center bottom;
+	background: $base-75 url('/assets/images/lead-mountains.jpg') no-repeat center bottom;
 	background-size: cover;
+	min-height: 340px;
 	@include respond-to(medium) {
-		height: 660px;
+		min-height: 660px;
 	}
 }
 
-.home .page-lead h2 {
-	max-width: 780px;
-	margin: 0 auto;
+.home .page-lead .title {
+	position: absolute;
+	top: 50%;
+	transform:translateY(-50%);
+	padding: 0 10%;
+	@include respond-to(small) {
+		padding: 0 10%;
+	}
+	@include respond-to(large) {
+		padding: 0 10%;
+	}
+	@include respond-to(wide) {
+		padding: 0 15%;
+	}
+	@include respond-to(x-wide) {
+		padding: 0 15%;
+	}
 }

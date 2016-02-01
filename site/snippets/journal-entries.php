@@ -1,11 +1,15 @@
-<?php $journal = $pages->find('journal')->children()->visible()->flip()->paginate(2) ?>
+<?php
+	$journal = $pages->find('journal')->children()->visible()->flip()->paginate(12);
+	// fetch all tags
+	$tags = $journal->pluck('tags', ',', false);
+	$last = $journal->last();
+	$first = $journal->first();
+?>
 
 <?php foreach($journal as $entry): ?>
-	<article class="entry entry-teaser">
-		<time class="date" datetime="<?php echo $entry->date('c') ?>"><?php echo $entry->short_date() ?></time>
-		<h3 class="entry-title"><a href="<?php echo $entry->url() ?>"><?php echo $entry->title()->html() ?></a></h3>
-		<p class="entry-excerpt"><?php echo $entry->excerpt() ?></p>
-		<hr>
+	<article class="entry entry-teaser h-entry hentry<?php if($entry == $first) echo ' first' ?><?php if($entry == $last) echo ' last' ?>">
+		<time class="date" datetime="<?php echo $entry->date('c') ?>" pubdate="pubdate"><?php echo $entry->date('M Y') ?></time>
+		<h2 class="entry-title"><a href="<?php echo $entry->url() ?>"><?php echo $entry->title()->html() ?></a></h2>
 	</article>
 <?php endforeach ?>
 

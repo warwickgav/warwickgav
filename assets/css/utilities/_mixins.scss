@@ -44,3 +44,9 @@
 		content: "";
 	}
 }
+
+@mixin uppercase {
+	font-family: $font-sans;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}

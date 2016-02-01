@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#toggleMenu").click(function(){$("body").toggleClass("open-site-nav")}),$(".closeMenu").click(function(){$("body").removeClass("open-site-nav")})});

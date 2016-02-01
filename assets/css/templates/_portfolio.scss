@@ -1,0 +1,46 @@
+.project-list {
+	margin-bottom: 2em;
+	@include respond-to(medium) {
+		margin-bottom: 6em;
+	}
+}
+.project-list .project {
+	border-top: 1px solid $base-75;
+	padding: 1.5em 20px;
+	@include respond-to(medium) {
+		padding: 2em 20px;
+	}
+}
+
+.project-list .last {
+	border-bottom: 1px solid $base-75;
+}
+
+.project-list .project:hover {
+	background-color: #F6FCF9;
+}
+
+.project .title {
+	font-size: 2em;
+}
+
+.project .details {
+	font-size: 0.875em;
+	@include uppercase();
+}
+
+.project .date,
+.project .information,
+.project .motif {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 -0.25em;
+}
+
+.project .date {
+	width: 20%;
+}
+
+.project .information {
+	width: 80%;
+}

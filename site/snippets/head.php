@@ -12,10 +12,19 @@
         <script src="//use.typekit.net/srl5qlk.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
 
+        <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
         <?php echo css('assets/css/styles.min.css') ?>
 
+        <!-- custom css -->
+        <?php foreach($page->files()->filterBy('extension', 'css') as $css): ?>
+            <?php echo css($css->url()) ?>
+        <?php endforeach ?>
+
+        <!-- custom javascript -->
+        <?php foreach($page->files()->filterBy('extension', 'js') as $js): ?>
+            <?php echo js($js->url()) ?>
+        <?php endforeach ?>
 
     </head>
 
-    <body class="<?php echo $page->uid() ?>">
-
+    <body class="<?php echo $page->uid() ?><?php if($page->isParent()): ?> <?php echo $page->parent()->uid() ?><?php endif ?><?php if($page->parent()->uid() == 'journal'): ?> journal-entry<?php endif ?>">

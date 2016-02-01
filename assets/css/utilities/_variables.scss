@@ -30,13 +30,17 @@ $four-fifths: ($fifth * 4);
 $two-fifths: ($fifth * 2);
 $two-thirds: ($third * 2);
 
+$container-width: $x-wide;
+$content-width: 640px;
+
+
 // Group: Fonts
 
-$base-font-size: 1.125em;
+$base-font-size: 1em;
 $baseline: 1.625;
 
 $font-name-sans: 'brandon-grotesque';
-$font-name-serif: 'kepler-std';
+$font-name-serif: 'Libre Baskerville';
 $font-name-code: 'source-code-pro';
 
 $font-serif: $font-name-serif, Georgia, serif;
@@ -61,8 +65,6 @@ $h6: 1em;
 
 // Group: Colors
 
-$light-grey: rgb(248, 248, 248);
-
 $lighter-grey: rgb(246, 246, 246);
 
 $dark-grey-blue: rgb(36, 47, 49);
@@ -75,14 +77,37 @@ $light-grey: rgb(245, 243, 244);
 
 $highlight: rgb(35, 205, 163);
 
+$highlight-hover: darken($highlight, 10%);
+
+// Group: Base colors step
+
+$base-color: $dark-grey-blue;
+
+$base-10: lighten($base-color, 10%);
+
+$base-20: lighten($base-color, 20%);
+
+$base-30: lighten($base-color, 30%);
+
+$base-40: lighten($base-color, 40%);
+
+$base-50: lighten($base-color, 50%);
+
+$base-60: lighten($base-color, 60%);
+
+$base-70: lighten($base-color, 70%);
+
+$base-75: lighten($base-color, 75%);
+
+$base-80: lighten($base-color, 80%);
 
 // Group: Applied Colours
 
-$meta: $light-grey-blue;
+$meta: $base-50;
 
 $mid-range-text: $mid-grey-blue;
 
-
+//
 
 
 

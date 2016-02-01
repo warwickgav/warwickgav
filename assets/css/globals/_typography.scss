@@ -1,7 +1,16 @@
 html {
 	font-family: $font-serif;
 	font-size: $base-font-size;
-	color: $dark-grey-blue;
+	color: $base-color;
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-feature-settings: "liga" 1, "kern" 1;
+	font-feature-settings: "liga" 1, "kern" 1;
+	-webkit-font-kerning: normal;
+	font-kerning: normal;
+	-webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -9,23 +18,33 @@ p {
 	margin-bottom: 1em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5em;
+	font-weight: 500;
+}
+
 h1, .alpha {
- font-size: $h1;
+	font-size: $h1;
 }
 
 h2, .beta {
+	font-size: $h2;
 }
 
 h3, .gamma {
+	font-size: $h3;
 }
 
 h4, .delta {
+	font-size: $h4;
 }
 
 h5 {
+	font-size: $h5;
 }
 
 h6 {
+	font-size: $h6;
 }
 
 hr, .hr {
@@ -61,4 +80,21 @@ hr, .hr {
 		font-size: 1.5em;
 		line-height: 1.25em;
 	}
+}
+
+blockquote {
+	margin-bottom: 1em;
+}
+
+.bq-standard {
+	font-style: italic;
+	text-align: center;
+	font-size: 3em;
+}
+
+.bq-line {
+	color: $mid-grey-blue;
+	font-style: italic;
+	padding: 1em;
+	border-left: 3px solid $highlight;
 }

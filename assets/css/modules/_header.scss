@@ -1,31 +1,44 @@
 .site-header {
 	background-color: transparent;
-	background-color: rgba(255,255,255,0);
-	padding: 1em;
+	background-color: rgba(255, 255, 255, 0);
+	padding: 10px 10px 0;
 	top: 0;
 	left: 0;
 	z-index: 1;
-	border: 1px solid $light-grey;
-	border-bottom-width: 0;
-	margin: 10px 10px 0;
+	@include respond-to(medium) {
+		padding: 40px 40px 0;
+	}
+}
+
+.header-inner {
+	padding: 4em 40px;
 	@include clearfix();
 	@include transition(all, 350ms, ease-in-out);
 	@include respond-to(medium) {
-		padding: 4em;
-		margin: 40px 40px 0;
+		border: 1px solid $base-80;
+		border-bottom-width: 0;
 	}
 }
 
 .site-header .logo {
 	text-align: center;
 	@include respond-to(medium) {
-
+		text-align: left;
 	}
 }
 
 .site-header .site-nav {
 	@include respond-to(medium) {
 		float: right;
-		margin-right: 80px;
+		width: 60%;
+	}
+}
+
+.site-header-brand {
+	text-align: center;
+	@include respond-to(medium) {
+		text-align: left;
+		float: left;
+		width: 40%;
 	}
 }

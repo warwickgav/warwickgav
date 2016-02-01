@@ -1,26 +1,10 @@
-.site-content {
-	border: 1px solid $light-grey;
-	border-width: 0 1px 1px;
-	margin: 0 10px 10px;
-	height: 100vh;
-	@include respond-to(medium) {
-		margin: 0 40px 40px;
-		padding-bottom: 40px;
-	}
-}
-
-.content-wrap {
-	max-width: 680px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
 .container {
+	max-width: $container-width;
+	margin: 0 auto;
 	@include clearfix();
 }
-
-.content-header {
-	text-align: center;
+.content {
+	max-width: $content-width;
+	margin: 0 auto;
+	@include clearfix();
 }
