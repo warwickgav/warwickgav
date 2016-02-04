@@ -10,4 +10,46 @@ Details: Art Direction - UI Design
 
 ----
 
-Text: I’m a designer currently responsible for User Experience at eCommerce Websites. We're building a global platform for building online stores.
+Lead: lead.jpg
+
+----
+
+Intro: I re-designed the overall interface for Extreme SAS's online store to convey a more adventurous experience catering to the 3 different types of customers they engaged with. They wanted to make it clear to customers the breadth and quality of the products they offered. Through new visual components the store now strongly conveys their brand, their intent and their offerings.
+
+----
+
+Text:
+
+<section class="case-study-section">
+	<div class="container">
+		<h5>Art Direction</h5>
+		<div class="grid">
+			<div class="grid-col grid-col--span-all grid-col--md-one-half grid-push--md-half" style="vertical-align:middle">
+				<img src="/portfolio/extreme-sas/sas-cards.jpg" width="540" height="540">
+			</div>
+			<div class="grid-col grid-col--span-all grid-col--md-one-half grid-pull--md-half" style="vertical-align:middle">
+				<p>Extreme SAS's existing visuals did not accurately reflect their identity as experts in the field of camping, hunting, fishing & outdoor gear. In turn this reduced the perceived quality of their products when in truth they're products of the highest quality from overseas and locally.</p>
+				<p>To begin I created 3 cards to emphasise the category of products they sell which in turn helps directs customer easily to what they want. It also supports the SAS of their brand, sport, adventure, survival.
+				<p>These cards helped me build the overall visual style, decisions on font choice, and the colour scheme that I would use throughout the project.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="case-study-section">
+	<div class="container">
+		<h5>Colours</h5>
+		<figure class="center"><img src="/portfolio/extreme-sas/colour-scheme.jpg" width="600" height="600"></figure>
+	</div>
+</section>
+<section class="case-study-hero" style="background-color: #27231e;background-image: url('/portfolio/extreme-sas/background-sas.jpg');background-repeat: no-repeat;">
+</section>
+<section class="case-study-art" style="background-color: #27231e;">
+	<figure><img src="/portfolio/extreme-sas/homepage-d.jpg" width="1100" height="900"></figure>
+</section>
+<section class="case-study-art" style="background-color: #27231e; padding-top: 3em; padding-bottom: 3em;">
+	<figure><img src="/portfolio/extreme-sas/products.png" width="960" height="395"></figure>
+</section>
+<section class="case-study-art" style="padding-top: 3em; padding-bottom: 3em;">
+	<figure><img src="/portfolio/extreme-sas/logo-sas.jpg" width="393" height="98"></figure>
+</section>
+<div class="page-gap"></div>

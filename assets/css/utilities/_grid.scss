@@ -1,223 +1,305 @@
-// Partial: grid
-// =============
-//
-// Powerful grid derived from Toast.
-// You'd be mad to use it.
-//
-// Usage
-// =====
-//
-// Assuming default values:
-//
-// <div class="grid">
-//   <div class="grid-col grid-col--1-of-2">
-//     A half-width column.
-//   </div>
-//   <div class="grid-col grid-col--1-of-4 grid-col--pull-1-of-4">
-//     A quarter, pulled left by its own width. You get this, right?
-//   </div>
-// </div>
-//
-//
-// Customisation
-// =============
-//
-// $grid-namespace and $grid-column-namespace
-// adjusts the class names for the grid. With
-// default values, grid wrappers have a class
-// of '.grid' and columns '.grid-col'.
-//
-// $col-groups(n) adjusts column divisions.
-// For example, $col-groups(12) will produce
-// a 12-column grid. $col-groups(3,6,8)
-// will produce a 3-, 6-, and 8-column grid.
-//
-// $gutter-width is—you guessed it—the gutter
-// width. Accepts any unit.
-//
-// That's it. Have fun.
 
-// $col-groups are the column groups you want
-// For example, $col-groups: (3, 4, 5) will output:
-// .grid-col--n-of-3, .grid-col--n-of-4, [...]
-$col-groups: 12;
+$col-group: 12;
+
+
 
 // Gutter width
-$gutter-width: 10px;
 
-// For each column width from 1 to the column group...
-@for $i from 1 through 12 {
-	$group: 12;
-
-	.grid-col--#{$i}-of-#{$group} {
-
-		@if (percentage($i / $group) == percentage(1/1)) {
-			@extend %span-all;
-		} @else if percentage($i / $group) == percentage(1/2) {
-			@extend %one-half;
-		} @else if percentage($i / $group) == percentage(1/3) {
-			@extend %one-third;
-		} @else if percentage($i / $group) == percentage(2/3) {
-			@extend %two-thirds;
-		} @else if percentage($i / $group) == percentage(1/4) {
-			@extend %one-quarter;
-		} @else if percentage($i / $group) == percentage(2/4) {
-			@extend %two-quarters;
-		} @else if percentage($i / $group) == percentage(3/4) {
-			@extend %three-quarters;
-		} @else {
-			width: percentage($i / $group);
-		}
-	}
-
-	.grid-col--push-#{$i}-of-#{$group} {
-
-		@if percentage($i / $group) == percentage(1/1) {
-			@extend %push-span-all;
-		} @else if percentage($i / $group) == percentage(1/2) {
-			@extend %push-one-half;
-		} @else if percentage($i / $group) == percentage(1/3) {
-			@extend %push-one-third;
-		} @else if percentage($i / $group) == percentage(2/3) {
-			@extend %push-two-thirds;
-		} @else if percentage($i / $group) == percentage(1/4) {
-			@extend %push-one-quarter;
-		} @else if percentage($i / $group) == percentage(2/4) {
-			@extend %push-two-quarters;
-		} @else if percentage($i / $group) == percentage(3/4) {
-			@extend %push-three-quarters;
-		} @else {
-			margin-left: percentage($i / $group);
-		}
-	}
-
-	.grid-col--pull-#{$i}-of-#{$group} {
-
-		@if percentage($i / $group) == percentage(1/1) {
-			@extend %pull-span-all;
-		} @else if percentage($i / $group) == percentage(1/2) {
-			@extend %pull-one-half;
-		} @else if percentage($i / $group) == percentage(1/3) {
-			@extend %pull-one-third;
-		} @else if percentage($i / $group) == percentage(2/3) {
-			@extend %pull-two-thirds;
-		} @else if percentage($i / $group) == percentage(1/4) {
-			@extend %pull-one-quarter;
-		} @else if percentage($i / $group) == percentage(2/4) {
-			@extend %pull-two-quarters;
-		} @else if percentage($i / $group) == percentage(3/4) {
-			@extend %pull-three-quarters;
-		} @else {
-			margin-left: -(percentage($i / $group));
-		}
-	}
-}
-
-// end @for
 
 .grid {
 	list-style: none;
-	margin-left: -$gutter-width;
+	margin-left: -20px;
+}
 
-	%span-all { width: percentage(1/1); }
+.columns {
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
-	%one-half { width: percentage(1/2); }
+// All direct descendents of .grid get treated the same way.
+// This might be overkill for some, but it’s a time-saver for me.
+.grid-col {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-right: -.25em;
+	min-height: 1px;
+	padding-left: 20px;
+	vertical-align: top;
+	position: relative;
+}
 
-	%one-third { width: percentage(1/3); }
-	%two-thirds { width: percentage(2/3); }
+// Centers the column in the grid and clears the row of all other columns
+.grid-col--centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-	%one-quarter { width: percentage(1/4); }
-	%two-quarters { width: percentage(2/4); }
-	%three-quarters { width: percentage(3/4); }
+// Displays the column as the first in its row
+.grid-col--d-first {
+	float: left;
+}
 
-	%push-span-all { margin-left: percentage(1/1); }
+// Displays the column as the last in its row
+.grid-col--d-last {
+	float: right;
+}
 
-	%push-one-half { margin-left: percentage(1/2); }
+// Removes gutters from the columns
+.grid--no-gutter {
+	margin-left: 0;
+	width: 100%;
 
-	%push-one-third { margin-left: percentage(1/3); }
-	%push-two-thirds { margin-left: percentage(2/3); }
-
-	%push-one-quarter { margin-left: percentage(1/4); }
-	%push-two-quarters { margin-left: percentage(2/4); }
-	%push-three-quarters { margin-left: percentage(3/4); }
-
-	%pull-span-all { margin-left: -(percentage(1/1)); }
-
-	%pull-one-half { margin-left: -(percentage(1/2)); }
-
-	%pull-one-third { margin-left: -(percentage(1/3)); }
-	%pull-two-thirds { margin-left: -(percentage(2/3)); }
-
-	%pull-one-quarter { margin-left: -(percentage(1/4)); }
-	%pull-two-quarters { margin-left: -(percentage(2/4)); }
-	%pull-three-quarters { margin-left: -(percentage(3/4)); }
-
-	// All direct descendents of .grid get treated the same way.
-	// This might be overkill for some, but it’s a time-saver for me.
-	.grid-col {
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-		display: inline-block;
-		margin-right: -.25em;
-		min-height: 1px;
-		padding-left: $gutter-width;
-		vertical-align: top;
-
-		@media screen and (max-width: 600px) {
-			display: block;
-			margin-left: 0;
-			margin-right: 0;
-			padding-left: 0;
-			width: auto;
-		}
+	* {
+		padding-left: 0;
 	}
 
-	// Centers the column in the grid and clears the row of all other columns
-	.grid-col--centered {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	@media screen and (max-width: 600px) {
-		margin-left: 0;
-		width: auto;
-	}
-
-	// Displays the column as the first in its row
-	.grid-col--d-first {
-		float: left;
-	}
-
-	// Displays the column as the last in its row
-	.grid-col--d-last {
-		float: right;
-	}
-
-	// Removes gutters from the columns
-	&.grid--no-gutter {
+	.grid-col--span-all {
 		margin-left: 0;
 		width: 100%;
+	}
+}
 
-		* {
-			padding-left: 0;
-		}
+// Align column to the bottom.
+.grid-col--ab {
+	vertical-align: bottom;
+}
 
-		.grid-col--span-all {
-			margin-left: 0;
-			width: 100%;
-		}
+// Align column to the middle.
+.grid-col--am {
+	vertical-align: middle;
+}
+
+//%span-all { width: percentage(1/1); }
+//
+//%one-half { width: percentage(1/2); }
+//
+//%one-third { width: percentage(1/3); }
+//%two-thirds { width: percentage(2/3); }
+//
+//%one-quarter { width: percentage(1/4); }
+//%two-quarters { width: percentage(2/4); }
+//%three-quarters { width: percentage(3/4); }
+//
+//%push-span-all { margin-left: percentage(1/1); }
+//
+//%push-one-half { margin-left: percentage(1/2); }
+//
+//%push-one-third { margin-left: percentage(1/3); }
+//%push-two-thirds { margin-left: percentage(2/3); }
+//
+//%push-one-quarter { margin-left: percentage(1/4); }
+//%push-two-quarters { margin-left: percentage(2/4); }
+//%push-three-quarters { margin-left: percentage(3/4); }
+//
+//%pull-span-all { margin-left: -(percentage(1/1)); }
+//
+//%pull-one-half { margin-left: -(percentage(1/2)); }
+//
+//%pull-one-third { margin-left: -(percentage(1/3)); }
+//%pull-two-thirds { margin-left: -(percentage(2/3)); }
+//
+//%pull-one-quarter { margin-left: -(percentage(1/4)); }
+//%pull-two-quarters { margin-left: -(percentage(2/4)); }
+//%pull-three-quarters { margin-left: -(percentage(3/4)); }
+
+
+// Grid
+
+.grid-col--span-all {
+	width: 100%;
+}
+
+.grid-col--one-half {
+	width: 50%;
+}
+
+.grid-col--one-third {
+	width: 33.33333333%
+}
+
+.grid-col--two-thirds {
+	width: 66.66666666%
+}
+
+.grid-col--one-quarter {
+	width: 25%;
+}
+
+.grid-col--two-quarters {
+	width: 50%;
+}
+
+.grid-col--three-quarters {
+	width: 75%;
+}
+
+.grid-col--one-fifth {
+	width: 20%;
+}
+
+.grid-col--two-fifths {
+	width: 40%;
+}
+
+.grid-col--three-fifths {
+	width: 60%;
+}
+
+.grid-col--four-fifths {
+	width: 80%;
+}
+
+@media screen and (min-width: $small) {
+
+	.grid-col--sm-span-all {
+		width: 100%;
 	}
 
-	// Align column to the bottom.
-	.grid-col--ab {
-		vertical-align: bottom;
+	.grid-col--sm-one-half {
+		width: 50%;
 	}
 
-	// Align column to the middle.
-	.grid-col--am {
-		vertical-align: middle;
+	.grid-col--sm-one-third {
+		width: 33.33333333%
+	}
+
+	.grid-col--sm-two-thirds {
+		width: 66.66666666%
+	}
+
+	.grid-col--sm-one-quarter {
+		width: 25%;
+	}
+
+	.grid-col--sm-two-quarters {
+		width: 50%;
+	}
+
+	.grid-col--sm-three-quarters {
+		width: 75%;
+	}
+
+	.grid-col--sm-one-fifth {
+		width: 20%;
+	}
+
+	.grid-col--sm-two-fifths {
+		width: 40%;
+	}
+
+	.grid-col--sm-three-fifths {
+		width: 60%;
+	}
+
+	.grid-col--sm-four-fifths {
+		width: 80%sm;
+	}
+
+}
+
+@media screen and (min-width: $medium) {
+
+	.grid-col--md-span-all {
+		width: 100%;
+	}
+
+	.grid-col--md-one-half {
+		width: 50%;
+	}
+
+	.grid-col--md-one-third {
+		width: 33.33333333%
+	}
+
+	.grid-col--md-two-thirds {
+		width: 66.66666666%
+	}
+
+	.grid-col--md-one-quarter {
+		width: 25%;
+	}
+
+	.grid-col--md-two-quarters {
+		width: 50%;
+	}
+
+	.grid-col--md-three-quarters {
+		width: 75%;
+	}
+
+	.grid-col--md-one-fifth {
+		width: 20%;
+	}
+
+	.grid-col--md-two-fifths {
+		width: 40%;
+	}
+
+	.grid-col--md-three-fifths {
+		width: 60%;
+	}
+
+	.grid-col--md-four-fifths {
+		width: 80%;
+	}
+
+	.grid-push--md-half {
+		left: 50%;
+	}
+
+	.grid-pull--md-half {
+		right: 50%;
+	}
+
+}
+
+@media screen and (min-width: $large) {
+
+	.grid-col--lg-span-all {
+		width: 100%;
+	}
+
+	.grid-col--lg-one-half {
+		width: 50%;
+	}
+
+	.grid-col--lg-one-third {
+		width: 33.33333333%
+	}
+
+	.grid-col--lg-two-thirds {
+		width: 66.66666666%
+	}
+
+	.grid-col--lg-one-quarter {
+		width: 25%;
+	}
+
+	.grid-col--lg-two-quarters {
+		width: 50%;
+	}
+
+	.grid-col--lg-three-quarters {
+		width: 75%;
+	}
+
+	.grid-col--lg-one-fifth {
+		width: 20%;
+	}
+
+	.grid-col--lg-two-fifths {
+		width: 40%;
+	}
+
+	.grid-col--lg-three-fifths {
+		width: 60%;
+	}
+
+	.grid-col--lg-four-fifths {
+		width: 80%;
 	}
 
 }

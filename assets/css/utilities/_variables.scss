@@ -6,15 +6,15 @@
 
 // Group: Widths
 $small: 30em;
-//480+ sm
+//480+ small
 $medium: 45em;
-//720+ md
+//720+ medium
 $large: 62em;
-//992+ lg - good desktop view - nice spacing for tablets
+//992+ large
 $wide: 75em;
-//1200+ wi - larger
+//1200+ wide
 $x-wide: 100em;
-//1600+ xw
+//1600+ extra wide
 
 $gutter: 20px;
 
@@ -30,14 +30,14 @@ $four-fifths: ($fifth * 4);
 $two-fifths: ($fifth * 2);
 $two-thirds: ($third * 2);
 
-$container-width: $x-wide;
-$content-width: 640px;
+$container-width: 68.75em;
+$content-width: 680px;
 
 
 // Group: Fonts
 
 $base-font-size: 1em;
-$baseline: 1.625;
+$baseline: 1.8;
 
 $font-name-sans: 'brandon-grotesque';
 $font-name-serif: 'Libre Baskerville';

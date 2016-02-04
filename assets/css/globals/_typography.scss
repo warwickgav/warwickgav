@@ -15,12 +15,13 @@ html {
 
 p {
 	line-height: $baseline;
-	margin-bottom: 1em;
+	margin-bottom: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	line-height: 1.5em;
+	line-height: $baseline;
 	font-weight: 500;
+	margin-bottom: 1rem;
 }
 
 h1, .alpha {
@@ -36,28 +37,41 @@ h3, .gamma {
 }
 
 h4, .delta {
+	font-weight: 700;
 	font-size: $h4;
 }
 
 h5 {
+	font-weight: 700;
 	font-size: $h5;
 }
 
 h6 {
+	font-weight: 700;
 	font-size: $h6;
 }
 
+ul, ol {
+	margin-left: 1em;
+	margin-left: 1rem;
+}
+
+li {
+	margin-bottom: 1em;
+	margin-bottom: 1rem;
+}
+
 hr, .hr {
-	border-width: 6px 0 0;
-	border-color: $dark-grey-blue;
-	width: 38px;
+	border-width: 3px 0 0;
+	border-color: $base-80;
+	width: 100px;
 	height: 3px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 70px;
-	@include respond-to(medium) {
-		margin-bottom: 80px;
-	}
+}
+
+.center {
+	text-align: center;
 }
 
 .blurb {

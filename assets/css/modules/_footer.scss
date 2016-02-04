@@ -1,7 +1,22 @@
 .site-footer {
 	background-color: $base-color;
 	color: #fff;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 2em;
+	padding-bottom: 2em;
 	text-align: center;
+	font-size: 0.875em;
+	font-weight: 700;
+	@include uppercase();
+	@include respond-to(medium) {
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+	@include respond-to(large) {
+		padding-top: 4em;
+		padding-bottom: 4em;
+	}
+}
+
+.site-footer p {
+	margin-bottom: 0;
 }

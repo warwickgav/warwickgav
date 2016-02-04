@@ -2,9 +2,138 @@
 	max-width: $container-width;
 	margin: 0 auto;
 	@include clearfix();
+
+	@include respond-to(medium) {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 .content {
 	max-width: $content-width;
 	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
 	@include clearfix();
+}
+
+.site-content {
+	position: relative;
+
+	@include respond-to(medium) {
+		border: 1px solid $base-80;
+		border-width: 0 1px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	@include respond-to(large) {
+
+	}
+}
+
+// Page styles
+
+.page-wrap {
+	padding-bottom: 3em;
+	@include respond-to(medium) {
+		padding-bottom: 4em;
+	}
+	@include respond-to(large) {
+		padding-bottom: 6em;
+	}
+}
+
+.page-title {
+	text-align: center;
+	margin-bottom: 0;
+	@include respond-to(medium) {
+
+	}
+	@include respond-to(large) {
+
+	}
+}
+
+.page-lead {
+	background-color: $base-80;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	padding: 3em 40px;
+	position: relative;
+	overflow: hidden;
+
+	@include respond-to(medium) {
+
+	}
+	@include respond-to(large) {
+
+	}
+}
+
+.page-lead .page-title {
+	font-size: 1.25em;
+
+	@include respond-to(small) {
+		font-size: 1.5em;
+	}
+	@include respond-to(medium) {
+		font-size: 2em;
+
+	}
+}
+
+.page-header {
+	text-align: center;
+	padding-top: 3em;
+	@include respond-to(medium) {
+		padding-top: 4em;
+	}
+	@include respond-to(large) {
+
+	}
+}
+
+.page-header .page-title {
+	font-size: 2em;
+	@include respond-to(small) {
+
+	}
+	@include respond-to(medium) {
+		font-size: 4em;
+
+	}
+}
+
+.page-content {
+	padding-top: 3em;
+	@include respond-to(medium) {
+		padding-top: 4em;
+	}
+	@include respond-to(large) {
+
+	}
+}
+
+.page-footer {
+	@include respond-to(medium) {
+
+	}
+	@include respond-to(large) {
+
+	}
+}
+
+.page-gap {
+	padding-bottom: 4em;
+
+	@include respond-to(medium) {
+		padding-bottom: 8em;
+	}
+	@include respond-to(large) {
+
+	}
+}
+
+.case-study-break {
+
 }

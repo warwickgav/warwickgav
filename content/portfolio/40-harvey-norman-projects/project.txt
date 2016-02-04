@@ -6,8 +6,77 @@ Project_Date: 2010-14
 
 ----
 
-Details: Frontend Designer & Developer
+Details: Frontend Designer
 
 ----
 
-Text: I’m a designer currently responsible for User Experience at eCommerce Websites. We're building a global platform for building online stores.
+Lead: header.jpg
+
+----
+
+Intro:
+<p>These were a series of projects given to us by Harvey Norman, one of Australia's largest retailers, to develop online stores for their various businesses. Over the span of 4 years I was the frontend designer & developer for Domayne Furniture, Harvey Norman New Zealand & Ireland, Space Furniture and Poliform. I built the <abbr title="Cascading Stylesheets">CSS</abbr> architecture & framework that would end being used for all their stores.
+It was one of the most challenging projects I'd ever worked on and one that shaped much of how I design and develop for projects today.</p>
+
+----
+
+Responsibilities:
+<p>A few of my key responsibilities on this project included:</p>
+<ul>
+	<li>UI Development
+	<li>CSS Architecture & Framework</li>
+	<li>Responsive Development</li>
+	<li>Performance Optimisation (optimised code)</li>
+	<li>Rendering Performance</li>
+</ul>
+
+----
+
+Text:
+
+<section class="case-study-section">
+	<div class="content">
+		<p>I must admit, I'd had little experience up to this point on the development side of websites. My work consisted of designing mockups for our clients, and subsequently building the designs using our in-house templates.
+		This entailed making minor adjustments to ShopFrontPro's existing code in a smattering of files.</p>
+		<p>Over 4 years we built and rebuilt their stores, each time adding another site to the project. We went from a single site to managing 5 sites each running on their own version of our platform, ShopFrontPro.
+		It wasn't until the third version of their stores that I'd resolved to develop a more efficient & organised means of building & maintaining the codebase. I  set myself fundamental goals:</p>
+		<ul>
+			<li><strong>Systemise.</strong> Create a system that can be easily applied and explained so that any designer or developer. This should reach the point where a UI designer is not needed for 80% - 90% of development.</li>
+			<li><strong>Easy to maintain.</strong> Reduce bloat, more reusable code, and recycle where possible.</li>
+			<li><strong>Mobile first & responsive.</strong> A mobile first approach meant I was writing code for efficiency and forethought rather than just making it fit for the screens of the day.</li>
+			<li><strong>Focus on performance.</strong> Keeping things lean and optimised meant focusing on reusable code, establishing UI patterns, and reducing redundancy.</li>
+		</ul>
+		<section class="case-study-divider">
+        	<hr>
+        </section>
+		<h4>CSS Architecture & Framework</h4>
+		<p>This project's CSS framework derives itself from, what I considered to be, the best bits of various existing CSS frameworks - Bootstrap, Foundation, inuitCSS - with the principles of BEM, OOCSS and Atomic Design supporting it.
+		I chose not to adopt a single framework, such as using only Bootstrap, as you inherit a lot of baggage and can lead writing redundant code just to override previous code. To keep things lean, optimised and build a more sane, manageable codebase I chose only to take what was necessary.</p>
+		<p>The Atomic Design Methodology (by Brad Frost) proved an invaluable resource in shaping the framework for this project. It helped me understand that we're not simply building web pages but systems.
+		By looking at a website as a system of components or patterns I was able to structure my code into discrete and manageable chunks. This was also helped in part by adopting the Less pre-processor allowing us to apply variables, define common UI patterns as reusable mixins, and help maintain individual files for the various elements that made up the UI.</p>
+		<p>The structure I used is as follows:</p>
+		<ul>
+			<li><strong>Globals (atoms) -</strong> These were the building blocks of the site. I establish basic styling for the individual HTML tags, treating them as independent units.</li>
+			<li><strong>Blocks (molecules) -</strong> I define the common UI patterns such as product grids, search forms, and dropdowns.</li>
+			<li><strong>Modules (organisms) -</strong> The blocks are combined to form modules, such as a header, footer or product grid containing pagination and sorting.</li>
+			<li><strong>Views -</strong> Finally all the modules are stitched together and I focus on writing additional styling for a page type or 'view'.</li>
+		</ul>
+		<section class="case-study-divider">
+			<hr>
+		</section>
+		<h4>Development</h4>
+		<p>I developed the Template structure in tandem with the CSS framework. Since I was using a pre-developed template as a base much of it needed to be understood the gradually replaced with the new architecture. This was a long, drawn out process but in brief:</p>
+		<ul>
+			<li>I began by breaking up the existing CSS to fit in with my framework. Essentially a lot of cutting and pasting into separate Less files brought together into a single file when deployed.</li>
+			<li>Next I moved onto the overall site's structure. I needed to change the grid from a fixed, 960 width grid into a responsive grid. I ended up borrowing the Bootstrap grid but changed the breakpoints.</li>
+			<li>I then began work on the Block elements, establishing the common design patterns for various components. I focused on the persistent elements first (logo, navigation, search, etc) before moving onto the others.</li>
+			<li>Finally I moved onto shaping the specific adjustments, adding styling unique to the home, category, product, checkout, cart, pages.</li>
+		</ul>
+		 <p>We, thankfully, maintained the project using GIT, ensuring that each of the team could work on their parts without affecting the other. It also meant I could maintain these changes in a separate branch without it affecting any staging or development builds.</p>
+		<h4>Summary</h4>
+		<p>In the end I managed to deliver a fast, low impact, responsive Template and CSS Framework that we could apply across all our Harvey Norman projects.
+		I shaved off over 50% of the bloat of the old CSS, rebuilt it to mobile first principles, and made it more manageable overall.</p>
+		<p>It was an amazing 4 years of projects and it challenged me in various ways.</p>
+
+	</div>
+</section>

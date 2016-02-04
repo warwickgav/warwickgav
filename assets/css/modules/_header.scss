@@ -11,12 +11,15 @@
 }
 
 .header-inner {
-	padding: 4em 40px;
+	border-color: transparent;
+	padding: 2em 40px;
 	@include clearfix();
 	@include transition(all, 350ms, ease-in-out);
 	@include respond-to(medium) {
 		border: 1px solid $base-80;
 		border-bottom-width: 0;
+		padding-top: 4em;
+		padding-bottom: 4em;
 	}
 }
 

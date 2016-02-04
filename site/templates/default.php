@@ -1,13 +1,17 @@
 <?php snippet('head') ?>
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
-
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
-    </div>
-
-  </main>
+<main class="site-content" role="main">
+	<div class="page-lead">
+		<div class="container">
+			<h1 class="page-title"><?php echo $page->title()->html() ?></h1>
+		</div>
+	</div>
+	<div class="page-content">
+		<div class="content">
+			<?php echo $page->text()->kirbytext() ?>
+		</div>
+	</div>
+</main>
 
 <?php snippet('footer') ?>

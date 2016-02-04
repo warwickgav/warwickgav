@@ -10,29 +10,25 @@
 				<span class="project-details"><?php echo $page->details() ?></span>
 			</div>
 			<div class="case-study-intro">
-				<?php if ($page->responsbilities()): ?>
-					<div class="container">
-						<div class="grid">
-							<div class="grid-col grid-col--span-all grid-col--lg-one-half">
-								<div class="columns">
-									<h4>Project Brief</h4>
-									<?php echo kirbytext($page->intro()) ?>
-								</div>
+				<div class="container">
+					<div class="grid">
+						<div class="grid-col grid-col--span-all grid-col--lg-one-half">
+							<div class="columns">
+								<h3>Project Brief</h3>
+								<?php echo kirbytext($page->intro()) ?>
 							</div>
-							<div class="grid-col grid-col--span-all grid-col--lg-one-half">
-								<div class="columns">
-									<h4>Responsibilities & deliverables</h4>
-									<?php echo kirbytext($page->responsibilities()) ?>
-								</div>
+						</div>
+						<div class="grid-col grid-col--span-all grid-col--lg-one-half">
+							<div class="columns">
+								<h3>Responsibilities & deliverables</h3>
+								<?php echo kirbytext($page->responsibilities()) ?>
 							</div>
 						</div>
 					</div>
-				<?php else: ?>
-					<div class="content">
-						<h3>Project Brief</h3>
-						<?php echo kirbytext($page->intro()) ?>
-					</div>
-				<?php endif ?>
+				</div>
+			</div>
+			<div class="case-study-info">
+				<?php echo kirbytext($page->info()) ?>
 			</div>
 			<div class="case-study-content">
 				<?php echo kirbytext($page->text()) ?>

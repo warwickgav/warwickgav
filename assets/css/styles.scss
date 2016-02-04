@@ -13,17 +13,15 @@
 		'globals/forms',
 		'globals/tables';
 
-@import 'objects/logo',
-		'objects/headings',
-		'objects/navigation',
-		'objects/page-lead',
-		'objects/pagination',
-		'objects/breadcrumb';
+@import 'blocks/logo',
+		'blocks/headings',
+		'blocks/navigation',
+		'blocks/pagination',
+		'blocks/breadcrumb';
 
 @import 'modules/header',
 		'modules/footer',
 		'modules/main',
-		'modules/page',
 		'modules/article';
 
 @import 'templates/index',

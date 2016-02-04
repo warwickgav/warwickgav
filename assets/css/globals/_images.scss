@@ -5,34 +5,26 @@
 // Sprite and image helpers should go here
 //
 
+img {
+	max-width: 100%;
+	width: auto\9;
+	height: auto;
+}
+
 figure img,
 picture img {
-	display: block;
-	width: 100%;
-	margin-bottom: $baseline/2;
+	//width: 100%;
+	margin-bottom: 1em;
 }
 
-.alignleft {
-	@media (min-width: 600px) {
-		float: left;
-		width: 50%;
-		margin-left: -25%;
-		margin-right: $gutter-width;
-	}
+.alignLeft {
+
 }
 
-.alignright {
-	@media (min-width: 600px) {
-		float: right;
-		width: 50%;
-		margin-right: -25%;
-		margin-left: $gutter-width;
-	}
+.alignRight {
+
 }
 
-.imgbleed {
-	@media (min-width: 600px) {
-		width: 150%;
-		margin-left: -25%;
-	}
+.imgBleed {
+
 }

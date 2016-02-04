@@ -1,15 +1,3 @@
-.intro {
-	@include respond-to(large) {
-		padding-top: 130px;
-		padding-bottom: 130px;
-	}
-}
-
-.intro-body {
-	font-size: 38px;
-	font-weight: 500;
-}
-
 html {
 	min-height: 100%;
 }
@@ -23,15 +11,19 @@ body {
 	background-size: cover;
 	min-height: 340px;
 	@include respond-to(medium) {
+		min-height: 480px;
+	}
+	@include respond-to(large) {
 		min-height: 660px;
 	}
 }
 
-.home .page-lead .title {
+.home .page-lead .page-title {
 	position: absolute;
 	top: 50%;
 	transform:translateY(-50%);
-	padding: 0 10%;
+	padding: 0 5%;
+	left: 0;
 	@include respond-to(small) {
 		padding: 0 10%;
 	}

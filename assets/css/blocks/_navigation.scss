@@ -2,6 +2,10 @@ nav > ol, nav > ul {
 	padding-left: 0;
 }
 
+nav li {
+	margin-bottom: 0;
+}
+
 .site-nav {
 	display: none;
 	background-color: $highlight;
@@ -94,9 +98,9 @@ nav > ol, nav > ul {
 	color: $base-color;
 	font-size: 1.5em;
 	position: absolute;
-	left: 40px;
-	top: 2em;
-	margin-top: 26px;
+	left: 25px;
+	top: 1.5em;
+	margin-top: 4px;
 	z-index: 50;
 	cursor: pointer;
 	@include respond-to(medium) {

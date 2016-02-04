@@ -27,10 +27,11 @@
 .pagination .next {
 	text-align: right;
 	padding-right: 3em;
-	position: absolute;
 	right: 20px;
 	bottom: 40px;
 	@include respond-to(medium) {
+		position: absolute;
+
 		bottom: 80px;
 		right: 40px;
 	}
@@ -42,10 +43,11 @@
 
 .pagination .prev {
 	padding-left: 3em;
-	position: absolute;
 	left: 20px;
 	bottom: 40px;
 	@include respond-to(medium) {
+		position: absolute;
+
 		bottom: 80px;
 		left: 40px;
 	}
