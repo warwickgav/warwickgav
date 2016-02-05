@@ -37,6 +37,9 @@ nav li {
 		position: static;
 		top: 0;
 		transform: translateY(0);
+		text-align: center;
+	}
+	@include respond-to(large) {
 		text-align: right;
 	}
 }
@@ -52,8 +55,13 @@ nav li {
 		display: inline-block;
 		font-size: 0.875em;
 		padding: 0;
-		margin-left: 3em;
+		margin-left: 1.5em;
+		margin-right: 1.5em;
 		letter-spacing: 1px;
+	}
+	@include respond-to(medium) {
+		margin-right: 0;
+		margin-left: 3em;
 	}
 }
 
