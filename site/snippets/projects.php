@@ -1,5 +1,5 @@
 <?php
-$project = $pages->find('portfolio')->children()->visible()->paginate(12);
+$project = $pages->find('portfolio')->children()->visible()->flip()->paginate(12);
 $last = $project->last();
 $first = $project->first();
 ?>

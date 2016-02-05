@@ -1,0 +1,51 @@
+Title: A Fresh Start
+
+----
+
+Subtitle:
+
+----
+
+Date: 05.02.2016
+
+----
+
+Tags: personal
+
+----
+
+Excerpt:
+
+----
+
+Text:
+
+There is something liberating about fresh starts. Seeing that endless horizon of possibility, a road not yet travelled. And so it is I find myself in a similar position on the cusp of turning 30 and putting together my first personal website in over 6 years.
+
+In the past I'd found it difficult to solve the problem of building a representation of myself and my work. You would be forgiven in thinking that since problem solving is the nature of a designer's work I'd be able to solve the problem of presenting myself. But demonstrating yourself as a thoughtful, driven, creative individual with a body of work to show for it is not so straight forward.
+
+This time however I knew what needed to be done. I decided to treat myself as I would treat any client. I set myself a deadline and wrote up a brief on what I was trying to achieve.
+
+<blockquote class="bq-standard">Build a website that sells myself, in 5 days.</blockquote>
+
+<h6>Planning</h6>
+That was it. To me that told me everything I needed to know about what my ultimate aim was.
+
+I began by outlining the work I'd done over the last year, which sites I'd worked on, what projects I'd been a part of. I culled them ruthlessly, picking the ones that demonstrated how I approached my work, what decisions I made, and why I made them. Any designer can make a pretty web page but if you can explain, with clarity and conciseness, the why behind your decisions then you're a designer who'll go places.
+
+Next I outlined what content I wanted to include; a journal for my thoughts on design, an about section that gave some background on myself, and finally a resume that could be downloaded. Not terribly difficult to envision for a portfolio but it was important to have a clear cut list of outcomes to aim for.
+
+<h6>The Build</h6>
+For the build itself I'm using a flat-file CMS, <a href="//getkirby.com">Kirby</a>. I'd spent a lot of time in 2014 researching different CMSes, trying to find one that was easy to implement. I didn't want something as feature rich as Wordpress, having gone that route before I found it was too cumbersome a process changing it for my needs.
+
+I used Sketch to design the UI and this is where I usually get bogged down, so to avoid that pitfall I didn't spend an awful lot of time on it (as you can probably see). I focused on mainly typography, choosing what would work with my content and designed out from there.
+
+To build it locally I used a number of apps; Codekit for Sass compiling and minifying, PHPStorm for coding, and Mamp to act as a local server. I then maintain a copy on Github and use Tower to manage it. I'm sure there are better environments you can use for development but it works for me.
+
+It was difficult looking over my past work and trying to trickle out the memory of decisions I'd made and understand why. In retrospect this is probably a good exercise to do after each project, do a short write up of what do you, the challenges you faced, the mistakes you made and what you can learn from it.
+
+<h6>Unfinished business</h6>
+My 5 days are up and I'm releasing this in the state that it is in - unfinished. It doesn't contain all the content I want and the design isn't where I want it to be but it is a start. And to be honest that is what I really wanted, a starting point for this next chapter in my career.
+
+<em>Disclaimer: I'm not saying there isn't a point to making something that looks nice for the sake of it. But there is a time and place for that kind of work and it isn't in what you should be using to sell yourself.</em>
+

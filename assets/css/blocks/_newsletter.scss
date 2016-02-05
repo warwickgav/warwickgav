@@ -1,0 +1,26 @@
+.newsletter-footer {
+	background-color: $base-5;
+	padding: 2em 20px;
+	@include respond-to($large) {
+		padding: 3em 2em;
+	}
+}
+.newsletter-footer .mc-field-group {
+	display: inline-block;
+	vertical-align: bottom;
+}
+.newsletter-footer .btn {
+	vertical-align: bottom;
+}
+.newsletter-footer label {
+	text-align: left;
+	color: #fff;
+}
+.newsletter-footer .newsletter-header {
+	color: #fff;
+	margin-bottom: 2em;
+}
+.newsletter-header,
+.newsletter-content {
+	text-align: center;
+}

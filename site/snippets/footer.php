@@ -1,3 +1,4 @@
+<?php snippet('newsletter') ?>
 <footer class="site-footer" role="contentinfo">
 	<div class="container">
 		<div class="row">

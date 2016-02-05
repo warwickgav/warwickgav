@@ -77,6 +77,5 @@ Text:
 		<p>In the end I managed to deliver a fast, low impact, responsive Template and CSS Framework that we could apply across all our Harvey Norman projects.
 		I shaved off over 50% of the bloat of the old CSS, rebuilt it to mobile first principles, and made it more manageable overall.</p>
 		<p>It was an amazing 4 years of projects and it challenged me in various ways.</p>
-
 	</div>
 </section>

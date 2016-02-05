@@ -11,13 +11,15 @@
 		'globals/images',
 		'globals/links',
 		'globals/forms',
+		'globals/buttons',
 		'globals/tables';
 
 @import 'blocks/logo',
 		'blocks/headings',
 		'blocks/navigation',
 		'blocks/pagination',
-		'blocks/breadcrumb';
+		'blocks/breadcrumb',
+		'blocks/newsletter';
 
 @import 'modules/header',
 		'modules/footer',

@@ -1,7 +1,7 @@
 .project-list {
 	margin-bottom: 2em;
 	@include respond-to(medium) {
-		margin-bottom: 6em;
+		margin-bottom: 3em;
 	}
 }
 .project-list:hover .project {
@@ -53,7 +53,7 @@
 		width: 20%;
 		text-align: right;
 		padding-right: 2em;
-		padding-top: 6px;
+		padding-top: 9px;
 	}
 
 }
@@ -66,6 +66,10 @@
 }
 
 // Case Study
+
+.case-study .contact-me {
+	margin-bottom: 3em;
+}
 
 .case-study-page {
 	padding-bottom: 2em;

@@ -12,6 +12,7 @@ $first = $journal->first();
 		<time class="date" datetime="<?php echo $entry->date('c') ?>"
 			  pubdate="pubdate"><?php echo $entry->date('M Y') ?></time>
 		<h2 class="entry-title"><a href="<?php echo $entry->url() ?>"><?php echo $entry->title()->html() ?></a></h2>
+		<div class="tags"><?php echo $entry->tags() ?></div>
 	</article>
 <?php endforeach ?>
 

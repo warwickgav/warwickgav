@@ -703,23 +703,37 @@ h5 {
   font-size: 1em; }
 
 h6 {
+  font-weight: 700;
   font-size: 1em; }
 
 ul, ol {
-  margin-left: 1em;
-  margin-left: 1rem; }
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 1em; }
+
+ul ul {
+  margin-top: 1em; }
 
 li {
-  margin-bottom: 1em;
-  margin-bottom: 1rem; }
+  margin-bottom: 1em; }
 
-hr, .hr {
-  border-width: 3px 0 0;
-  border-color: #f5f7f8;
+.hr {
+  background-color: #e7eced;
   width: 100px;
   height: 3px;
-  margin-left: auto;
-  margin-right: auto; }
+  margin: 0 auto 2em; }
+  @media only screen and (min-width: 45em) {
+    .hr {
+      margin-bottom: 3em; } }
+
+.vr {
+  background-color: #e7eced;
+  width: 3px;
+  height: 3em;
+  margin: 0 auto 2em; }
+  @media only screen and (min-width: 45em) {
+    .vr {
+      margin-bottom: 3em; } }
 
 .center {
   text-align: center; }
@@ -743,6 +757,9 @@ hr, .hr {
 
 blockquote {
   margin-bottom: 1em; }
+
+p + blockquote {
+  margin-top: 1em; }
 
 .bq-standard {
   font-style: italic;
@@ -775,6 +792,69 @@ a, a:hover {
 
 a:hover {
   color: #1ca180; }
+
+input, select, textarea {
+  display: inline-block;
+  padding: 0.5em 1em;
+  height: 36px;
+  outline: none;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+input:focus, textarea:focus, select:focus {
+  outline: 0 none; }
+
+label, .control-label {
+  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  display: block; }
+
+.form-control {
+  border: 1px solid #d8e1e2; }
+
+.form-control-lg {
+  padding: 2em; }
+
+.btn {
+  display: inline-block;
+  background: none;
+  border: 0;
+  line-height: 1em;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none; }
+
+.btn-action, .btn-action:hover {
+  background-color: #23cda3;
+  color: #fff;
+  font-size: 0.875em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); }
+
+.btn-action:hover {
+  background-color: #1ca180;
+  text-decoration: none; }
+
+.btn-action:active {
+  box-shadow: inset 0px 3px 1em 0px rgba(0, 0, 0, 0.5); }
 
 .logo {
   color: #242f31;
@@ -832,7 +912,8 @@ a:hover {
     height: 2px; }
 
 nav > ol, nav > ul {
-  padding-left: 0; }
+  padding-left: 0;
+  margin-left: 0; }
 
 nav li {
   margin-bottom: 0; }
@@ -991,6 +1072,29 @@ nav li {
 .pagination .prev .icon {
   left: 0; }
 
+.newsletter-footer {
+  background-color: #2f3d40;
+  padding: 2em 20px; }
+
+.newsletter-footer .mc-field-group {
+  display: inline-block;
+  vertical-align: bottom; }
+
+.newsletter-footer .btn {
+  vertical-align: bottom; }
+
+.newsletter-footer label {
+  text-align: left;
+  color: #fff; }
+
+.newsletter-footer .newsletter-header {
+  color: #fff;
+  margin-bottom: 2em; }
+
+.newsletter-header,
+.newsletter-content {
+  text-align: center; }
+
 .site-header {
   background-color: transparent;
   background-color: rgba(255, 255, 255, 0);
@@ -1067,6 +1171,8 @@ nav li {
 .container {
   max-width: 68.75em;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
   zoom: 1; }
   .container:after, .container:before {
     display: table;
@@ -1153,6 +1259,13 @@ nav li {
     .page-gap {
       padding-bottom: 8em; } }
 
+.pre-title {
+  display: block;
+  font-weight: 700;
+  font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
 .entry-teaser {
   text-align: center;
   padding-bottom: 6em;
@@ -1168,6 +1281,12 @@ nav li {
 .entry-teaser .entry-title {
   font-size: 2em;
   margin: 0.5em 0; }
+
+.entry-teaser.last:after {
+  border: 0;
+  position: static;
+  bottom: 0;
+  height: auto; }
 
 .entry-header {
   text-align: center;
@@ -1213,12 +1332,14 @@ nav li {
       padding-top: 3em;
       padding-bottom: 9em; } }
   .entry-article:after {
+    background-color: #e7eced;
     content: '';
-    border: 1px solid #e7eced;
     position: absolute;
     bottom: 3em;
     left: 50%;
-    height: 3em; }
+    margin-left: -50px;
+    height: 3px;
+    width: 100px; }
 
 html {
   min-height: 100%; }
@@ -1228,39 +1349,32 @@ body {
 
 .home .page-lead {
   background: #e7eced url("/assets/images/lead-mountains.jpg") no-repeat center bottom;
-  background-size: cover;
-  min-height: 340px; }
-  @media only screen and (min-width: 45em) {
+  background-size: cover; }
+  @media only screen and (min-width: 30em) {
     .home .page-lead {
-      min-height: 480px; } }
+      padding-top: 6em;
+      padding-bottom: 6em; } }
   @media only screen and (min-width: 62em) {
     .home .page-lead {
       min-height: 660px; } }
 
-.home .page-lead .page-title {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 0 5%;
-  left: 0; }
-  @media only screen and (min-width: 30em) {
-    .home .page-lead .page-title {
-      padding: 0 10%; } }
-  @media only screen and (min-width: 62em) {
-    .home .page-lead .page-title {
-      padding: 0 10%; } }
-  @media only screen and (min-width: 75em) {
-    .home .page-lead .page-title {
-      padding: 0 15%; } }
-  @media only screen and (min-width: 100em) {
-    .home .page-lead .page-title {
-      padding: 0 15%; } }
+@media only screen and (min-width: 62em) {
+  .home .page-lead .container {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 100%; } }
+
+.contact-me {
+  font-size: 1.5em;
+  text-align: center; }
 
 .project-list {
   margin-bottom: 2em; }
   @media only screen and (min-width: 45em) {
     .project-list {
-      margin-bottom: 6em; } }
+      margin-bottom: 3em; } }
 
 .project-list:hover .project {
   opacity: 0.5;
@@ -1314,12 +1428,15 @@ body {
     width: 20%;
     text-align: right;
     padding-right: 2em;
-    padding-top: 6px; } }
+    padding-top: 9px; } }
 
 @media only screen and (min-width: 45em) {
   .project .information {
     width: 80%;
     text-align: left; } }
+
+.case-study .contact-me {
+  margin-bottom: 3em; }
 
 .case-study-page {
   padding-bottom: 2em; }

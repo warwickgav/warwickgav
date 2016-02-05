@@ -32,20 +32,27 @@
 			</div>
 			<div class="case-study-content">
 				<?php echo kirbytext($page->text()) ?>
+				<div class="content">
+					<div class="vr"></div>
+					<div class="contact-me">
+						Interested in adding me to your next project? <br><a href="mailto:warwick@warwickgav.com">Say hello</a>, and I’ll get back to you in 48 hours.
+					</div>
+				</div>
+				<div class="hr"></div>
 			</div>
 			<nav class="pagination">
-				<?php if ($next = $page->nextVisible()): ?>
-					<a class="prev" href="<?php echo $next->url() ?>">
+				<?php if ($prev = $page->prevVisible()): ?>
+					<a class="prev" href="<?php echo $prev->url() ?>">
+						<span class="pagination-entry-name"><?php echo $page->prev()->title() ?></span>
+						<span class="pagination-label">Older</span>
 						<i class="icon icon-chevron-left"></i>
-						<span class="pagination-entry-name"><?php echo $page->next()->title() ?></span>
-						<span class="pagination-label">Previous</span>
 					</a>
 				<?php endif ?>
-				<?php if ($prev = $page->prevVisible()): ?>
-					<a class="next" href="<?php echo $prev->url() ?>">
-						<span class="pagination-entry-name"><?php echo $page->prev()->title() ?></span>
-						<span class="pagination-label">Next</span>
+				<?php if ($next = $page->nextVisible()): ?>
+					<a class="next" href="<?php echo $next->url() ?>">
 						<i class="icon icon-chevron-right"></i>
+						<span class="pagination-entry-name"><?php echo $page->next()->title() ?></span>
+						<span class="pagination-label">Recent</span>
 					</a>
 				<?php endif ?>
 			</nav>

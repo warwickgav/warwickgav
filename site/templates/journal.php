@@ -10,6 +10,7 @@
 		<div class="page-content">
 			<div class="content">
 				<?php snippet('journal-entries') ?>
+				<div class="hr"></div>
 			</div>
 		</div>
 	</div>

@@ -1,0 +1,33 @@
+.btn {
+	display: inline-block;
+	background: none;
+	border: 0;
+	line-height: 1em;
+	height: 36px;
+	cursor: pointer;
+	outline: none;
+	vertical-align: middle;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+.btn-action, .btn-action:hover {
+	background-color: $highlight;
+	color: #fff;
+	font-size: 0.875em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	@include transition(all, 280ms, cubic-bezier(.4, 0, .2, 1));
+}
+
+.btn-action:hover {
+	background-color: $highlight-hover;
+	text-decoration: none;
+}
+
+.btn-action:active {
+	box-shadow: inset 0px 3px 1em 0px rgba(0, 0, 0, 0.5);
+}

@@ -15,7 +15,9 @@ Lead: sfp-header.jpg
 ----
 
 Intro:
-We treated ShopFrontPro as a blank slate, a chance to approach our customers in a completely new way. This involved revamping our main product, ShopFrontPro, and the services that encompassed it. However, we took it a step further, delving into all aspects of the business from the way we think & work, to the way we sell & market our product, and finally to how we provide support.
+ShopFrontPro became a standalone business in mid 2015. Our goal was to revamp our main product, ShopFrontPro, and the services that encompassed it. Delved into all aspects of the business from the way we think & work, to the way we sell & market our product, and to how we support our customers through their lifetime with ShopFrontPro.
+
+I was responsible for the user experience, UI development and manager of our custom design jobs for our customers. Primarily my efforts were focused on evaluting the quality of the experience users encountered with ShopFrontPro. It was important for me to understand how they were using the app, what issues and roadblocks they encountered, and leading our efforts to address these issues.
 
 
 ----
@@ -23,11 +25,22 @@ We treated ShopFrontPro as a blank slate, a chance to approach our customers in 
 Responsibilities:
 <p>A few of my key responsibilities on this project included:</p>
 <ul>
+	<li>User Experience
+		<ul>
+			<li>Oversee in app user experiences & satisfaction</li>
+			<li>Researching & analysing user behaviour</li>
+			<li>Develop personas & user stories</li>
+			<li>Manage QA & user testing</li>
+			<li>Onboarding development</li>
+		</ul>
+	</li>
 	<li>UI Development
-	<li>CSS Architecture & Framework</li>
-	<li>Responsive Development</li>
-	<li>Performance Optimisation (optimised code)</li>
-	<li>Rendering Performance</li>
+		<ul>
+			<li>UI Toolkit</li>
+			<li>CSS Framework</li>
+			<li>Architecture</li>
+		</ul>
+	</li>
 </ul>
 
 ----
@@ -50,9 +63,8 @@ Text:
 	<hr>
 </section>
 <section class="case-study-section">
-	<div class="container">
-		<h2 class="center">The App</h2>
 		<div class="content">
+			<h2 class="center">The App</h2>
 			<p>One of my tasks was redesigning the ShopFrontPro app that customer access. We needed the overall experience to be frictionless and invisible in allowing our customers to complete their tasks.</p>
 			<p>I began building paper mockups, with sticky notes and A3 paper, drawing out the interface to flesh out the overall template for the app, discern the steps it took to complete tasks, and develop an overall framework for development. Following this I moved into Sketch where I began playing with colour, layout and typography and it was here the visual direction was decided upon.</p>
 			<p>Like most modern apps I aimed to strip everything back to the essential UI elements. I wanted to introduce just enough design that each section was discernible, feedback was obvious, text was legible, and overall produce a much friendlier face to users.</p>
@@ -61,7 +73,6 @@ Text:
 			</p>
             <p>Finally, we settled upon the font Lato pretty early on as it displayed a balanced harmony at different sizes and the semi-rounded details gave way to a font that was serious but friendly, a match with the culture we wanted to foster.</p>
 		</div>
-	</div>
 </section>
 <section class="case-study-art" style="background-color: #f2f3f3;">
 	<figure><img src="/portfolio/shopfrontpro/sfp-sc-welcome.jpg" width="1585" height="845"></figure>
@@ -73,51 +84,44 @@ Text:
 	<hr>
 </section>
 <section class="case-study-section">
-	<div class="container">
-		<h2 class="center">Shaping The Product</h2>
 		<div class="content">
+			<h2 class="center">Shaping The Product</h2>
 			<p>We consider all the moving parts of ShopFrontPro as the "Product".
 			It is more than just an app but the overarching story that our customers embrace from the moment they hear about us. This story is shaped and supported by how we conduct ourselves throughout the lifetime of the business.
 			Part of our story is one of giving customers everything they need to build a successful online store. I helped shape some of these aspects.
 		</div>
-	</div>
 </section>
 <section class="case-study-section">
-	<div class="container">
-		<h5>ShopFrontPro Academy</h5>
 		<div class="content">
+			<h5>ShopFrontPro Academy</h5>
 			<p>SFP Academy began as way to teach our customers how to use the app.
 			In less than a month we would help them setup their store and launch it.
 			This eventually evolved into a marketplace filled with different courses around setting up, managing, and growing your store & business.
 			</p>
         </div>
-	</div>
 </section>
 <section class="case-study-art" style="background-color: #fff;">
 	<figure><img src="/portfolio/shopfrontpro/sfp-sc-academy.png" width="1585" height="845"></figure>
 </section>
 <section class="case-study-art" style="background-color: #0d81ca;">
-	<figure><img src="/portfolio/shopfrontpro/sfp-sc-add-product.png" width="1585" height="845"></figure>
+	<figure><img src="/portfolio/shopfrontpro/admin-course-launch.png" width="1585" height="845"></figure>
 </section>
 <section class="case-study-section">
-	<div class="container">
-		<h5>Integration Setup</h5>
+
 		<div class="content">
+			<h5>Integration Setup</h5>
 			<p>As a rule of thumb you avoid giving customers anything 'technical' to do. This is quite difficult when you want to make their lives easier by connecting with some of the great services out there.
 			Like many other apps, we provide integration with other services such as Google Analytics, MailChimp and PayPal. I wanted to reduce customer confusion and keep them in app as much as possible so we
 			expanded the integrations into step-by-step instructions.
 			</p>
     	</div>
-	</div>
+
 </section>
-<section class="case-study-art" style="background-color: #fff;">
-	<figure><img src="/portfolio/shopfrontpro/sfp-sc-academy.png" width="1585" height="845"></figure>
+<section class="case-study-art" style="background-color: #0d81ca;" >
+	<figure><img src="/portfolio/shopfrontpro/sfp-sc-integrations.png" width="1585" height="845"></figure>
 </section>
-<section class="case-study-art" style="background-color: #0d81ca;">
-	<figure><img src="/portfolio/shopfrontpro/sfp-sc-add-product.png" width="1585" height="845"></figure>
-</section>
-<section class="case-study-art">
-	<figure><img src="/portfolio/shopfrontpro/sfp-logo.jpg" width="620" height="200"></figure>
+<section class="case-study-art" style="background-color: #f2f3f3;">
+	<figure><img src="/portfolio/shopfrontpro/sfp-sc-eway-setup.png" width="1585" height="845"></figure>
 </section>
 <section class="case-study-gap">
 </section>
