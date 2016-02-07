@@ -1,0 +1,17 @@
+Title: Portfolio
+
+----
+
+Author: Warwick Paul Gavaghan
+
+----
+
+Description: Warwick Paul Gavaghan is a UX & UI Designer based in Melbourne Australia. He currently works
+
+----
+
+Keywords: designer, web designer, portfolio, blog, journal
+
+----
+
+Copyright: © Warwick Gavaghan. (date: Year)
