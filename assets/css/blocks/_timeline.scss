@@ -1,0 +1,106 @@
+.timeline {
+	list-style: none;
+	margin-left: 0;
+	position: relative;
+	max-width: 72em;
+	margin: 0 auto;
+}
+@include respond-to(large) {
+	.timeline:after {
+		content: '';
+		position: absolute;
+		left: 33.333333%;
+		top: 0;
+		margin-left: 0;
+		height: 100%;
+		width: 3px;
+		background-color: $base-75;
+	}
+}
+.timeline > li {
+	background-color: #fff;
+	position: relative;
+	margin-bottom: 0;
+	@include clearfix();
+}
+.timeline > .last {
+	z-index: 1;
+}
+.timeline .date {
+	width: 33.333333%;
+	position: relative;
+}
+.odd .date {
+	@include respond-to(large) {
+		text-align: right;
+		float: left;
+		padding-right: 50px;
+	}
+}
+.even .date {
+	@include respond-to(large) {
+		float: right;
+		padding-left: 50px;
+	}
+}
+.date-marker {
+	display: none;
+	background-color: $base-75;
+	border: 3px solid $base-75;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	top: -5px;
+	z-index: 1;
+	@include respond-to(large) {
+		display: block;
+	}
+}
+.odd .date-marker {
+	right: -16px;
+}
+.even .date-marker {
+	left: -14px;
+}
+.event {
+	padding-bottom: 2em;
+	@include respond-to(large) {
+		float: left;
+		width: 66.666666%;
+		padding-bottom: 3em;
+	}
+}
+.last .event {
+	@include respond-to(large) {
+		padding-bottom: 0;
+	}
+}
+.odd .event {
+	@include respond-to(large) {
+		padding-left: 50px;
+	}
+}
+.even .event {
+	@include respond-to(large) {
+		padding-right: 50px;
+	}
+}
+.event ul, .event ol {
+	list-style: outside disc;
+	padding-left: 1em;
+}
+.event-header {
+	margin-bottom: 1em;
+}
+.event-title {
+	font-size: 1.125em;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.event-role {
+	color: $base-40;
+	font-family: $font-sans;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}

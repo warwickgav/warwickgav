@@ -1,8 +1,15 @@
 .btn {
+	font-family: $font-sans;
+	font-size: 0.875em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	border-radius: $radius;
+	text-transform: uppercase;
 	display: inline-block;
 	background: none;
 	border: 0;
-	line-height: 1em;
+	line-height: 36px;
+	padding: 0 1em;
 	height: 36px;
 	cursor: pointer;
 	outline: none;
@@ -11,15 +18,12 @@
 	-moz-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+	font-weight: 700;
 }
 
 .btn-action, .btn-action:hover {
 	background-color: $highlight;
 	color: #fff;
-	font-size: 0.875em;
-	letter-spacing: 1px;
-	text-decoration: none;
-	text-transform: uppercase;
 	@include transition(all, 280ms, cubic-bezier(.4, 0, .2, 1));
 }
 

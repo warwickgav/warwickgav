@@ -10,36 +10,37 @@
 				<span class="project-details"><?php echo $page->details() ?></span>
 			</div>
 			<div class="case-study-intro">
-				<?php if ($page->responsbilities()): ?>
-					<div class="container">
-						<div class="grid">
-							<div class="grid-col grid-col--span-all grid-col--lg-one-half">
-								<div class="columns">
-									<h4>Project Brief</h4>
-									<?php echo kirbytext($page->intro()) ?>
-								</div>
+				<div class="container">
+					<div class="grid">
+						<div class="grid-col grid-col--span-all grid-col--lg-one-half">
+							<div class="columns">
+								<h4>Project Brief</h4>
+								<?php echo kirbytext($page->intro()) ?>
 							</div>
-							<div class="grid-col grid-col--span-all grid-col--lg-one-half">
-								<div class="columns">
-									<h4>Responsibilities & deliverables</h4>
-									<?php echo kirbytext($page->responsibilities()) ?>
-								</div>
+						</div>
+						<div class="grid-col grid-col--span-all grid-col--lg-one-half">
+							<div class="columns">
+								<h4>Responsibilities & deliverables</h4>
+								<?php echo kirbytext($page->responsibilities()) ?>
 							</div>
 						</div>
 					</div>
-				<?php else: ?>
-					<div class="content">
-						<h3>Project Brief</h3>
-						<?php echo kirbytext($page->intro()) ?>
+					<?php if ($page->link()): ?>
+					<div class="columns project-link">
+						<div class="btn-container">
+							<a class="btn btn-action" target="_blank" href="<?php echo $page->link() ?>">Visit the site</a>
+						</div>
 					</div>
-				<?php endif ?>
+					<?php endif ?>
+				</div>
+
 			</div>
 			<div class="case-study-content">
 				<?php echo kirbytext($page->text()) ?>
 				<div class="content">
 					<div class="vr"></div>
 					<div class="contact-me">
-						Interested in adding me to your next project? <br><a href="mailto:warwick@warwickgav.com">Say hello</a>, and I’ll get back to you in 48 hours.
+						Interested in adding me to your next project? <br><a href="mailto:warwick@warwickgav.com">Say hello</a>, and I’ll get back to you in 24 hours.
 					</div>
 				</div>
 				<div class="hr"></div>

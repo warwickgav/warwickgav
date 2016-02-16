@@ -18,38 +18,46 @@ Intro: I re-designed the overall interface for Extreme SAS's online store to con
 
 ----
 
+Responsibilities:
+
+<ul>
+	<li>Redesign the overall UI for Extreme SAS's online store</li>
+	<li>Build new visuals to that address key selling points</li>
+</ul>
+
+----
+
+Link: https://www.extremesas.com.au
+
+----
+
 Text:
 
 <section class="case-study-section">
 	<div class="container">
 		<h5>Art Direction</h5>
-		<div class="grid">
-			<div class="grid-col grid-col--span-all grid-col--md-one-half grid-push--md-half" style="vertical-align:middle">
-				<img src="/portfolio/extreme-sas/sas-cards.jpg" width="540" height="540">
-			</div>
-			<div class="grid-col grid-col--span-all grid-col--md-one-half grid-pull--md-half" style="vertical-align:middle">
-				<p>Extreme SAS's existing visuals did not accurately reflect their identity as experts in the field of camping, hunting, fishing & outdoor gear. In turn this reduced the perceived quality of their products when in truth they're products of the highest quality from overseas and locally.</p>
-				<p>To begin I created 3 cards to emphasise the category of products they sell which in turn helps directs customer easily to what they want. It also supports the SAS of their brand, sport, adventure, survival.
-				<p>These cards helped me build the overall visual style, decisions on font choice, and the colour scheme that I would use throughout the project.</p>
-			</div>
+		<div class="content">
+			<p>Extreme SAS's previous design did not accurately reflect their identity as experts in the field of camping, hunting, fishing & outdoor gear.
+			In turn this reduced the perceived quality of their products when in truth their products are of the highest quality sourced from overseas and locally.</p>
+           	<p>Utilising their logo as a base I created 3 cards to emphasise the core categories of products they sell. These would end up being the focal point, emphasizing sport, adventure, and survival.</p>
+            <figure class="center"><img src="/portfolio/extreme-sas/feature-1.jpg" width="1220" height="600"></figure>
+            <p>These cards helped me build the overall visual style, type choice, and the colour scheme that I would use throughout the project.</p>
 		</div>
 	</div>
 </section>
 <section class="case-study-section">
 	<div class="container">
-		<h5>Colours</h5>
-		<figure class="center"><img src="/portfolio/extreme-sas/colour-scheme.jpg" width="600" height="600"></figure>
+		<h5>Colour Palette</h5>
+		<figure class="center"><img src="/portfolio/extreme-sas/colours.jpg" width="960" height="512"></figure>
 	</div>
 </section>
-<section class="case-study-hero" style="background-color: #27231e;background-image: url('/portfolio/extreme-sas/background-sas.jpg');background-repeat: no-repeat;">
+<section class="case-study-art" style="background-color: #27231e;background-image: url('/portfolio/extreme-sas/background.jpg');background-repeat: no-repeat;">
+	<figure><img src="/portfolio/extreme-sas/website.png" width="960" height="1758"></figure>
 </section>
 <section class="case-study-art" style="background-color: #27231e;">
-	<figure><img src="/portfolio/extreme-sas/homepage-d.jpg" width="1100" height="900"></figure>
-</section>
-<section class="case-study-art" style="background-color: #27231e; padding-top: 3em; padding-bottom: 3em;">
-	<figure><img src="/portfolio/extreme-sas/products.png" width="960" height="395"></figure>
+	<figure><img src="/portfolio/extreme-sas/mobile.png" width="414" height="736"></figure>
 </section>
 <section class="case-study-art" style="padding-top: 3em; padding-bottom: 3em;">
-	<figure><img src="/portfolio/extreme-sas/logo-sas.jpg" width="393" height="98"></figure>
+	<figure><img src="/portfolio/extreme-sas/logo.jpg" width="393" height="98"></figure>
 </section>
 <div class="page-gap"></div>

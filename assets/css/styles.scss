@@ -19,7 +19,8 @@
 		'blocks/navigation',
 		'blocks/pagination',
 		'blocks/breadcrumb',
-		'blocks/newsletter';
+		'blocks/newsletter',
+		'blocks/timeline';
 
 @import 'modules/header',
 		'modules/footer',
@@ -29,4 +30,5 @@
 @import 'templates/index',
 		'templates/portfolio',
 		'templates/journal',
-		'templates/about';
+		'templates/about',
+		'templates/resume';

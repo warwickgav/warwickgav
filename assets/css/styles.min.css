@@ -259,7 +259,7 @@ ul, ol { margin: 0; }
 
 .icon-menu:before { content: "\e600"; }
 
-html { font-family: "Libre Baskerville", Georgia, serif; font-size: 1em; color: #242f31; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; text-size-adjust: none; text-rendering: optimizeLegibility; -webkit-font-feature-settings: "liga" 1, "kern" 1; font-feature-settings: "liga" 1, "kern" 1; -webkit-font-kerning: normal; font-kerning: normal; -webkit-font-smoothing: antialiased; }
+html { font-family: "Libre Baskerville", Georgia, serif; font-size: 1em; color: #242f31; line-height: 1.625em; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; text-size-adjust: none; text-rendering: optimizeLegibility; -webkit-font-feature-settings: "liga" 1, "kern" 1; font-feature-settings: "liga" 1, "kern" 1; -webkit-font-kerning: normal; font-kerning: normal; -webkit-font-smoothing: antialiased; }
 
 p { line-height: 1.8; margin-bottom: 1rem; }
 
@@ -277,17 +277,17 @@ h5 { font-weight: 700; font-size: 1em; }
 
 h6 { font-weight: 700; font-size: 1em; }
 
-ul, ol { list-style-position: inside; padding-left: 0; margin-left: 1em; }
+ul, ol { list-style-position: outside; padding-left: 0; margin-left: 2em; }
 
 ul ul { margin-top: 1em; }
 
 li { margin-bottom: 1em; }
 
-.hr { background-color: #e7eced; width: 100px; height: 3px; margin: 0 auto 2em; }
-@media only screen and (min-width: 45em) { .hr { margin-bottom: 3em; } }
+.hr { background-color: #e7eced; width: 100px; height: 3px; margin: 2em auto; }
+@media only screen and (min-width: 45em) { .hr { margin-top: 3em; margin-bottom: 3em; } }
 
-.vr { background-color: #e7eced; width: 3px; height: 3em; margin: 0 auto 2em; }
-@media only screen and (min-width: 45em) { .vr { margin-bottom: 3em; } }
+.vr { background-color: #e7eced; width: 3px; height: 3em; margin: 2em auto; }
+@media only screen and (min-width: 45em) { .vr { margin-top: 3em; margin-bottom: 3em; } }
 
 .center { text-align: center; }
 
@@ -323,9 +323,9 @@ label, .control-label { font-family: "brandon-grotesque", Helvetica Neue, Verdan
 
 .form-control-lg { padding: 2em; }
 
-.btn { display: inline-block; background: none; border: 0; line-height: 1em; height: 36px; cursor: pointer; outline: none; vertical-align: middle; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; appearance: none; }
+.btn { font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; font-size: 0.875em; letter-spacing: 1px; text-decoration: none; border-radius: 3px; text-transform: uppercase; display: inline-block; background: none; border: 0; line-height: 36px; padding: 0 1em; height: 36px; cursor: pointer; outline: none; vertical-align: middle; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; appearance: none; font-weight: 700; }
 
-.btn-action, .btn-action:hover { background-color: #23cda3; color: #fff; font-size: 0.875em; letter-spacing: 1px; text-decoration: none; text-transform: uppercase; -webkit-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); -moz-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); -ms-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); -o-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); }
+.btn-action, .btn-action:hover { background-color: #23cda3; color: #fff; -webkit-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); -moz-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); -ms-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); -o-transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1); }
 
 .btn-action:hover { background-color: #1ca180; text-decoration: none; }
 
@@ -410,6 +410,44 @@ nav li { margin-bottom: 0; }
 .newsletter-footer .newsletter-header { color: #fff; margin-bottom: 2em; }
 
 .newsletter-header, .newsletter-content { text-align: center; }
+
+.timeline { list-style: none; margin-left: 0; position: relative; max-width: 72em; margin: 0 auto; }
+
+@media only screen and (min-width: 62em) { .timeline:after { content: ''; position: absolute; left: 33.333333%; top: 0; margin-left: 0; height: 100%; width: 3px; background-color: #e7eced; } }
+.timeline > li { background-color: #fff; position: relative; margin-bottom: 0; zoom: 1; }
+.timeline > li:after, .timeline > li:before { display: table; clear: both; content: ""; }
+
+.timeline > .last { z-index: 1; }
+
+.timeline .date { width: 33.333333%; position: relative; }
+
+@media only screen and (min-width: 62em) { .odd .date { text-align: right; float: left; padding-right: 50px; } }
+
+@media only screen and (min-width: 62em) { .even .date { float: right; padding-left: 50px; } }
+
+.date-marker { display: none; background-color: #e7eced; border: 3px solid #e7eced; width: 30px; height: 30px; border-radius: 50%; position: absolute; top: -5px; z-index: 1; }
+@media only screen and (min-width: 62em) { .date-marker { display: block; } }
+
+.odd .date-marker { right: -16px; }
+
+.even .date-marker { left: -14px; }
+
+.event { padding-bottom: 2em; }
+@media only screen and (min-width: 62em) { .event { float: left; width: 66.666666%; padding-bottom: 3em; } }
+
+@media only screen and (min-width: 62em) { .last .event { padding-bottom: 0; } }
+
+@media only screen and (min-width: 62em) { .odd .event { padding-left: 50px; } }
+
+@media only screen and (min-width: 62em) { .even .event { padding-right: 50px; } }
+
+.event ul, .event ol { list-style: outside disc; padding-left: 1em; }
+
+.event-header { margin-bottom: 1em; }
+
+.event-title { font-size: 1.125em; font-weight: 700; margin-bottom: 0; }
+
+.event-role { color: #809ca1; font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; letter-spacing: 1px; text-transform: uppercase; }
 
 .site-header { background-color: transparent; background-color: rgba(255, 255, 255, 0); padding: 10px 10px 0; top: 0; left: 0; z-index: 1; }
 @media only screen and (min-width: 45em) { .site-header { padding: 40px 40px 0; } }
@@ -577,6 +615,8 @@ body { min-height: 100%; }
 
 .case-study-gap { padding: 4em; }
 
+.project-link { padding-top: 2em; text-align: center; }
+
 .extreme-sas .case-study-header { background-position: center center; background-color: #638951; }
 
 .shopfrontpro .case-study-header { background-position: center bottom; background-color: #0d81ca; }
@@ -587,3 +627,29 @@ body { min-height: 100%; }
 @media only screen and (min-width: 45em) { .journal-entry .page-content { padding-bottom: 16em; } }
 
 .entry-standard { padding-left: 20px; padding-right: 20px; }
+
+.resume-personal-info { font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; text-align: center; padding-top: 2em; padding-bottom: 2em; }
+@media only screen and (min-width: 45em) { .resume-personal-info { padding-top: 3em; padding-bottom: 3em; } }
+
+.resume-title, .resume-role { font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; text-transform: uppercase; letter-spacing: 1px; }
+
+.resume-title { font-weight: 700; }
+
+@media only screen and (min-width: 62em) { .resume-education .date { text-align: right; display: block; padding-right: 30px; } }
+
+@media only screen and (min-width: 62em) { .resume-education .grid-content { padding-left: 40px; } }
+
+.resume h5 { font-size: 1.125em; margin-bottom: 0; }
+
+.resume-lead h1 { font-size: 1.5em; }
+@media only screen and (min-width: 62em) { .resume-lead h1 { font-size: 2em; } }
+
+.section-title { color: #bacacd; font-size: 1.5em; font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; text-transform: uppercase; position: relative; margin-bottom: 1em; }
+@media only screen and (min-width: 62em) { .section-title { margin-bottom: 2em; } }
+
+.resume-section { margin-bottom: 2em; }
+@media only screen and (min-width: 62em) { .resume-section { margin-bottom: 3em; } }
+
+.section-title:after { content: ''; border: 1px solid #bacacd; border-width: 2px 0 0; position: absolute; width: 100%; left: 0; top: 50%; margin-top: -1px; }
+
+.section-title span { background-color: #fff; position: relative; z-index: 1; padding-right: 1em; }

@@ -2,6 +2,7 @@ html {
 	font-family: $font-serif;
 	font-size: $base-font-size;
 	color: $base-color;
+	line-height: 1.625em;
 	-ms-text-size-adjust: none;
 	-webkit-text-size-adjust: none;
 	text-size-adjust: none;
@@ -52,9 +53,9 @@ h6 {
 }
 
 ul, ol {
-	list-style-position: inside;
+	list-style-position: outside;
 	padding-left: 0;
-	margin-left: 1em;
+	margin-left: 2em;
 }
 
 ul ul {
@@ -69,8 +70,9 @@ li {
 	background-color: $base-75;
 	width: 100px;
 	height: 3px;
-	margin: 0 auto 2em;
+	margin: 2em auto;
 	@include respond-to(medium) {
+		margin-top: 3em;
 		margin-bottom: 3em;
 	}
 }
@@ -79,8 +81,9 @@ li {
 	background-color: $base-75;
 	width: 3px;
 	height: 3em;
-	margin: 0 auto 2em;
+	margin: 2em auto;
 	@include respond-to(medium) {
+		margin-top: 3em;
 		margin-bottom: 3em;
 	}
 }

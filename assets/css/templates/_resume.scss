@@ -1,0 +1,83 @@
+.resume .site-content {
+	@include respond-to(large) {
+		//margin-top: 40px;
+		//border-top-width: 1px;
+	}
+}
+.resume-personal-info {
+	font-family: $font-sans;
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	@include respond-to(medium) {
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+}
+.resume-title,
+.resume-role {
+	@include uppercase();
+}
+.resume-title {
+	font-weight: 700;
+}
+.resume-education .date {
+	@include respond-to(large) {
+		text-align: right;
+		display: block;
+		padding-right: 30px;
+	}
+}
+.resume-education .grid-content {
+	@include respond-to(large) {
+		padding-left: 40px;
+	}
+}
+
+.resume h5 {
+	font-size: 1.125em;
+	margin-bottom: 0;
+}
+.resume-lead h1 {
+	font-size: 1.5em;
+	@include respond-to(large) {
+		font-size: 2em;
+	}
+}
+
+.section-title {
+	color: $base-60;
+	font-size: 1.5em;
+	//font-weight: 700;
+	font-family: $font-sans;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 1em;
+	@include respond-to(large) {
+		margin-bottom: 2em;
+	}
+}
+.resume-section {
+	margin-bottom: 2em;
+	@include respond-to(large) {
+		margin-bottom: 3em;
+	}
+}
+
+.section-title:after {
+	content:'';
+	border: 1px solid $base-60;
+	border-width: 2px 0 0;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	margin-top: -1px;
+}
+
+.section-title span {
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+	padding-right: 1em;
+}

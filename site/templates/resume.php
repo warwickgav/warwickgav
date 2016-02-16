@@ -1,135 +1,198 @@
 <?php snippet('head') ?>
-<?php //snippet('header') ?>
+<?php snippet('header') ?>
 <main class="site-content" role="main">
-	<div class="page-wrap">
-		<div class="page-header">
-			<h1 class="page-title">
-				<?php echo $page->title()->html() ?>
-			</h1>
-		</div>
-		<div class="page-content">
-			<div class="container">
-				<div class="resume-intro">
-					<p>For over 6 years I've worked at eCommerce Websites where I began as a Junior Web Designer - designing online stores for our clients. I became a Frontend Designer & Developer in 2010 for our projects with Harvey Norman where I developed my own CSS Framework and developed the Template architecture. I returned to the main business of eCommerce Websites in 2014 and we split our platform, ShopFrontPro, into a separate business. I took the reigns as the UX Designer - helping shape the product, Frontend Designer & Developer - actually building the product, and Head of Design - developing the client-side custom design process.</p>
-					<p>Now I'm ready to take the next step, to challenge myself once more and work with some fresh faces that share the same passion I do. I want to work with an exciting team who strive to design solutions that empower people, are thoughtful in approach, and allow us to spend more time living life.</p>
+	<div class="container">
+		<header class="resume-header resume-personal-info">
+			<div class="resume-title">Warwick Paul Gavaghan</div>
+			<div class="resume-role">Designer</div>
+			<div class="resume-contact"><a href="mailto:warwick@warwickgav.com">warwick@warwickgav.com</a></div>
+		</header>
+		<section class="resume-section resume-lead">
+			<h1><?php echo($page->lead()) ?></h1>
+		</section>
+		<section class="resume-section resume-skills">
+			<h2 class="section-title"><span>Skills</span></h2>
+			<div class="grid">
+				<div class="grid-col grid-col--span-all grid-col--lg-one-third">
+					<h5>User Experience Design</h5>
+					<p>Oversee and coordinate team to design and develop intuitive & seamless interfaces supported by user testing, rapid prototyping and user analysis.</p>
+					<p>Tools: Invision, Sketch, Trello, Jira, Typeform, Paper</p>
+				</div>
+				<div class="grid-col grid-col--span-all grid-col--lg-one-third">
+					<h5>Design & Development</h5>
+					<p>Design and code interfaces for online stores and web application. Including development of CSS framework, template architecture, and UI toolkit.</p>
+					<p>Tools: Sketch, Photoshop, PHPStorm, GIT, LESS/SASS, CSS/HTML/PHP</p>
+				</div>
+				<div class="grid-col grid-col--span-all grid-col--lg-one-third">
+					<h5>Project Management</h5>
+					<p>Managed a team of 2-4 designers to produce online stores for clients - developed process flow, job assignment & outlined client expectations.</p>
+					<p>Tools: Trello, Invision, Typeform</p>
 				</div>
 			</div>
-
-			<div class="container">
-				<div class="grid resume-header">
-					<div class="grid-col grid-col--span-all grid-col--md-one-half">
-						<div class="columns">
-							<h6>Warwick Paul Gavaghan</h6>
-							<span class="byline">UX & UI Designer for Digital Products</span>
-						</div>
+		</section>
+		<section class="resume-section resume-experience">
+			<h2 class="section-title"><span>Work Experience</span></h2>
+			<ul class="timeline">
+				<li class="odd first">
+					<div class="date">
+						<div class="date-label">Mar 2015 - Current</div>
+						<div class="date-marker"></div>
 					</div>
-					<div class="grid-col grid-col--span-all grid-col--md-one-half">
-						<div class="columns">
-							<a href="mailto:warwick@warwickgav.com">warwick@warwickgav.com</a>
+					<div class="event">
+						<div class="event-header">
+							<h5 class="event-title">ShopFrontPro</h5>
+							<span class="event-role">UX Designer</span>
 						</div>
-					</div>
-				</div>
-				<div class="grid resume-body">
-					<div class="grid-col grid-col--span-all grid-col--md-one-half">
-						<div class="columns">
-							<h6>Technical Skills</h6>
+						<div class="event-info">
+							<p>Translate the product vision into useful features and intuitive design supported by user research and testing.</p>
+							<p>Responsibilities:</p>
 							<ul>
-								<li>Sketch</li>
-								<li>CSS/Less/Sass</li>
-								<li>GIT</li>
-								<li>Atlassian Jira</li>
-								<li>Photoshop</li>
+								<li>Shape the overall design direction and communicate it's value to stakeholders & team members</li>
+								<li>Design beautiful, intuitive interfaces that make the product effortless to use</li>
+								<li>Gather user research data to test ideas and to quickly iterate to the best option</li>
+								<li>Craft new user onboarding experience to easily interact with the value proposition</li>
+								<li>Oversee and guide progress ensuring broader project vision is being achieved</li>
+								<li>Establish UI patterns & develop coding guidelines</li>
 							</ul>
-							<div class="">Comfortable using Terminal/Command Line</div>
-							<h6>Skills & Qualities</h6>
-
+							<div class="btn-container">
+								<a class="btn btn-action" href="/portfolio/shopfrontpro/">Read Case Study</a>
+							</div>
 						</div>
 					</div>
-					<div class="grid-col grid-col--span-all grid-col--md-one-half">
-						<div class="columns">
-							<h6>Project History</h6>
-							<p>
-								</p>
-							<ul class="project-resume-list">
-								<li>
-									<div class="project-resume-date">
-										Mar 2015 - Current
-									</div>
-									<div class="project-resume-details">
-										ShopFrontPro
-										UX Designer, Frontend Designer & Developer, Head of Design
-										My primary role is to contribute to the planning, development and implementation of ShopFrontPro, our application for allowing customers to setup, manage & market their own online store.
-
-										This involves making key decisions on development, the customer journey, the look and feel of our application, ShopFrontPro, and how we market ourselves to the wider world. My key responsibilities include:
-
-										Key responsibilities:
-										Product design and development
-										Defining, assessing and maintaining the customer journey
-										Leading scrum sessions to outline strategy, development of features, and present UX concepts
-										Market research and analysis to develop customer personas and inform decisions around the customer journey
-										Interview of new applicants for design, support and marketing roles
-										Coordinating with developers and designers to plan and execute features
-										Liaising with designers & developers to understanding technical issues and concepts
-										Defining product time-line, expected outcomes, and managing progress
-										Coordinating efforts across departments to ensure we are presenting a consistent and coordinated experience to our customers
-
-										As part of this project I also work as the Frontend designer and developer directly building the application itself. Finally I am the Head of Design where I manage the custom design projects, the team that builds the stores and liaise with clients to manage expectations and project progress.
-									</div>
-								</li>
-								<li>
-									<div class="project-resume-date">
-										Jul 2014 - Mar 2015
-									</div>
-									<div class="project-resume-details">
-										Ecommerce Websites
-										Frontend Designer & Developer
-										I returned to the core business for Ecommerce Websites taking on a similar role as in the Harvey Norman Projects.
-										This began my interesting & journey to a UX Designer. I focussed on building improvements to the ShopFrontPro experience.
-										This eventually led us to spin-off ShopFrontPro as a separate business. I contributed to the development of an MVP which led to the ShopFrontPro I help manage today.
-									</div>
-								</li>
-								<li>
-									<div class="project-resume-date">
-										Jan 2010 - Oct 2014
-									</div>
-									<div class="project-resume-details">
-										Ecommerce Websites
-										Frontend Designer & Developer for Harvey Norman projects
-										I worked with the team at Harvey Norman as the frontend designer and developer.
-										I primarily translated their mockups into functioning online stores or websites and liaised with their Head of Digital in producing expected outcomes.
-										I designer and developed for many of their stores including Harvey Norman New Zealand, Harvey Norman Ireland, and Domanye Australia.
-									</div>
-								</li>
-								<li>
-									<div class="project-resume-date">
-										Jul 2009 - Dec 2014
-									</div>
-									<div class="project-resume-details">
-										Ecommerce Websites
-										Web Designer & Customer Support
-										As web designer I built online stores for clients from various industries, liaised with clients to manage goals and expectations, and consulted on the various moving parts in setting up an online store.
-										In the customer support role I provided troubleshooting, maintained a knowledge base of support articles and provided advice on how best to utilise ShopFrontPro for their particular needs.
-									</div>
-								</li>
+				</li>
+				<li class="odd">
+					<div class="date">
+						<div class="date-label">Jul 2014 - Mar 2015</div>
+						<div class="date-marker"></div>
+					</div>
+					<div class="event">
+						<div class="event-header">
+							<h5 class="event-title">Ecommerce Websites</h5>
+							<span class="event-role">Frontend Designer & Developer</span>
+						</div>
+						<div class="event-info">
+							<p>Redevelopment & redesign of the ShopFrontPro frontend framework & architecture around responsive design and mobile first principles.</p>
+							<p>Responsibilities included:</p>
+							<ul>
+								<li>Development of responsive CSS Framework</li>
+								<li>Shaping of the frontend template architecture with a mobile first approach</li>
+								<li>Design & develop new features </li>
+								<li>Perform ongoing maintenance and improvements</li>
+								<li>Produce written and video documentation and training material for new & existing employees</li>
 							</ul>
-
-							<h6>Education</h6>
-							<ul class="education-list">
-								<li>
-									<div class="">
-										Jul 2009 - Dec 2014
-									</div>
-								</li>
-							</ul>
-
 						</div>
 					</div>
-					<div class="grid-col grid-col--span-all">
-						<h6>References</h6>
+				</li>
+				<li class="odd">
+					<div class="date">
+						<div class="date-label">Jan 2010 - Oct 2014</div>
+						<div class="date-marker"></div>
+					</div>
+					<div class="event">
+						<div class="event-header">
+							<h5 class="event-title">Ecommerce Website - Harvey Norman Projects</h5>
+							<span class="event-role">Frontend Designer & Developer</span>
+						</div>
+						<div class="event-info">
+							<p>Worked remotely with the Harvey Norman Australia Team to translate their mockups & designs into functioning online stores and provide ongoing performance and design enhancements.
+								This includes <a href="//harveynorman.co.nz" target="_blank">Harvey Norman New Zealand</a>, <a href="//harveynorman.ie" target="_blank">Harvey Norman Ireland</a>, and <a href="//domayneonline.com.au" target="_blank">Domanye Australia</a>.</p>
+							<p>Responsibilities:</p>
+							<ul>
+								<li>Development of CSS Framework & guidelines</li>
+								<li>Build frontend template architecture for application across multiple stores</li>
+								<li>Ongoing performance optimisation to improve rendering performance</li>
+								<li>Maintain, improve & update code base as new projects were added</li>
+								<li>Documentation in written & video of constructed architecture and framework for internal & external resources</li>
+							</ul>
+							<div class="btn-container">
+								<a class="btn btn-action" href="/portfolio/harvey-norman-projects/">Read Case Study</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="odd last">
+					<div class="date">
+						<div class="date-label">Jul 2009 - Dec 2014</div>
+						<div class="date-marker"></div>
+					</div>
+					<div class="event">
+						<div class="event-header">
+							<h5 class="event-title">Ecommerce Websites - Client Work</h5>
+							<span class="event-role">Web Designer / Customer Support</span>
+						</div>
+						<div class="event-info">
+							<p>Design and code online stores for clients in various markets and also oversee project progress.
+								Administer ongoing support through the support system via Desk - answering queries about application features, process flow, and providing general guidance in running and maintaining an online store.</p>
+							<p>Responsibilities:</p>
+							<ul>
+								<li>Provide art direction and design for online stores</li>
+								<li>Build online stores using a combination of CSS and template language</li>
+								<li>Liaise with clients to guide project progress, discuss feedback and maintain project goals & expectations</li>
+								<li>Train clients in using application and process of running an online store</li>
+								<li>Provide customer support to help users in completing tasks in ShopFrontPro</li>
+								<li>Maintain knowledge base articles for customer support</li>
+							</ul>
+							<div class="btn-container">
+								<a class="btn btn-action" href="/portfolio/extreme-sas/">Extreme SAS</a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section class="resume-section resume-education">
+			<h2 class="section-title"><span>Education</span></h2>
+			<div class="grid">
+				<div class="grid-col grid-col--span-all grid-col--lg-one-third">
+					<div class="grid-content">
+						<div class="date">2008 - 2009</div>
+					</div>
+				</div>
+				<div class="grid-col grid-col--span-all grid-col--lg-two-thirds">
+					<div class="grid-content">
+					<h5>Deakin University Burwood</h5>
+					<p>Bachelor of Information Technology (Honours)</p>
+					</div>
+				</div>
+				<div class="grid-col grid-col--span-all grid-col--lg-one-third">
+					<div class="grid-content">
+						<div class="date">2005 - 2008</div>
+					</div>
+				</div>
+				<div class="grid-col grid-col--span-all grid-col--lg-two-thirds">
+					<div class="grid-content">
+						<h5>Deakin University Burwood</h5>
+						<p>Bachelor of Information Technology / Multimedia</p>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
+		<section class="resume-section resume-education">
+			<h2 class="section-title"><span>References</span></h2>
+			<div class="grid">
+				<div class="grid-col grid-col--span-all">
+					<div class="center">
+						Available upon request
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="hr"></div>
+		<section class="resume-footer resume-personal-info">
+			<div class="center">
+				<div class="resume-title">Warwick Paul Gavaghan</div>
+				<div class="resume-role">Designer</div>
+				<div class="resume-contact"><a href="mailto:warwick@warwickgav.com">warwick@warwickgav.com</a></div>
+			</div>
+		</section>
+		<div class="hr"></div>
+<!--		<section>-->
+<!--			<div class="content">-->
+<!--				<p>For over 6 years I've worked at eCommerce Websites where I began as a Junior Web Designer - designing online stores for our clients. I became a Frontend Designer & Developer in 2010 for our projects with Harvey Norman where I developed my own CSS Framework and developed the Template architecture.</p>-->
+<!--				<p> I returned to the main business of eCommerce Websites in 2014 and we split our platform, ShopFrontPro, into a separate business. I took the reigns as the UX Designer - helping shape the product, Frontend Designer & Developer - actually building the product, and Head of Design - developing the client-side custom design process.</p>-->
+<!--				<p>Now I'm ready to take the next step, to face news challenges and work with some fresh faces that share the same passion I do. I want to collaborate with a team who strive to design empowered & thoughful solutions.</p>-->
+<!--			</div>-->
+<!--		</section>-->
 	</div>
 </main>
 <?php snippet('footer') ?>

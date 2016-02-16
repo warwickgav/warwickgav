@@ -6,7 +6,7 @@ Project_Date: 2010-14
 
 ----
 
-Details: Frontend Designer
+Details: Frontend Design
 
 ----
 
@@ -23,12 +23,16 @@ It was one of the most challenging projects I'd ever worked on and one that shap
 Responsibilities:
 <p>A few of my key responsibilities on this project included:</p>
 <ul>
-	<li>UI Development
+	<li>UI Development</li>
 	<li>CSS Architecture & Framework</li>
 	<li>Responsive Development</li>
 	<li>Performance Optimisation (optimised code)</li>
 	<li>Rendering Performance</li>
 </ul>
+
+----
+
+Link: https://www.harveynorman.co.nz
 
 ----
 
@@ -46,9 +50,11 @@ Text:
 			<li><strong>Mobile first & responsive.</strong> A mobile first approach meant I was writing code for efficiency and forethought rather than just making it fit for the screens of the day.</li>
 			<li><strong>Focus on performance.</strong> Keeping things lean and optimised meant focusing on reusable code, establishing UI patterns, and reducing redundancy.</li>
 		</ul>
-		<section class="case-study-divider">
-        	<hr>
-        </section>
+	</div>
+  </section>
+
+<section class="case-study-section">
+	<div class="content">
 		<h4>CSS Architecture & Framework</h4>
 		<p>This project's CSS framework derives itself from, what I considered to be, the best bits of various existing CSS frameworks - Bootstrap, Foundation, inuitCSS - with the principles of BEM, OOCSS and Atomic Design supporting it.
 		I chose not to adopt a single framework, such as using only Bootstrap, as you inherit a lot of baggage and can lead writing redundant code just to override previous code. To keep things lean, optimised and build a more sane, manageable codebase I chose only to take what was necessary.</p>
@@ -73,7 +79,15 @@ Text:
 			<li>Finally I moved onto shaping the specific adjustments, adding styling unique to the home, category, product, checkout, cart, pages.</li>
 		</ul>
 		 <p>We, thankfully, maintained the project using GIT, ensuring that each of the team could work on their parts without affecting the other. It also meant I could maintain these changes in a separate branch without it affecting any staging or development builds.</p>
-		<h4>Summary</h4>
+	</div>
+</section>
+<section class="case-study-art" style="background-color: #f2f2f2;">
+	<figure><img src="/portfolio/harvey-norman-projects/hnnz.png" width="978" height="1688"></figure>
+</section>
+<div class="vr"></div>
+<section class="case-study-section">
+	<div class="content">
+		<h2 class="center">Summary</h2>
 		<p>In the end I managed to deliver a fast, low impact, responsive Template and CSS Framework that we could apply across all our Harvey Norman projects.
 		I shaved off over 50% of the bloat of the old CSS, rebuilt it to mobile first principles, and made it more manageable overall.</p>
 		<p>It was an amazing 4 years of projects and it challenged me in various ways.</p>
