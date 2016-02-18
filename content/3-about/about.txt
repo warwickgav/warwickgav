@@ -4,9 +4,9 @@ Title: About
 
 Text:
 
-I'm a designer who loves solving problems. Whether it be improving an onboarding experience, fixing a UI issue that has been plaguing our customers, or finding that illusive semi-colon that is breaking everything (seriously the amount of times missing punctuation has broken something!) I'm driven to find solutions.
+I'm a designer who loves taking apart complex problems, distilling it to its essentials and crafting simple solutions. It isn’t about being clever but effective, about creating systems that mesh with our mental models and empower us along the way.
 
-Currently I'm working at ShopFrontPro (our app that customers can use to build their own online store) where I lead our UX efforts, manage our clients, and work closely with our various teams to keep things on point. More specifically I work on improving how our customers use our app, the perceived value, utility and how easily their able to get things done. On the side I manage our custom design client projects, ensuring our designers are happy and working hard while keeping our clients in the loop on progress.
+Currently I work at ShopFrontPro (an app that customers can use to build their own online store) where I lead our UX efforts, manage our clients, and work closely with our various teams to keep things on point. I work on improving how our customers use our app, the perceived value, utility and how easily their able to get things done. I also manage our custom design client projects, ensuring our designers are happy and keep our clients in the loop on progress.
 
 Outside of work I'm one half of Yano Designs where I help make bamboo & concrete homewares. I also spend a lot of time reading, playing video games, and checking out the best brunch cafes in Melbourne.
 

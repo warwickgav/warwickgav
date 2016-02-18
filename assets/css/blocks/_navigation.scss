@@ -50,7 +50,7 @@ nav li {
 	font-family: $font-sans;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 3em 1.5em;
+
 	@include respond-to(medium) {
 		display: inline-block;
 		font-size: 0.875em;
@@ -67,14 +67,16 @@ nav li {
 
 .site-nav li > a {
 	color: #fff;
-	display: inline-block;
+	display: block;
 	position: relative;
+	padding: 3em 1.5em;
 	@include respond-to(medium) {
 		color: $base-color;
+		padding: 0;
 	}
 }
 .site-nav a:hover:after {
-	border-bottom: 3px solid #fff;
+	//border-bottom: 3px solid #fff;
 	content: '';
 	position: absolute;
 	width: 100%;

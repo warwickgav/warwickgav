@@ -26,8 +26,6 @@ In the past I'd found it difficult to solve the problem of building a representa
 
 This time however I knew what needed to be done. I decided to treat myself as I would treat any client. I set myself a deadline and wrote up a brief on what I was trying to achieve.
 
-<blockquote class="bq-standard">Build a website that sells myself, in 5 days.</blockquote>
-
 <h6>Planning</h6>
 That was it. To me that told me everything I needed to know about what my ultimate aim was.
 

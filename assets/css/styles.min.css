@@ -357,14 +357,14 @@ nav li { margin-bottom: 0; }
 @media only screen and (min-width: 45em) { .site-nav ol { position: static; top: 0; transform: translateY(0); text-align: center; } }
 @media only screen and (min-width: 62em) { .site-nav ol { text-align: right; } }
 
-.site-nav ol > li { display: block; font-size: 1.5em; font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; text-transform: uppercase; text-align: center; padding: 3em 1.5em; }
+.site-nav ol > li { display: block; font-size: 1.5em; font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; text-transform: uppercase; text-align: center; }
 @media only screen and (min-width: 45em) { .site-nav ol > li { display: inline-block; font-size: 0.875em; padding: 0; margin-left: 1.5em; margin-right: 1.5em; letter-spacing: 1px; } }
 @media only screen and (min-width: 45em) { .site-nav ol > li { margin-right: 0; margin-left: 3em; } }
 
-.site-nav li > a { color: #fff; display: inline-block; position: relative; }
-@media only screen and (min-width: 45em) { .site-nav li > a { color: #242f31; } }
+.site-nav li > a { color: #fff; display: block; position: relative; padding: 3em 1.5em; }
+@media only screen and (min-width: 45em) { .site-nav li > a { color: #242f31; padding: 0; } }
 
-.site-nav a:hover:after { border-bottom: 3px solid #fff; content: ''; position: absolute; width: 100%; bottom: 0; left: 0; }
+.site-nav a:hover:after { content: ''; position: absolute; width: 100%; bottom: 0; left: 0; }
 
 @media only screen and (min-width: 45em) { .site-nav li > a:hover { color: #23cda3; padding: 0; } }
 
@@ -381,25 +381,33 @@ nav li { margin-bottom: 0; }
 
 .open-site-nav .menu-close { display: block; font-size: 1.5em; position: absolute; right: 0; top: 0; padding: 20px; z-index: 1100; cursor: pointer; }
 
-.pagination .icon { font-size: 3em; position: absolute; top: -4px; }
+.pagination { zoom: 1; }
+.pagination:after, .pagination:before { display: table; clear: both; content: ""; }
+
+.pagination .icon { font-size: 3em; }
+@media only screen and (min-width: 45em) { .pagination .icon { position: absolute; top: -4px; } }
 
 .pagination-entry-name { font-size: 1.125em; }
 
 .pagination-label { color: #9db3b7; font-size: 0.875em; display: block; font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; text-transform: uppercase; letter-spacing: 1px; }
 
-.pagination > a { position: relative; display: block; }
+.pagination > a { position: relative; display: block; padding: 1em; }
+@media only screen and (min-width: 45em) { .pagination > a { padding: 0; } }
 
-.pagination .next { text-align: right; padding-right: 3em; right: 20px; bottom: 40px; }
-@media only screen and (min-width: 45em) { .pagination .next { position: absolute; bottom: 80px; right: 40px; } }
+.pagination > a span { display: none; }
+@media only screen and (min-width: 45em) { .pagination > a span { display: block; } }
 
-.pagination .next .icon { right: 0; }
+.pagination .next { float: right; width: 50%; text-align: right; }
+@media only screen and (min-width: 45em) { .pagination .next { padding-right: 3em; position: absolute; bottom: 80px; right: 40px; width: auto; } }
 
-.pagination .prev { padding-left: 3em; left: 20px; bottom: 40px; }
-@media only screen and (min-width: 45em) { .pagination .prev { position: absolute; bottom: 80px; left: 40px; } }
+@media only screen and (min-width: 45em) { .pagination .next .icon { right: 0; } }
 
-.pagination .prev .icon { left: 0; }
+.pagination .prev { float: left; width: 50%; }
+@media only screen and (min-width: 45em) { .pagination .prev { position: absolute; padding-left: 3em; bottom: 80px; left: 40px; width: auto; } }
 
-.newsletter-footer { background-color: #2f3d40; padding: 2em 20px; }
+@media only screen and (min-width: 45em) { .pagination .prev .icon { left: 0; } }
+
+.newsletter-footer { background-color: #2f3d40; padding: 2em 0; }
 
 .newsletter-footer .mc-field-group { display: inline-block; vertical-align: bottom; }
 
