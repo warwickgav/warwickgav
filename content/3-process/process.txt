@@ -1,0 +1,92 @@
+Title: Process
+
+----
+
+Text:
+
+Design is a process, that much we know, it has steps that need to be taken and while they don't guarantee success they give you the best possible chance. While designers follow similar processes it is something that is adapted for the context of the project. It changes over time as we learn and grow from what we read, who we talk to, and what we experience as humans and professionals.
+
+My process might not work for everyone or every project but it has served me well. Throughout a project I reinforce the <em>why</em> as much as the <em>how</em> of what we're trying to achieve.
+
+<h3 id="strategy">Strategy & Planning</h3>
+I consider this the most important phase in any project. I gather an understanding of the primary problem (or problems) we're trying to solve and who we're trying to solve it for. While knowing that there is a problem to be solved is an obvious step, many forget that if you don't know who will benefit from it you're solving an issue for no one.
+
+Understanding and defining the problem becomes a frame for the solution. Discerning a solution early on gives a goal to aim for and is something that is refined by the time we reach production. Design is an iterative process, as you gain information that either supports or disproves your assumptions, you build a solution that is better for your users.
+
+<h5 class="label">Research & Analysis</h5>
+I use a variety of methods to discover the how and why of people, and how this presents an opportunity to further develop the relationship between your business and its customers. I'm able to expose many assumptions throughout this phase, highlight constraints and probe the behaviours of people. It isn't about asking what people want or like, or trying to conform to preconceived notions, but gaining real insight to develop a real solution.
+* Interviews
+* Observation
+* Surveys
+* Statistics
+* User stories
+* User flows
+* Personas
+
+*I will discuss this in more detail*
+
+<h5 class="label">Tasks & Timelines</h5>
+With a firm understanding of our problem and our goal I begin outlining a list of tasks. Each task has an approx time to completion and from here I begin forming a timeline.
+
+To manage tasks I create three different formats;
+1. **Detailed** - the detailed format is the long form version of the task. It contains all the information one might need, references to research, expected time to completion, comments, and more.
+2. **Brief** - the brief version I usually display on Trello and links back to the detailed version. It is contains a brief outline of what we're working towards and when it should be done.
+3. **Physical Task Board** - this is a printed or written version of what is on Trello displayed on a wall in the office. It helps make adjustments on the fly, give a quick overview for everyone in the room, and discussions can be held in front of it with anyone on the team.
+
+Each of these are updated as the project progresses and are grouped into sprints. Sprints form the weekly tasks to complete towards a milestone, whether it be an MVP, demo, alpha or beta.
+
+*I will discuss this in more detail*
+
+<h5 class="label">Guidelines</h5>
+Before any meaningful production can begin I prefer to establish guidelines early on. Defining the language, tone, voice, design, coding and brand has a significant impact throughout the organisation. It ensures that there is a consistency from the way sales may pitch your services, the way marketing express themselves over social media, or even the way your support team treats your users. Many organisations fail in at least of these areas. Think about the last time you bought a product, sure the sales team were nice and helpful but when you spoke to their support team they weren't, you could tell that it was an outsourced company and didn't share the same passion as the rest of the business did.
+
+Developing guidelines is a collaborative process, I don't mean to say I include everyone in the organisation, but the inclusion of individuals from various departments ensures I am considering all aspects of the business. At the end of the day everyone in your organisation will either be supporting, designing, developing, sharing, discussing or selling your product and to maintain that sense of ownership contributions from the various departments is important.
+
+During this discussion or series of discussions everyone's opinion should be treated equally and with respect, regardless of position in the company. I define the final set of guidelines making certain they reflect the original vision and give the project the best possible chance at success.
+<div id="production" class="vr"></div>
+<h3>Production</h3>
+With our research done, a list of tasks and goals outlined, and a timeline in place production can move into full swing. Depending on the length of time it takes to reach each milestone, tracking progress and keeping the team on point are important elements for me to consider. However, so too is maintaining motivation and drive, without a well motivated team a project can easily devolve into a routine where the next day looks exactly like the last.
+
+<h5 class="label">Motivation</h5>
+Maintaining the same the passion and drive throughout a project is probably the most challenging element to project success. How this is maintained depends on so many different factors from both within and external to the team. The clash of personalities and opinions, the interference of other individuals in the organisation, personal life struggles, and many more unless considered can make or break a projects success.
+
+Here are some of the methods I employ to maintain motivation:
+* **Hack days** - since many people on the team are coders and designers having a hack day can help maintain productivity. They get the chance to explore new technology and also interact with each other and form tighter bonds. While ideally they would work towards something that contributes to the project or company at large, doing something for fun is worthwhile.
+* **Lunches** - taking the team, depending on size, out for a lunch breaks up the monotony. You get some fresh air, a new environment, and just generally relax. Even better if it is on the house.
+* **Library** - I encourage maintaining a small library of books, on a variety of topics, which the team can borrow. It encourages personal growth as well as developing creativity or fostering innovation in unexpected ways.
+* **Flexible Hours** - if possible giving more flexible hours of work helps maintain a healthy work/life balance. Taking into account the work habits of others can lead to encouraging results. For example I'm usually extremely motivated in the mornings but passed 2pm I'm usually less so. From 8pm onwards I'm motivated again and can work effectively for another 3 hours. Obviously this needs to be managed closely ensuring the team isn't taking advantage of it.
+
+<h5 class="label">Tracking Tasks & Progress</h5>
+*I will discuss this in more detail*
+
+<h5 class="label">Milestones</h5>
+Milestones differ depending on the cycle of the project. If it is a new idea, untested and with many uncertainties then an MVP (minimal viable product) is the initial milestone. With an MVP the aim is for me to learn very quickly whether we're approaching this problem the right way, whether it is something people want, and begin validating assumptions.
+
+Either way there are two other types of milestones, Alpha and Beta.
+
+Alpha is the initial shape of the product and usually only used internally. Here I aim to set the groundwork for much of the product as well as completing the key feature set. I encourage user testing, at a certain point in the Alpha, so I can ensure we're on track.
+
+Next we reach the Beta phase meaning our product is feature complete, or close to it. It signifies that we're ready for a much larger audience to start using our product and begin driving customer interest in what we're doing (which should begin in the lead up to the beta).
+
+There are two versions of the initial beta:
+1. **Closed Beta** - A select group of users and given access to the developed product. I find this ideal for established products as it can sit side-by-side the existing product, unaffected by the new version. We can then control the amount of people, not in the sense we select the 'right' people, but more so the amount. If we're maintaining two versions of the same product resources are likely to be stretched so I need to balance the needs of both.
+2. **Open Beta** - Anyone and everyone can sign up and begin using the beta product. If it is an existing product then the option to 'upgrade' from the existing version to the beta gives valuable insight from your existing user base.
+
+<h5 class="label">Testing & Feedback</h5>
+*I will discuss this in more detail*
+<div id="evaluation" class="vr"></div>
+<h3 >Evaluation & Refinement - The Cycle</h3>
+
+The entire design process is a cycle that, despite what many believe, doesn't end once you've delivered the final product. Once I hit the first beta I perform the cycle again; assessing the effectiveness of our solution through research and analysis, evaluate whether we're hitting our goals, identify new tasks that need to be completed to refine our offering and developing a timeline to hit the next milestone.
+
+The cycle doesn't necessarily start at the end of the previous cycle, I find it more prudent to begin part way through the current cycle as it is far easier and quicker to adjust plans.
+
+Whether be fixing bugs or reaching the next beta, my process is adaptable. I re-shape it based on the needs of each cycle so that we deliver effective results in a reasonable amount of time.
+<div id="delivery" class="vr"></div>
+<h3 >Delivery</h3>
+Eventually, after much testing, evaluation and refinement, we reach a release version. Throughout the cycle I would've laid down plans and a timeline for release, maintaining the progress within, and keeping the stakeholders in the loop.
+
+Yet, the project doesn't end with delivery of the released product. I always look ahead, laying down plans for what we need to look at next, and keeping this informed based on customer feedback.
+
+However, celebrating the triumphs of the team comes first. Without them the product wouldn't be released and I find it important to ensure the team's efforts are recognised.
+
