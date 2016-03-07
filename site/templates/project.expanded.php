@@ -33,10 +33,7 @@
 			<div class="case-study-content">
 				<?php echo kirbytext($page->text()) ?>
 				<div class="content">
-					<div class="vr"></div>
-					<div class="contact-me">
-						Interested in adding me to your next project? <br><a href="mailto:warwick@warwickgav.com">Say hello</a>, and I’ll get back to you in 24 hours.
-					</div>
+					<?php snippet('contact-me') ?>
 				</div>
 				<div class="hr"></div>
 			</div>

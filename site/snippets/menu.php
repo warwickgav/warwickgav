@@ -8,7 +8,7 @@
 	<nav id="Menu" role="navigation">
 		<ol class="nav main-menu">
 			<?php foreach ($pages->visible() as $p): ?>
-				<li<?php e($p->isOpen(), ' class="active"') ?>>
+				<li class="<?php echo $p->uid() ?>-menu-item<?php e($p->isOpen(), ' active') ?>">
 					<a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 				</li>
 			<?php endforeach ?>

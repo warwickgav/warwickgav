@@ -2,25 +2,24 @@
 <?php snippet('header') ?>
 <main class="site-content" role="main">
 	<div class="page-wrap">
-		<div class="page-lead">
+		<div class="hero">
 			<div class="container">
-				<span class="pre-title">Hi, I'm Warwick Gavaghan</span>
-				<h1 class="page-title">I'm a designer of interactive experiences that are considered, consistent & seamless.</h1>
+				<h1 class="page-title">Designing thoughtful, considered & consistent solutions for people</h1>
 			</div>
 		</div>
-		<div class="page-header">
-			<h2>Latest Work</h2>
-		</div>
-		<div class="page-content">
-			<div class="content">
-				<?php snippet('projects') ?>
-				<div class="vr"></div>
-				<div class="contact-me">
-					Interested in adding me to your next project? <br><a href="mailto:warwick@warwickgav.com">Say hello</a>, and I’ll get back to you in 24 hours.
+		<section class="contrast">
+			<div class="page-header">
+				<h2 class="label">Recent Work</h2>
+			</div>
+			<div class="page-content">
+				<div class="content">
+					<?php snippet('projects') ?>
 				</div>
 			</div>
+		</section>
+		<div class="content">
+			<?php snippet('contact-me') ?>
 		</div>
 	</div>
-
 </main>
 <?php snippet('footer') ?>

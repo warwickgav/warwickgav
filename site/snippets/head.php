@@ -25,7 +25,7 @@
 		} catch (e) {
 		}</script>
 
-	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+<!--	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>-->
 	<?php echo css('assets/css/styles.min.css') ?>
 
 	<!-- custom css -->
