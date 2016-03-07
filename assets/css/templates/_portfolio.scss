@@ -21,16 +21,17 @@
 }
 
 .project-list .last {
-	border-bottom: 1px solid $base-75;
+	//border-bottom: 1px solid $base-75;
 }
 .project-list .project:hover {
-	background-color: #F6FCF9;
+	//background-color: #F6FCF9;
 }
 .project .title {
-	font-size: 1.5em;
+	font-size: $delta;
 	margin-bottom: 0;
+	line-height: 1.625;
 	@include respond-to(medium) {
-		font-size: 2em;
+		font-size: $gamma;
 	}
 }
 .project-details {
@@ -63,6 +64,14 @@
 		text-align: left;
 
 	}
+}
+
+.contrast .project-list .project {
+	border-color: $base-10;
+}
+
+.contrast .project-details {
+	color: $base-40;
 }
 
 // Case Study
@@ -187,4 +196,8 @@
 .shopfrontpro .case-study-header {
 	background-position: center bottom;
 	background-color: #0d81ca;
+}
+
+.baby-gift-company .case-study-header {
+	background-color: #ABD0EF;
 }

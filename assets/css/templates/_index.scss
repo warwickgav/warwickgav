@@ -6,31 +6,67 @@ body {
 	min-height: 100%;
 }
 
-.home .page-lead {
-	background: $base-75 url('/assets/images/lead-mountains.jpg') no-repeat center bottom;
-	background-size: cover;
+.hero {
+	background: #fff url('/assets/images/circles-hero.jpg') no-repeat center center;
+	background-size: 75%;
+	height: 75vh;
+	height: calc(100vh - 83px);
+	position: relative;
+	@include respond-to(large) {
+		background-size: auto;
+		height: 75vh;
+		height: calc(100vh - 108px);
+	}
+}
 
+.hero .container {
+	position: absolute;
+	top: 50%;
+	transform:translate(-50%, -50%);
+	left: 50%;
+	width: 100%;
+	max-width: 860px;
+	padding: 1em;
+	@include respond-to(large) {
+
+	}
+
+}
+
+.home .page-title {
+	font-size: $delta;
 	@include respond-to(small) {
-		padding-top: 6em;
-		padding-bottom: 6em;
+		font-size: $gamma;
+	}
+	@include respond-to(medium) {
+		font-size: $beta;
 	}
 	@include respond-to(large) {
-		min-height: 660px;
+		font-size: $alpha;
 	}
 }
 
-.home .page-lead .container {
+.home .project-list {
 	@include respond-to(large) {
-		position: absolute;
-		top: 50%;
-		transform:translate(-50%, -50%);
-		left: 50%;
-		width: 100%;
+		margin-bottom: 6em;
 	}
-
 }
 
-.contact-me {
-	font-size: $h4;
+.contact-me h3 {
+	font-size: $delta;
 	text-align: center;
+	@include respond-to(medium) {
+		font-size: $gamma;
+	}
+}
+
+.open-site-nav {
+	overflow: hidden;
+	@include respond-to(large) {
+		overflow: auto;
+	}
+}
+
+.contrast .page-header {
+	color: #fff;
 }

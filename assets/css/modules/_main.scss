@@ -3,12 +3,6 @@
 	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
-	@include clearfix();
-
-	@include respond-to(medium) {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
 }
 .content {
 	max-width: $content-width;
@@ -20,16 +14,14 @@
 
 .site-content {
 	position: relative;
-
+	padding-top: 83px;
 	@include respond-to(medium) {
-		margin-left: 20px;
-		margin-right: 20px;
+		padding-top: 155px;
 	}
 	@include respond-to(large) {
-		border: 1px solid $base-80;
-		border-width: 0 1px;
-		margin-left: 40px;
-		margin-right: 40px;
+		padding-top: 6em;
+		//margin-left: 40px;
+		//margin-right: 40px;
 	}
 }
 
@@ -57,7 +49,6 @@
 }
 
 .page-lead {
-	background-color: $base-80;
 	background-size: cover;
 	background-position: center center;
 	text-align: center;
@@ -74,20 +65,17 @@
 }
 
 .page-lead .page-title {
-	font-size: 1.25em;
+	font-size: $gamma;
 
-	@include respond-to(small) {
-		font-size: 1.5em;
-	}
 	@include respond-to(medium) {
-		font-size: 2em;
+		font-size: $alpha;
 
 	}
 }
 
 .page-header {
 	text-align: center;
-	padding-top: 3em;
+	padding: 3em 1em 0;
 	@include respond-to(medium) {
 		padding-top: 4em;
 	}
@@ -97,7 +85,7 @@
 }
 
 .page-header .page-title {
-	font-size: 2em;
+
 	@include respond-to(small) {
 
 	}
@@ -107,7 +95,7 @@
 	}
 }
 
-.page-content {
+.page-header + .page-content {
 	padding-top: 3em;
 	@include respond-to(medium) {
 		padding-top: 4em;
@@ -141,4 +129,8 @@
 	display: block;
 	font-weight: 700;
 	@include uppercase();
+}
+
+.contrast {
+	background-color: $base;
 }

@@ -16,6 +16,7 @@
 }
 .resume-title,
 .resume-role {
+	font-size: $meta-font-size;
 	@include uppercase();
 }
 .resume-title {
@@ -35,19 +36,19 @@
 }
 
 .resume h5 {
-	font-size: 1.125em;
+	font-size: $delta;
 	margin-bottom: 0;
 }
 .resume-lead h1 {
-	font-size: 1.5em;
+	font-size: $delta;
 	@include respond-to(large) {
-		font-size: 2em;
+		font-size: $gamma;
 	}
 }
 
 .section-title {
 	color: $base-60;
-	font-size: 1.5em;
+	font-size: $delta;
 	//font-weight: 700;
 	font-family: $font-sans;
 	text-transform: uppercase;

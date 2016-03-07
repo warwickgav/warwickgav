@@ -26,30 +26,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .alpha {
-	font-size: $h1;
+	font-size: $alpha;
 }
 
 h2, .beta {
-	font-size: $h2;
+	font-size: $beta;
 }
 
 h3, .gamma {
-	font-size: $h3;
+	font-size: $gamma;
 }
 
 h4, .delta {
 	font-weight: 700;
-	font-size: $h4;
+	font-size: $delta;
 }
 
 h5 {
 	font-weight: 700;
-	font-size: $h5;
+	font-size: $omega;
 }
 
 h6 {
 	font-weight: 700;
-	font-size: $h6;
+	font-size: $sigma;
 }
 
 ul, ol {
@@ -128,11 +128,46 @@ p + blockquote {
 	font-size: 3em;
 }
 
-
-
 .bq-line {
 	color: $mid-grey-blue;
 	font-style: italic;
 	padding: 1em;
 	border-left: 3px solid $highlight;
+}
+
+.label {
+	font-size: $meta-font-size;
+	margin-bottom: 0;
+	@include uppercase();
+}
+
+.base-5 {
+	color: $base-5;
+}
+.base-10 {
+	color: $base-10;
+}
+.base-20 {
+	color: $base-20;
+}
+.base-30 {
+	color: $base-30;
+}
+.base-40 {
+	color: $base-40;
+}
+.base-50 {
+	color: $base-50;
+}
+.base-60 {
+	color: $base-60;
+}
+.base-70 {
+	color: $base-70;
+}
+.base-75 {
+	color: $base-75;
+}
+.base-80 {
+	color: $base-80;
 }

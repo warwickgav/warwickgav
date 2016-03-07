@@ -17,7 +17,7 @@ nav li {
 	height: 100%;
 	z-index: 1000;
 	@include respond-to(medium) {
-		background-color: #fff;
+		background-color: transparent;
 		position: static;
 		display: block !important;
 	}
@@ -40,7 +40,7 @@ nav li {
 		text-align: center;
 	}
 	@include respond-to(large) {
-		text-align: right;
+
 	}
 }
 
@@ -49,19 +49,29 @@ nav li {
 	font-size: 1.5em;
 	font-family: $font-sans;
 	text-transform: uppercase;
-	text-align: center;
 
 	@include respond-to(medium) {
 		display: inline-block;
-		font-size: 0.875em;
-		padding: 0;
-		margin-left: 1.5em;
-		margin-right: 1.5em;
+		font-size: $meta-font-size;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
 		letter-spacing: 1px;
 	}
 	@include respond-to(medium) {
-		margin-right: 0;
-		margin-left: 3em;
+		padding-right: 3em;
+		padding-left: 3em;
+	}
+}
+
+.site-nav ol .journal-menu-item {
+	@include respond-to(large) {
+		padding-right: 160px;
+	}
+}
+
+.site-nav ol .process-menu-item {
+	@include respond-to(large) {
+		padding-left: 160px;
 	}
 }
 
@@ -69,7 +79,7 @@ nav li {
 	color: #fff;
 	display: block;
 	position: relative;
-	padding: 3em 1.5em;
+	padding: 1em;
 	@include respond-to(medium) {
 		color: $base-color;
 		padding: 0;
@@ -107,11 +117,10 @@ nav li {
 // Menu button that opens/closes the site-nav
 .menu-btn {
 	color: $base-color;
-	font-size: 1.5em;
+	font-size: 30px;
 	position: absolute;
-	left: 25px;
-	top: 1.5em;
-	margin-top: 4px;
+	left: 20px;
+	top: 27px;
 	z-index: 50;
 	cursor: pointer;
 	@include respond-to(medium) {
@@ -129,11 +138,11 @@ nav li {
 }
 .open-site-nav .menu-close {
 	display: block;
-	font-size: 1.5em;
+	font-size: 30px;
 	position: absolute;
-	right: 0;
+	left: 0;
 	top: 0;
-	padding: 20px;
+	padding: 26px 20px 24px;
 	z-index: 1100;
 	cursor: pointer;
 }

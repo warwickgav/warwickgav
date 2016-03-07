@@ -6,17 +6,17 @@
 	font-size: 3em;
 	@include respond-to(medium) {
 		position: absolute;
-		top: -4px;
+		top: -11px;
 	}
 }
 
 .pagination-entry-name {
-	font-size: 1.125em;
+	font-size: 1.25em;
 }
 
 .pagination-label {
 	color: $base-50;
-	font-size: 0.875em;
+	font-size: $meta-font-size;
 	display: block;
 	@include uppercase();
 }
@@ -25,6 +25,7 @@
 	position: relative;
 	display: block;
 	padding: 1em;
+	line-height: 1;
 	@include respond-to(medium) {
 		padding: 0;
 	}

@@ -16,8 +16,11 @@
 	}
 }
 .entry-teaser .entry-title {
-	font-size: 2em;
-	margin: 0.5em 0;
+	font-size: $gamma;
+	margin-bottom: 0;
+	@include respond-to(medium) {
+		font-size: $beta;
+	}
 }
 .entry-teaser.last {
 	&:after {
@@ -53,7 +56,7 @@
 
 .journal-entry .entry-title {
 	font-size: 3em;
-	margin: 0.5em 0;
+	margin: 0;
 	@include respond-to(medium) {
 		font-size: 3em;
 	}
@@ -68,7 +71,7 @@
 .date {
 	color: $meta;
 	font-family: $font-sans;
-	font-size: 0.875em;
+	font-size: $meta-font-size;
 	display: inline-block;
 	@include uppercase();
 }
@@ -76,6 +79,7 @@
 .entry-content {
 	max-width: $content-width;
 	margin: 0 auto;
+	position: relative;
 }
 
 .entry-article {
@@ -93,5 +97,72 @@
 		margin-left: -50px;
 		height: 3px;
 		width: 100px;
+	}
+}
+.entry-article ul, .entry-article ol {
+	margin-bottom: 1em;
+}
+.entry-article li {
+	margin-bottom: 0;
+}
+.entry-article .label {
+	padding-top: 0.5em;
+	margin-bottom: 1em;
+}
+
+
+.table-of-contents {
+	background-color: $base-80;
+	display: none;
+	//width: 100%;
+	//position: fixed;
+	//z-index: 400;
+	//top: 155px;
+	//left: 0;
+	@include respond-to(medium) {
+
+	}
+	@include respond-to(large) {
+		display: block;
+		padding: 20px;
+		position: absolute;
+		left: 700px;
+		width: 280px;
+	}
+}
+
+.table-of-contents h5 {
+	display: none;
+	padding-top: 0;
+	@include respond-to(large) {
+		display: block;
+	}
+}
+
+.table-of-contents ul {
+	margin-bottom: 0;
+}
+
+.table-of-contents li {
+	margin: 0 -2px 0 -1px;
+	@include respond-to(medium) {
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+	}
+	@include respond-to(large) {
+		display: block;
+		width: auto;
+		text-align: left;
+		margin: 0;
+	}
+}
+
+.table-of-contents a {
+	padding: 10px;
+	display: block;
+	@include ellipsis();
+	@include respond-to(large) {
+		padding: 0;
 	}
 }
