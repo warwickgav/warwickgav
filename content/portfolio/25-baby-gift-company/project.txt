@@ -1,4 +1,4 @@
-Title: Extreme SAS
+Title: The Baby Gift Company
 
 ----
 
@@ -14,21 +14,21 @@ Lead: lead.jpg
 
 ----
 
-Intro: I re-designed the overall interface for Extreme SAS's online store to convey a more adventurous experience catering to the 3 different types of customers they engaged with. They wanted to make it clear to customers the breadth and quality of the products they offered. Through new visual components the store now strongly conveys their brand, their intent and their offerings.
+Intro: The Baby Gift Company have been a client of ours for several years and while they'd had minor changes made to the site over time these elements were inconsistent. They approached us with a clear goal of simplifying their home page and focusing on their key product - baby gift boxes.
 
 ----
 
 Responsibilities:
 
 <ul>
-	<li>Redesign the overall store UI</li>
-	<li>Design visuals that highlight primary selling points</li>
-	<li>Develop a consistent experience on mobile and desktop</li>
+	<li>Improve existing UI through consistent application of colours, typeface and overall art direction</li>
+	<li>Home page redesign with greater focus on primary selling point</li>
+	<li>Rebuild the site for responsiveness across mobile, tablet and desktop screens</li>
 </ul>
 
 ----
 
-Link: //www.extremesas.com.au
+Link: //www.thebabygiftcompany.com.au
 
 ----
 
