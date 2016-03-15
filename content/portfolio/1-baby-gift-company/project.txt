@@ -1,0 +1,58 @@
+Title: The Baby Gift Company
+
+----
+
+Project_Date: 2015
+
+----
+
+Details: UX & UI Design
+
+----
+
+Lead: lead.jpg
+
+----
+
+Intro: The Baby Gift Company had been a client of ours for several years and while they'd had minor changes made to the site, over time these elements were conflicting with the original design. They approached us with a clear goal of re-designing their home page, focusing more on their key product - baby gift boxes, and cleaning the overall art direction for the store.
+
+----
+
+Responsibilities:
+
+<ul>
+	<li>Improve existing UI through consistent application of colours, typeface and overall art direction</li>
+	<li>Home page redesign with greater focus on primary selling point</li>
+	<li>Rebuild the site for responsiveness across mobile, tablet and desktop screens</li>
+</ul>
+
+----
+
+Link: //www.thebabygiftcompany.com.au
+
+----
+
+Text:
+
+<section class="case-study-section">
+	<div class="container">
+		<div class="content">
+
+		</div>
+	</div>
+</section>
+<section class="case-study-section">
+	<div class="container">
+		<h5>Colour Palette</h5>
+		<figure class="center"><img src="/portfolio/baby-gift-company/colours.jpg" width="960" height="295"></figure>
+	</div>
+</section>
+<section class="case-study-art" style="background-color: #6ba0cb;">
+	<figure><img src="/portfolio/baby-gift-company/website.png" width="972" height="1618"></figure>
+</section>
+<section class="case-study-art" style="background-color: #a2abb0;">
+	<figure><img src="/portfolio/baby-gift-company/mobile.png" width="414" height="736"></figure>
+</section>
+<section class="case-study-art" style="padding-top: 3em; padding-bottom: 3em;">
+	<figure><img src="/portfolio/baby-gift-company/logo.jpg" width="320" height="82"></figure>
+</section>

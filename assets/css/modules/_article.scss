@@ -139,11 +139,13 @@
 	}
 }
 
-.table-of-contents ul {
+.table-of-contents ol {
 	margin-bottom: 0;
 }
 
+
 .table-of-contents li {
+
 	margin: 0 -2px 0 -1px;
 	@include respond-to(medium) {
 		display: inline-block;
@@ -151,6 +153,7 @@
 		text-align: center;
 	}
 	@include respond-to(large) {
+		list-style-type: decimal;
 		display: block;
 		width: auto;
 		text-align: left;

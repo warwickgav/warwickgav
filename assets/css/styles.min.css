@@ -577,11 +577,11 @@ nav li { margin-bottom: 0; }
 .table-of-contents h5 { display: none; padding-top: 0; }
 @media only screen and (min-width: 62em) { .table-of-contents h5 { display: block; } }
 
-.table-of-contents ul { margin-bottom: 0; }
+.table-of-contents ol { margin-bottom: 0; }
 
 .table-of-contents li { margin: 0 -2px 0 -1px; }
 @media only screen and (min-width: 45em) { .table-of-contents li { display: inline-block; width: 25%; text-align: center; } }
-@media only screen and (min-width: 62em) { .table-of-contents li { display: block; width: auto; text-align: left; margin: 0; } }
+@media only screen and (min-width: 62em) { .table-of-contents li { list-style-type: decimal; display: block; width: auto; text-align: left; margin: 0; } }
 
 .table-of-contents a { padding: 10px; display: block; text-overflow: ellipsis; /* Required for text-overflow to do anything */ white-space: nowrap; overflow: hidden; }
 @media only screen and (min-width: 62em) { .table-of-contents a { padding: 0; } }
@@ -685,7 +685,9 @@ body { min-height: 100%; }
 
 .shopfrontpro .case-study-header { background-position: center bottom; background-color: #0d81ca; }
 
-.baby-gift-company .case-study-header { background-color: #ABD0EF; }
+.baby-gift-company .case-study-header { background-position: center right; background-size: auto; background-color: #f4f4f0; }
+
+.baby-gift-company .date, .baby-gift-company .case-study-header { color: #242f31; }
 
 .journal .page-content { padding-top: 3em; }
 @media only screen and (min-width: 45em) { .journal .page-content { padding-top: 4em; } }

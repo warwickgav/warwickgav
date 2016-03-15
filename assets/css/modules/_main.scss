@@ -40,12 +40,6 @@
 .page-title {
 	text-align: center;
 	margin-bottom: 0;
-	@include respond-to(medium) {
-
-	}
-	@include respond-to(large) {
-
-	}
 }
 
 .page-lead {
@@ -55,13 +49,6 @@
 	padding: 3em 40px;
 	position: relative;
 	overflow: hidden;
-
-	@include respond-to(medium) {
-
-	}
-	@include respond-to(large) {
-
-	}
 }
 
 .page-lead .page-title {
@@ -79,16 +66,9 @@
 	@include respond-to(medium) {
 		padding-top: 4em;
 	}
-	@include respond-to(large) {
-
-	}
 }
 
 .page-header .page-title {
-
-	@include respond-to(small) {
-
-	}
 	@include respond-to(medium) {
 		font-size: 4em;
 
@@ -100,18 +80,6 @@
 	@include respond-to(medium) {
 		padding-top: 4em;
 	}
-	@include respond-to(large) {
-
-	}
-}
-
-.page-footer {
-	@include respond-to(medium) {
-
-	}
-	@include respond-to(large) {
-
-	}
 }
 
 .page-gap {
@@ -119,9 +87,6 @@
 
 	@include respond-to(medium) {
 		padding-bottom: 8em;
-	}
-	@include respond-to(large) {
-
 	}
 }
 

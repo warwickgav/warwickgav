@@ -13,12 +13,12 @@
 				<div class="entry-content">
 					<nav id="toc" class="table-of-contents">
 						<h5 class="label">Table of Contents</h5>
-						<ul>
-							<li><a href="#strategy">Strategy & Planning</a></li>
-							<li><a href="#production">Production</a></li>
-							<li><a href="#evaluation">Evaluation & Refinement</a></li>
-							<li><a href="#delivery">Delivery</a></li>
-						</ul>
+						<ol>
+							<li><a href="#strategy">01. Strategy & Planning</a></li>
+							<li><a href="#production">02. Production</a></li>
+							<li><a href="#evaluation">03. Evaluation & Refinement</a></li>
+							<li><a href="#delivery">04. Delivery</a></li>
+						</ol>
 					</nav>
 					<?php echo $page->text()->kirbytext() ?>
 					<?php snippet('contact-me') ?>

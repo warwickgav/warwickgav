@@ -199,5 +199,11 @@
 }
 
 .baby-gift-company .case-study-header {
-	background-color: #ABD0EF;
+	background-position: center right;
+	background-size: auto;
+	background-color: #f4f4f0;
+}
+
+.baby-gift-company .date, .baby-gift-company .case-study-header {
+	color: $base;
 }
