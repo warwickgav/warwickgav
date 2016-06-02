@@ -380,22 +380,22 @@ nav li { margin-bottom: 0; }
 
 .site-nav ol > li { display: block; font-size: 1.5em; font-family: "brandon-grotesque", Helvetica Neue, Verdana, san-serif; text-transform: uppercase; }
 @media only screen and (min-width: 45em) { .site-nav ol > li { display: inline-block; font-size: 0.77778em; padding-left: 1.5em; padding-right: 1.5em; letter-spacing: 1px; } }
-@media only screen and (min-width: 45em) { .site-nav ol > li { padding-right: 3em; padding-left: 3em; } }
+@media only screen and (min-width: 62em) { .site-nav ol > li { padding-right: 3em; padding-left: 3em; width: 184px; } }
 
-@media only screen and (min-width: 62em) { .site-nav ol .journal-menu-item { padding-right: 160px; } }
+@media only screen and (min-width: 62em) { .site-nav ol .journal-menu-item { margin-right: 85px; } }
 
-@media only screen and (min-width: 62em) { .site-nav ol .process-menu-item { padding-left: 160px; } }
+@media only screen and (min-width: 62em) { .site-nav ol .process-menu-item { margin-left: 85px; } }
 
 .site-nav li > a { color: #fff; display: block; position: relative; padding: 1em; }
-@media only screen and (min-width: 45em) { .site-nav li > a { color: #242f31; padding: 0; } }
+@media only screen and (min-width: 45em) { .site-nav li > a { color: #242f31; padding: 0.45em 1em; line-height: 1; } }
 
 .site-nav a:hover:after { content: ''; position: absolute; width: 100%; bottom: 0; left: 0; }
 
-@media only screen and (min-width: 45em) { .site-nav li > a:hover { color: #23cda3; padding: 0; } }
+@media only screen and (min-width: 45em) { .site-nav li > a:hover { color: #23cda3; } }
 
-@media only screen and (min-width: 45em) { .site-nav .active > a { color: #23cda3; padding: 0; } }
+@media only screen and (min-width: 45em) { .site-nav .active > a { color: #23cda3; } }
 
-@media only screen and (min-width: 45em) { .site-nav .active > a:hover { color: #1ca180; padding: 0; } }
+@media only screen and (min-width: 45em) { .site-nav .active > a:hover { color: #1ca180; } }
 
 .menu-btn { color: #242f31; font-size: 30px; position: absolute; left: 20px; top: 27px; z-index: 50; cursor: pointer; }
 @media only screen and (min-width: 45em) { .menu-btn { display: none; } }
@@ -484,6 +484,7 @@ nav li { margin-bottom: 0; }
 
 .site-header { background-color: #fff; background-color: white; padding: 1.5em 40px; top: 0; left: 0; z-index: 500; position: fixed; width: 100%; }
 @media only screen and (min-width: 45em) { .site-header { padding: 2.2em 40px; } }
+@media only screen and (min-width: 45em) { .site-header { padding: 2.2em 0; } }
 @media only screen and (min-width: 75em) { .site-header { padding-left: 80px; padding-right: 80px; } }
 
 .sticky .site-header { background-color: rgba(255, 255, 255, 0.9); -webkit-transition: padding 280ms cubic-bezier(0.4, 0, 0.2, 1); -moz-transition: padding 280ms cubic-bezier(0.4, 0, 0.2, 1); -ms-transition: padding 280ms cubic-bezier(0.4, 0, 0.2, 1); -o-transition: padding 280ms cubic-bezier(0.4, 0, 0.2, 1); transition: padding 280ms cubic-bezier(0.4, 0, 0.2, 1); -webkit-transition: background 280ms cubic-bezier(0.4, 0, 0.2, 1); -moz-transition: background 280ms cubic-bezier(0.4, 0, 0.2, 1); -ms-transition: background 280ms cubic-bezier(0.4, 0, 0.2, 1); -o-transition: background 280ms cubic-bezier(0.4, 0, 0.2, 1); transition: background 280ms cubic-bezier(0.4, 0, 0.2, 1); }

@@ -57,21 +57,23 @@ nav li {
 		padding-right: 1.5em;
 		letter-spacing: 1px;
 	}
-	@include respond-to(medium) {
+	@include respond-to(large) {
 		padding-right: 3em;
 		padding-left: 3em;
+		width: 184px;
+
 	}
 }
 
 .site-nav ol .journal-menu-item {
 	@include respond-to(large) {
-		padding-right: 160px;
+		margin-right: 85px;
 	}
 }
 
 .site-nav ol .process-menu-item {
 	@include respond-to(large) {
-		padding-left: 160px;
+		margin-left: 85px;
 	}
 }
 
@@ -82,7 +84,8 @@ nav li {
 	padding: 1em;
 	@include respond-to(medium) {
 		color: $base-color;
-		padding: 0;
+		padding: 0.45em 1em;
+		line-height: 1;
 	}
 }
 .site-nav a:hover:after {
@@ -97,20 +100,20 @@ nav li {
 .site-nav li > a:hover {
 	@include respond-to(medium) {
 		color: $highlight;
-		padding: 0;
+		//padding: 0.45em 1em;
 	}
 }
 
 .site-nav .active > a {
 	@include respond-to(medium) {
 		color: $highlight;
-		padding: 0;
+		//padding: 0.45em 1em;
 	}
 }
 .site-nav .active > a:hover {
 	@include respond-to(medium) {
 		color: $highlight-hover;
-		padding: 0;
+		//padding: 0.45em 1em;
 	}
 }
 

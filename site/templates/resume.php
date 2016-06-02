@@ -41,7 +41,7 @@
 					<div class="event">
 						<div class="event-header">
 							<h5 class="event-title">ShopFrontPro</h5>
-							<span class="event-role">UX Designer</span>
+							<span class="event-role">UX/UI Designer</span>
 						</div>
 						<div class="event-info">
 							<p>Translate the product vision into useful features and intuitive design supported by user research and testing.</p>
@@ -68,7 +68,7 @@
 					<div class="event">
 						<div class="event-header">
 							<h5 class="event-title">Ecommerce Websites</h5>
-							<span class="event-role">Frontend Designer & Developer</span>
+							<span class="event-role">UX/UI Designer / Developer</span>
 						</div>
 						<div class="event-info">
 							<p>Redevelopment & redesign of the ShopFrontPro frontend framework & architecture around responsive design and mobile first principles.</p>
