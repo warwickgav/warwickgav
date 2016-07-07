@@ -1,0 +1,32 @@
+input, select, textarea {
+	display: inline-block;
+	padding: 0.5em 1em;
+	height: 36px;
+	outline: none;
+	vertical-align: middle;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	@include radius($radius);
+}
+
+input:focus, textarea:focus, select:focus {
+	outline: 0 none;
+}
+
+label, .control-label {
+	font-family: $font-sans;
+	font-size: 0.875em;
+	text-transform: uppercase;
+	display: block;
+}
+
+.form-control {
+	border: 1px solid $base-70;
+
+}
+
+.form-control-lg {
+	padding: 2em;
+}

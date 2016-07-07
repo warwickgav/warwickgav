@@ -4,10 +4,10 @@
 	<div class="page-wrap">
 		<div class="hero">
 			<div class="container">
-				<h1 class="page-title">Designing thoughtful, considered & consistent solutions for people</h1>
+				<h1 class="page-title">Telling stories, solving problems, and delighting people through design</h1>
 			</div>
 		</div>
-		<section class="contrast">
+		<section>
 			<div class="page-header">
 				<h2 class="label">Recent Work</h2>
 			</div>
@@ -17,9 +17,6 @@
 				</div>
 			</div>
 		</section>
-		<div class="content">
-			<?php snippet('contact-me') ?>
-		</div>
 	</div>
 </main>
 <?php snippet('footer') ?>

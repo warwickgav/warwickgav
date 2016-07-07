@@ -73,10 +73,10 @@ Text:
 <section class="case-study-section">
 	<div class="content">
 		<h5>Introducing ShopFrontPro</h5>
-		<p>In order to break through the perception of difficult and to introduce customers to our app I created the welcome page which appears after you create your store. Here we would begin with a short video that introduces the app, gives a human face to it and reinforces our message.
-		 The main feature is leading customers to the SFP Academy which is our education section of the app that contains our courses, specifically leading them to the course that helps them launch their store in less than a month.
-		We wanted to establish early on that we here to help, that they won't get lost.</p>
-		<pFor the customer that ignores the main value proposition they have a launch list which helps then get started with the key tasks. It also gives them an overview of what they should be focusing on to open their store.</p>
+		<p>In order to break through the perception of difficulty and to introduce customers to our app I created the welcome page which appears after you create your store. Here we would begin with a short video that introduces the app, gives a human face to it and reinforces our message.
+		 The main feature is leading customers to SFP Academy which is our education section of the app that contains our courses, specifically leading them to the course that helps them launch their store in less than a month.
+		We wanted to establish early on that setting up a store wasn't so difficult and we gave you the tools and access to experts who could help you do it.</p>
+		<p>For the customer that ignores the main value proposition they have a launch list which helps them get started with key tasks to launch their store. It serves as a reminder as well for the returning customer so they know what they should doing next.</p>
 	</div>
 </section>
 <section class="case-study-art" style="background-color: #313537;">

@@ -137,7 +137,7 @@
 }
 .case-study-art {
 	text-align: center;
-	padding:0;
+	padding:1em;
 	img {
 		display: block;
 		margin: 0 auto;
@@ -204,6 +204,21 @@
 	background-color: #f4f4f0;
 }
 
-.baby-gift-company .date, .baby-gift-company .case-study-header {
+.baby-gift-company .date,
+.baby-gift-company .case-study-header {
 	color: $base;
+}
+
+.pet-insurance .case-study-header {
+	background-color: #ffc72c;
+}
+
+.pet-insurance .case-study-header .title,
+.pet-insurance .case-study-header .date,
+.pet-insurance .case-study-header .project-details {
+	color: $base;
+}
+
+.brand-metabolism .case-study-header {
+	background-color: #000000;
 }

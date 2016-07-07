@@ -1,0 +1,108 @@
+/* =========================
+	:: VARIABLES
+==========================*/
+
+/* ==== :: SCALE ==== */
+
+// :: Screen [sc]
+
+$sc-narrow: 30em;
+$sc-small: 40em;
+$sc-medium: 48em;
+$sc-large: 60em;
+$sc-wide: 75em;
+$sc-uwide: 100em;
+
+// :: Spacing Scale [sp]
+
+$sp-0: 0;
+$sp-n: .25rem;
+$sp-sm: .5rem;
+$sp-md: 1rem;
+$sp-lg: 2rem;
+$sp-xlg: 4rem;
+$sp-xxlg: 8rem;
+$sp-xxxlg: 16rem;
+
+// :: Type Scale
+
+$headline: 6rem;
+$subheadline: 5rem;
+$f1: 3rem;
+$f2: 2.25rem;
+$f3: 1.5rem;
+$f4: 1.25rem;
+$f5: 1rem;
+$f6: .875rem;
+
+// :: Leading/Line Height [lh]
+
+$lh-solid: 1;
+$lh-title: 1.3;
+$lh-copy: 1.6;
+
+// :: Tracking [tr]
+
+$tr: .16em;
+$tr-tight: -.05em;
+$tr-double: .32em;
+
+// :: Depth/Z-Index [zi]
+
+$zi0: 0;
+$zi1: 10;
+$zi2: 20;
+$zi3: 30;
+$zi4: 40;
+$zi5: 50;
+$zi6: 60;
+$zi7: 70;
+$zi-100: 100;
+
+// :: Border Radius [br]
+
+$br0: 0;
+$br1: .125rem;
+$br2: .25rem;
+$br3: .5rem;
+$br4: 1rem;
+$br-100: 100%;
+
+
+/* ==== :: COLOURS ==== */
+
+// :: Base
+
+$base: rgb(36, 47, 49);
+$base-5: lighten($base, 5%);
+$base-25: lighten($base, 25%);
+$base-50: lighten($base, 50%);
+$base-75: lighten($base, 75%);
+
+// :: Brand
+
+$brand: rgb(35, 205, 163);
+$brand-d-100: darken($brand, 100%);
+$brand-d-75:  darken($brand, 75%);
+$brand-d-50:  darken($brand, 50%);
+$brand-d-25:  darken($brand, 25%);
+$brand-d-5:   darken($brand, 5%);
+$brand-0: $brand;
+$brand-l-5: lighten($brand, 5%);
+$brand-l-25: lighten($brand, 25%);
+$brand-l-50: lighten($brand, 50%);
+$brand-l-75: lighten($brand, 75%);
+$brand-l-100: lighten($brand, 100%);
+
+// :: Extras
+
+
+/* ==== :: ANIMATION ==== */
+
+$cubiz-bezier: cubic-bezier(0.61, 0.92, 0.68, 1.14);
+
+
+
+
+
+

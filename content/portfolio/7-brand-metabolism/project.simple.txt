@@ -1,0 +1,29 @@
+Title: Brand Metabolism
+
+----
+
+Project_Date: 2016
+
+----
+
+Details: Design & Development
+
+----
+
+Link: //www.brandmetabolism.com
+
+----
+
+Lead: lead.jpg
+
+----
+
+Intro: Traffic have built their entire business being leaders in brand creation and transformation. In order to make the process of bringing brands to life easier to understand they created "Brand Metabolism". I worked on designing and developing a microsite to help support this process. It needed to highlight the process, how it works and how it can help businesses evolve for the modern person.
+
+----
+
+Text:
+
+<section class="case-study-art">
+	<figure><img src="/portfolio/brand-metabolism/homepage-desktop.jpg" width="800"></figure>
+</section>

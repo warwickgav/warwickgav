@@ -6,7 +6,7 @@ Project_Date: 2010-14
 
 ----
 
-Details: Front End Design
+Details: Design & Development
 
 ----
 

@@ -1,0 +1,37 @@
+Title: Yano Designs
+
+----
+
+Project_Date: 2015-16
+
+----
+
+Details: Founder - Designer
+
+----
+
+Lead: lead.jpg
+
+----
+
+Intro: In late 2014 my partner and I decided to start our own business designing our own range of handcrafted and laser cut products for the modern home. A year later we officially debuted at the Kensington and have since sold our wares at many more.
+
+We're planning on launching an online store which I've been designing for the Shopify platform. We want to focus on the handmade nature of our products, the beauty of imperfections and make that into a key selling point. We're aiming to launch in mid 2016 but here is a sneak preview of the design.
+
+----
+
+Link:
+
+----
+
+Text:
+
+<section class="case-study-art">
+	<figure><img src="/portfolio/yano-designs/homepage-desktop.jpg" width="800"></figure>
+</section>
+<section class="case-study-art">
+	<figure><img src="/portfolio/yano-designs/homepage-mobile.jpg" width="320"></figure>
+</section>
+<section class="case-study-art" style="padding-top: 3em; padding-bottom: 3em;">
+	<figure><img src="/portfolio/yano-designs/logo.jpg" width="225" height="83"></figure>
+</section>

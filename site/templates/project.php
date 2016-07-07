@@ -37,9 +37,6 @@
 			</div>
 			<div class="case-study-content">
 				<?php echo kirbytext($page->text()) ?>
-				<div class="content">
-					<?php snippet('contact-me') ?>
-				</div>
 				<div class="hr"></div>
 			</div>
 			<nav class="pagination">

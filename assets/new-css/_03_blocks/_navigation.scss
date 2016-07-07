@@ -1,0 +1,151 @@
+nav > ol, nav > ul {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+nav li {
+	margin-bottom: 0;
+}
+
+.site-nav {
+	display: none;
+	background-color: $highlight;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	@include respond-to(medium) {
+		background-color: transparent;
+		position: static;
+		display: block !important;
+	}
+}
+
+.open-site-nav .site-nav {
+	display: block;
+}
+
+.site-nav ol {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+	transform: translateY(-50%);
+	@include respond-to(medium) {
+		position: static;
+		top: 0;
+		transform: translateY(0);
+		text-align: center;
+	}
+	@include respond-to(large) {
+
+	}
+}
+
+.site-nav ol > li {
+	display: block;
+	font-size: 1.5em;
+	font-family: $font-sans;
+	text-transform: uppercase;
+
+	@include respond-to(medium) {
+		display: inline-block;
+		font-size: $meta-font-size;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		letter-spacing: 1px;
+	}
+	@include respond-to(large) {
+		padding-right: 3em;
+		padding-left: 3em;
+		width: 184px;
+
+	}
+}
+
+.site-nav ol .journal-menu-item {
+	@include respond-to(large) {
+		margin-right: 85px;
+	}
+}
+
+.site-nav ol .process-menu-item {
+	@include respond-to(large) {
+		margin-left: 85px;
+	}
+}
+
+.site-nav li > a {
+	color: #fff;
+	display: block;
+	position: relative;
+	padding: 1em;
+	@include respond-to(medium) {
+		color: $base-color;
+		padding: 0.45em 1em;
+		line-height: 1;
+	}
+}
+.site-nav a:hover:after {
+	//border-bottom: 3px solid #fff;
+	content: '';
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+.site-nav li > a:hover {
+	@include respond-to(medium) {
+		color: $highlight;
+		//padding: 0.45em 1em;
+	}
+}
+
+.site-nav .active > a {
+	@include respond-to(medium) {
+		color: $highlight;
+		//padding: 0.45em 1em;
+	}
+}
+.site-nav .active > a:hover {
+	@include respond-to(medium) {
+		color: $highlight-hover;
+		//padding: 0.45em 1em;
+	}
+}
+
+// Menu button that opens/closes the site-nav
+.menu-btn {
+	color: $base-color;
+	font-size: 30px;
+	position: absolute;
+	left: 20px;
+	top: 27px;
+	z-index: 50;
+	cursor: pointer;
+	@include respond-to(medium) {
+		display: none;
+	}
+}
+
+// Close button for menu. Only appears when menu is open
+.menu-close {
+	color: #fff;
+	display: none;
+}
+.menu-close:hover {
+	color: lighten($highlight, 30%);
+}
+.open-site-nav .menu-close {
+	display: block;
+	font-size: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 26px 20px 24px;
+	z-index: 1100;
+	cursor: pointer;
+}

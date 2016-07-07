@@ -1,0 +1,54 @@
+.logo {
+	color: $base-color;
+	text-decoration: none;
+	font-size: $meta-font-size;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: $font-sans;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	display: inline-block;
+	@include transition(all, 280ms, cubic-bezier(.4, 0, .2, 1));
+}
+
+.logo-mark {
+	display: block;
+}
+
+.logo:hover {
+	color: $highlight;
+}
+
+.brand-line {
+	background-color: $base-color;
+	float: left;
+	width: 120px;
+	height: 14px;
+	display: inline-block;
+	vertical-align: top;
+	@include transition(all, 280ms, cubic-bezier(.4, 0, .2, 1));
+}
+
+.logo-text {
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: 0.15em;
+	line-height: 1;
+	.name {
+		display: block;
+		margin-bottom: 6px;
+	}
+	.role {
+		font-size: 0.75em;
+		text-transform: uppercase;
+		display: block;
+		color: $base-75;
+		margin-bottom: 6px;
+	}
+	.line {
+		background-color: $base-color;
+		display: block;
+		width: 15px;
+		height: 2px;
+	}
+}

@@ -19,22 +19,17 @@ Excerpt:
 ----
 
 Text:
-
-<strong>1. Be brave</strong> and take chances. Don't be afraid to voice the unpopular opinion, start from scratch or jump in the deep end.
-
-<strong>2. Fail. Learn. Grow.</strong> Stagnation is an enemy to all, it topples the mightiest and only through learning from failure can we grow.
-
-<strong>3. Care.</strong> Passion can only take you so far. You need to <em>care</em> about the problem to be in the right frame of mind to solve it.
-
-<strong>4. Step back.</strong> It pays to see the bigger picture and that means stepping away from the canvas to see what you've painted.
-
-<strong>5. Don't wait for happiness.</strong> Happiness is a journey, you earn and lose it along the way, it doesn't just happen.
-
-<strong>6. Be human.</strong> You're designing for humans so design with care, feeling, and consideration.
-
-<strong>7. Be humble.</strong> Celebrate your triumphs but be considerate. Most projects are a group effort and acknowledging everyone's role is important.
-
-I don't know if these are really values or ramblings but I felt the need to write down the things I felt are important to me as a person.
-
-
-
+<div class="text--centre">
+	<h3>Be Brave</h3>
+	<p>Don't be afraid to succeed because you're afraid of failing. No one got it right the first time.</p>
+	<h3>Take a breathe</h3>
+	<p>Sometimes not doing anything at all can make all the difference. Know when to step back, take a breathe, and let it all sink in.</p>
+	<h3>Delight</h3>
+	<p>Making a good experiences is easy, but making one that delights is not.</p>
+	<h3>People not Users</h3>
+	<p>Users are numbers. People are not. People are irrational, emotional, empathetic, and joyous - design for them.</p>
+	<h3>Always learning</h3>
+	<p>Education doesn't end after University. Throughout your life you will continue to learn - through both failure and success.</p>
+	<h3>Equilibrium</h3>
+	<p>Burning the candle at both ends doesn't make you a better designer. Balancing work with life, the physical with the emotional, and the mental with the spiritual - finding the equilibrium with these is key.</p>
+</div>

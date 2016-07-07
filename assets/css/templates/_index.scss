@@ -46,6 +46,10 @@ body {
 	}
 }
 
+.home .page-wrap {
+	padding-bottom: 0;
+}
+
 .home .project-list {
 	@include respond-to(large) {
 		margin-bottom: 6em;

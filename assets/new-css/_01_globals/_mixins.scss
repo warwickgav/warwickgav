@@ -1,0 +1,57 @@
+@mixin respond-to($screen) {
+	@if $screen == narrow{
+		@media only screen and (min-width: $sc-narrow) {
+			@content;
+		}
+	} @else if $screen == small {
+		@media only screen and (min-width: $sc-small) {
+			@content;
+		}
+	} @else if $screen == medium {
+		@media only screen and (min-width: $sc-medium) {
+			@content;
+		}
+	} @else if $screen == large {
+		@media only screen and (min-width: $sc-large) {
+			@content;
+		}
+	} @else if $screen == wide {
+		@media only screen and (min-width: $sc-wide) {
+			@content;
+		}
+	} @else if $screen == uwide {
+		@media only screen and (min-width: $sc-uwide) {
+			@content;
+		}
+	}
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+	-webkit-transition: $transition-property $transition-time $method;
+	-moz-transition: $transition-property $transition-time $method;
+	-ms-transition: $transition-property $transition-time $method;
+	-o-transition: $transition-property $transition-time $method;
+	transition: $transition-property $transition-time $method;
+}
+
+@mixin clearfix {
+	zoom: 1;
+	&:after,&:before {
+		display: table;
+		clear: both;
+		content: "";
+	}
+}
+
+@mixin radius($radius) {
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin ellipsis {
+	text-overflow: ellipsis;
+	/* Required for text-overflow to do anything */
+	white-space: nowrap;
+	overflow: hidden;
+}

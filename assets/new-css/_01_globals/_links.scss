@@ -1,0 +1,9 @@
+a, a:hover {
+	color: $highlight;
+	text-decoration: none;
+	@include transition(color, 280ms, cubic-bezier(.4, 0, .2, 1));
+}
+
+a:hover {
+	color: $highlight-hover;
+}

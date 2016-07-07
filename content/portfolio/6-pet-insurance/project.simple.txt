@@ -1,0 +1,34 @@
+Title: Pet Insurance
+
+----
+
+Project_Date: 2016
+
+----
+
+Details: UX & UI Design
+
+----
+
+Lead: lead.jpg
+
+----
+
+Intro: We approached PetInsurance.com.au to redesign their consumer website after having success in developing their branding earlier in the year. I was tasked to incorporate their particular personality and character into the website making an otherwise dry process more enjoyable.
+
+----
+
+Link: http://pinscom.trafficstaging.com.au/
+
+----
+
+Text:
+
+<section class="case-study-art">
+	<figure><img src="/portfolio/pet-insurance/homepage.jpg" width="800"></figure>
+</section>
+<section class="case-study-art" style="padding-top: 3em; padding-bottom: 3em;">
+	<figure>
+		<img src="/portfolio/pet-insurance/pet-insurance-logo.png" width="210" height="31">
+	</figure>
+</section>
