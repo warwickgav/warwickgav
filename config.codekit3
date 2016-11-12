@@ -1,0 +1,6996 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "7EF1D166-2562-4407-B6FA-71E1A3395532"
+		}
+	],
+"creatorBuild": "25378",
+"files": {
+	"\/assets\/css\/blocks\/_breadcrumb.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/blocks\/styles.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/blocks\/_headings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/blocks\/styles.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/blocks\/_logo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/blocks\/styles.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/blocks\/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/blocks\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/css\/blocks\/_newsletter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/blocks\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/css\/blocks\/_pagination.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/blocks\/styles.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/blocks\/_project-list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/blocks\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/css\/blocks\/_timeline.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/blocks\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/css\/globals\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/globals\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/css\/globals\/_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/globals\/_forms.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/globals\/_images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/globals\/_images.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/globals\/_links.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/globals\/_links.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/globals\/_tables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/globals\/_tables.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/globals\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/globals\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_article.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/modules\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/modules\/_footer.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/modules\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/css\/modules\/_main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/modules\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/css\/styles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/styles-ck.css",
+		"oF": 1,
+		"oS": 0
+		},
+	"\/assets\/css\/styles.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/styles.min-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/styles.min.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/styles.min.css.map",
+		"oF": 0
+		},
+	"\/assets\/css\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/css\/styles.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/css\/templates\/_about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/templates\/_about.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/templates\/_index.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/templates\/_index.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/templates\/_journal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/templates\/_journal.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/templates\/_portfolio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/templates\/_portfolio.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/templates\/_resume.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/templates\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_base.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_grid.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_mixins.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_variables.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_visibility.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_visibility.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/utilities\/_zindex.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/utilities\/_zindex.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/vendor\/_icons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/vendor\/styles.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/vendor\/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/vendor\/styles.min.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/fonts\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/icons.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/icons.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/icons.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/icons.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/icons.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/icons.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/sourcesanspro-300.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/sourcesanspro-300.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/sourcesanspro-400-italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/sourcesanspro-400-italic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/sourcesanspro-400.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/sourcesanspro-400.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/sourcesanspro-600.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/sourcesanspro-600.woff",
+		"oF": 0
+		},
+	"\/assets\/images\/android-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 5278,
+		"oA": 0,
+		"oAP": "\/assets\/images\/android-icon-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/android-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 6051,
+		"oA": 0,
+		"oAP": "\/assets\/images\/android-icon-192x192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/android-icon-36x36.png": {
+		"ft": 32768,
+		"iS": 1957,
+		"oA": 0,
+		"oAP": "\/assets\/images\/android-icon-36x36.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/android-icon-48x48.png": {
+		"ft": 32768,
+		"iS": 2553,
+		"oA": 0,
+		"oAP": "\/assets\/images\/android-icon-48x48.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/android-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 2973,
+		"oA": 0,
+		"oAP": "\/assets\/images\/android-icon-72x72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/android-icon-96x96.png": {
+		"ft": 32768,
+		"iS": 3662,
+		"oA": 0,
+		"oAP": "\/assets\/images\/android-icon-96x96.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/apple-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 4256,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-icon-114x114.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/apple-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 4496,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-icon-120x120.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/apple-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 5278,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-icon-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/apple-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 5620,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-icon-152x152.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/apple-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 6671,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-icon-180x180.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/apple-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 2491,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-icon-57x57.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/apple-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 2716,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-icon-60x60.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/apple-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 2973,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-icon-72x72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/apple-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 3040,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-icon-76x76.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/apple-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 6623,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-icon-precomposed.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/apple-icon.png": {
+		"ft": 32768,
+		"iS": 6623,
+		"oA": 0,
+		"oAP": "\/assets\/images\/apple-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/bg-leadspace-home.jpg": {
+		"ft": 16384,
+		"iS": 30880,
+		"oA": 0,
+		"oAP": "\/assets\/images\/bg-leadspace-home.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/circles-hero.jpg": {
+		"ft": 16384,
+		"iS": 10038,
+		"oA": 0,
+		"oAP": "\/assets\/images\/circles-hero.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/icon.png": {
+		"ft": 32768,
+		"iS": 10587,
+		"oA": 0,
+		"oAP": "\/assets\/images\/icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/lead-mountains.jpg": {
+		"ft": 16384,
+		"iS": 156801,
+		"oA": 0,
+		"oAP": "\/assets\/images\/lead-mountains.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/vendor\/fancybox\/blank.gif": {
+		"ft": 4194304,
+		"iS": 43,
+		"oA": 0,
+		"oAP": "\/assets\/images\/vendor\/fancybox\/blank.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/vendor\/fancybox\/fancybox_loading.gif": {
+		"ft": 4194304,
+		"iS": 6567,
+		"oA": 0,
+		"oAP": "\/assets\/images\/vendor\/fancybox\/fancybox_loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/vendor\/fancybox\/fancybox_loading@2x.gif": {
+		"ft": 4194304,
+		"iS": 13984,
+		"oA": 0,
+		"oAP": "\/assets\/images\/vendor\/fancybox\/fancybox_loading@2x.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/vendor\/fancybox\/fancybox_overlay.png": {
+		"ft": 32768,
+		"iS": 1003,
+		"oA": 0,
+		"oAP": "\/assets\/images\/vendor\/fancybox\/fancybox_overlay.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/vendor\/fancybox\/fancybox_sprite.png": {
+		"ft": 32768,
+		"iS": 1362,
+		"oA": 0,
+		"oAP": "\/assets\/images\/vendor\/fancybox\/fancybox_sprite.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/vendor\/fancybox\/fancybox_sprite@2x.png": {
+		"ft": 32768,
+		"iS": 6553,
+		"oA": 0,
+		"oAP": "\/assets\/images\/vendor\/fancybox\/fancybox_sprite@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/new-css\/_01_globals\/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_01_globals\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_01_globals\/_links.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_01_globals\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_01_globals\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_01_globals\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_01_globals\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_01_globals\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_01_globals\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_01_globals\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_02_utilities\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_02_utilities\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_02_utilities\/_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_02_utilities\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_02_utilities\/_images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_02_utilities\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_03_blocks\/_logo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_03_blocks\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_03_blocks\/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_03_blocks\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_04_sections\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_04_sections\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_04_sections\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_04_sections\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_04_sections\/_main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_04_sections\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_05_template\/_about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_05_template\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_05_template\/_common.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_05_template\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_05_template\/_index.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_05_template\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_05_template\/_journal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_05_template\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/new-css\/_05_template\/_portfolio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/new-css\/_05_template\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/assets\/scripts\/app-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scripts\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/scripts\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/scripts\/app-min.js",
+		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/scripts\/min\/app-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/scripts\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/content\/1-home\/home.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/1-home\/home.txt",
+		"oF": 0
+		},
+	"\/content\/2-journal\/1-a-fresh-start\/entry.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-journal\/1-a-fresh-start\/entry.txt",
+		"oF": 0
+		},
+	"\/content\/2-journal\/2-values\/entry.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-journal\/2-values\/entry.txt",
+		"oF": 0
+		},
+	"\/content\/2-journal\/3-inspired-by-books\/all-marketers-are-liars.jpg": {
+		"ft": 16384,
+		"iS": 284993,
+		"oA": 0,
+		"oAP": "\/content\/2-journal\/3-inspired-by-books\/all-marketers-are-liars.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-journal\/3-inspired-by-books\/delivering-happiness.jpg": {
+		"ft": 16384,
+		"iS": 144553,
+		"oA": 0,
+		"oAP": "\/content\/2-journal\/3-inspired-by-books\/delivering-happiness.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-journal\/3-inspired-by-books\/entry.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-journal\/3-inspired-by-books\/entry.txt",
+		"oF": 0
+		},
+	"\/content\/2-journal\/3-inspired-by-books\/Rectangle 2.jpg": {
+		"ft": 16384,
+		"iS": 10051,
+		"oA": 0,
+		"oAP": "\/content\/2-journal\/3-inspired-by-books\/Rectangle 2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-journal\/3-inspired-by-books\/the-antidote.jpg": {
+		"ft": 16384,
+		"iS": 104268,
+		"oA": 0,
+		"oAP": "\/content\/2-journal\/3-inspired-by-books\/the-antidote.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-journal\/3-inspired-by-books\/the-design-of-everyday-things.jpg": {
+		"ft": 16384,
+		"iS": 203639,
+		"oA": 0,
+		"oAP": "\/content\/2-journal\/3-inspired-by-books\/the-design-of-everyday-things.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-journal\/3-inspired-by-books\/the-emyth-revisited.jpg": {
+		"ft": 16384,
+		"iS": 10051,
+		"oA": 0,
+		"oAP": "\/content\/2-journal\/3-inspired-by-books\/the-emyth-revisited.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-journal\/3-inspired-by-books\/the-one-thing.jpg": {
+		"ft": 16384,
+		"iS": 85932,
+		"oA": 0,
+		"oAP": "\/content\/2-journal\/3-inspired-by-books\/the-one-thing.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-journal\/3-inspired-by-books\/the-shape-of-design.jpg": {
+		"ft": 16384,
+		"iS": 254009,
+		"oA": 0,
+		"oAP": "\/content\/2-journal\/3-inspired-by-books\/the-shape-of-design.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/2-journal\/4-inspired-by-the-shape-of-design\/entry.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-journal\/4-inspired-by-the-shape-of-design\/entry.txt",
+		"oF": 0
+		},
+	"\/content\/2-journal\/journal.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-journal\/journal.txt",
+		"oF": 0
+		},
+	"\/content\/2-journal\/testing\/default.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/2-journal\/testing\/default.txt",
+		"oF": 0
+		},
+	"\/content\/3-values\/values.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-values\/values.txt",
+		"oF": 0
+		},
+	"\/content\/5-about\/about-hero.jpg": {
+		"ft": 16384,
+		"iS": 64313,
+		"oA": 0,
+		"oAP": "\/content\/5-about\/about-hero.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/5-about\/about.jpg": {
+		"ft": 16384,
+		"iS": 232182,
+		"oA": 0,
+		"oAP": "\/content\/5-about\/about.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/5-about\/about.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/5-about\/about.txt",
+		"oF": 0
+		},
+	"\/content\/error\/error.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/error\/error.txt",
+		"oF": 0
+		},
+	"\/content\/labs\/1-contemporary\/experiment.contemporary.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/labs\/1-contemporary\/experiment.contemporary.txt",
+		"oF": 0
+		},
+	"\/content\/labs\/1-contemporary\/font-awesome.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/font-awesome-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/content\/labs\/1-contemporary\/hero.jpg": {
+		"ft": 16384,
+		"iS": 762275,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/hero.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/bath-icon-sm.png": {
+		"ft": 32768,
+		"iS": 584,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/bath-icon-sm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/bath-icon.png": {
+		"ft": 32768,
+		"iS": 922,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/bath-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/bathroom-2-thumb.jpg": {
+		"ft": 16384,
+		"iS": 112508,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/bathroom-2-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/bathroom-2.jpeg": {
+		"ft": 16384,
+		"iS": 368275,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/bathroom-2.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/bathroom-thumb.jpg": {
+		"ft": 16384,
+		"iS": 112039,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/bathroom-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/bathroom.jpeg": {
+		"ft": 16384,
+		"iS": 409387,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/bathroom.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/bed-icon-sm.png": {
+		"ft": 32768,
+		"iS": 420,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/bed-icon-sm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/bed-icon.png": {
+		"ft": 32768,
+		"iS": 612,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/bed-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/bedroom-thumb.jpg": {
+		"ft": 16384,
+		"iS": 117687,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/bedroom-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/bedroom.jpeg": {
+		"ft": 16384,
+		"iS": 457790,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/bedroom.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/car-icon-sm.png": {
+		"ft": 32768,
+		"iS": 729,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/car-icon-sm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/car-icon.png": {
+		"ft": 32768,
+		"iS": 1813,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/car-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/dining-thumb.jpg": {
+		"ft": 16384,
+		"iS": 101546,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/dining-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/dining.jpeg": {
+		"ft": 16384,
+		"iS": 340056,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/dining.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/floorplan.gif": {
+		"ft": 4194304,
+		"iS": 102185,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/floorplan.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/front-thumb.jpg": {
+		"ft": 16384,
+		"iS": 194398,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/front-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/front.jpeg": {
+		"ft": 16384,
+		"iS": 1139370,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/front.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/garage-thumb.jpg": {
+		"ft": 16384,
+		"iS": 96376,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/garage-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/garage.jpeg": {
+		"ft": 16384,
+		"iS": 350996,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/garage.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/kayandburton-logo.jpg": {
+		"ft": 16384,
+		"iS": 7121,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/kayandburton-logo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/kids-living-thumb.jpg": {
+		"ft": 16384,
+		"iS": 89636,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/kids-living-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/kids-living.jpeg": {
+		"ft": 16384,
+		"iS": 312284,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/kids-living.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/kitchen-thumb.jpg": {
+		"ft": 16384,
+		"iS": 100194,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/kitchen-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/kitchen.jpeg": {
+		"ft": 16384,
+		"iS": 309761,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/kitchen.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/living-dining.jpeg": {
+		"ft": 16384,
+		"iS": 352424,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/living-dining.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/living-thumb.jpg": {
+		"ft": 16384,
+		"iS": 104464,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/living-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/living.jpeg": {
+		"ft": 16384,
+		"iS": 338346,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/living.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/outdoor-dining-2.jpeg": {
+		"ft": 16384,
+		"iS": 730399,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/outdoor-dining-2.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/outdoor-dining-thumb.jpg": {
+		"ft": 16384,
+		"iS": 123078,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/outdoor-dining-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/outdoor-dining.jpeg": {
+		"ft": 16384,
+		"iS": 523029,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/outdoor-dining.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/pool-2.jpeg": {
+		"ft": 16384,
+		"iS": 261897,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/pool-2.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/pool-thumb.jpg": {
+		"ft": 16384,
+		"iS": 159843,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/pool-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/pool.jpeg": {
+		"ft": 16384,
+		"iS": 665125,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/pool.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/related-property-1.jpg": {
+		"ft": 16384,
+		"iS": 120910,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/related-property-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/related-property-2.jpg": {
+		"ft": 16384,
+		"iS": 179554,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/related-property-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/related-property-2.png": {
+		"ft": 32768,
+		"iS": 247361,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/related-property-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/related-property-3.jpg": {
+		"ft": 16384,
+		"iS": 143192,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/related-property-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/study-thumb.jpg": {
+		"ft": 16384,
+		"iS": 96071,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/study-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/images\/study.jpeg": {
+		"ft": 16384,
+		"iS": 390193,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/images\/study.jpeg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/jquery.fancybox.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/min\/jquery.fancybox-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/content\/labs\/1-contemporary\/labs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/styles.min.css",
+		"oF": 1,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/content\/labs\/1-contemporary\/map.jpg": {
+		"ft": 16384,
+		"iS": 157633,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/map.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/1-contemporary\/min\/script-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/content\/labs\/1-contemporary\/min\/min\/script-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/content\/labs\/1-contemporary\/script.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/content\/labs\/1-contemporary\/min\/script-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/content\/labs\/1-contemporary\/styles.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/content\/labs\/1-contemporary\/styles.min-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/content\/labs\/1-contemporary\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/content\/labs\/1-contemporary\/styles.min.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/content\/labs\/2-noir-apartments-redesign\/experiment.noir.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/labs\/2-noir-apartments-redesign\/experiment.noir.txt",
+		"oF": 0
+		},
+	"\/content\/labs\/2-noir-apartments-redesign\/noir-apartments-redesign.jpg": {
+		"ft": 16384,
+		"iS": 3680740,
+		"oA": 0,
+		"oAP": "\/content\/labs\/2-noir-apartments-redesign\/noir-apartments-redesign.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/labs\/editorial-layout\/editorial.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/content\/labs\/editorial-layout\/min\/editorial-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/content\/labs\/editorial-layout\/experiment.editorial.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/labs\/editorial-layout\/experiment.editorial.txt",
+		"oF": 0
+		},
+	"\/content\/labs\/editorial-layout\/min\/editorial-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/content\/labs\/editorial-layout\/min\/min\/editorial-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/content\/labs\/labs.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/labs\/labs.txt",
+		"oF": 0
+		},
+	"\/content\/portfolio\/3-harvey-norman-projects\/header.jpg": {
+		"ft": 16384,
+		"iS": 104150,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/3-harvey-norman-projects\/header.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/3-harvey-norman-projects\/hnnz.jpg": {
+		"ft": 16384,
+		"iS": 711660,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/3-harvey-norman-projects\/hnnz.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/3-harvey-norman-projects\/hnnz.png": {
+		"ft": 32768,
+		"iS": 1063010,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/3-harvey-norman-projects\/hnnz.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/3-harvey-norman-projects\/project.simple.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/portfolio\/3-harvey-norman-projects\/project.simple.txt",
+		"oF": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/admin-academy.jpg": {
+		"ft": 16384,
+		"iS": 299261,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/admin-academy.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/admin-course-launch.jpg": {
+		"ft": 16384,
+		"iS": 190366,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/admin-course-launch.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/admin-course-launch.png": {
+		"ft": 32768,
+		"iS": 485661,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/admin-course-launch.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/admin-create-product.jpg": {
+		"ft": 16384,
+		"iS": 274940,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/admin-create-product.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/admin-login.jpg": {
+		"ft": 16384,
+		"iS": 151231,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/admin-login.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/admin-paypal-setup.jpg": {
+		"ft": 16384,
+		"iS": 303228,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/admin-paypal-setup.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/admin-product.jpg": {
+		"ft": 16384,
+		"iS": 152789,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/admin-product.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/admin-shipping-advanced.jpg": {
+		"ft": 16384,
+		"iS": 154373,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/admin-shipping-advanced.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/admin-shipping.jpg": {
+		"ft": 16384,
+		"iS": 243469,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/admin-shipping.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/admin-welcome.jpg": {
+		"ft": 16384,
+		"iS": 233237,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/admin-welcome.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/colours.jpg": {
+		"ft": 16384,
+		"iS": 72458,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/colours.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/project.simple.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/project.simple.txt",
+		"oF": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/sfp-colours.jpg": {
+		"ft": 16384,
+		"iS": 25601,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/sfp-colours.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/sfp-header.jpg": {
+		"ft": 16384,
+		"iS": 518052,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/sfp-header.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/sfp-logo.jpg": {
+		"ft": 16384,
+		"iS": 13855,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/sfp-logo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/sfp-sc-academy.png": {
+		"ft": 32768,
+		"iS": 863970,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/sfp-sc-academy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/sfp-sc-add-product.png": {
+		"ft": 32768,
+		"iS": 153708,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/sfp-sc-add-product.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/sfp-sc-eway-setup.png": {
+		"ft": 32768,
+		"iS": 227626,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/sfp-sc-eway-setup.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/sfp-sc-integrations.png": {
+		"ft": 32768,
+		"iS": 278254,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/sfp-sc-integrations.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/sfp-sc-welcome.jpg": {
+		"ft": 16384,
+		"iS": 228705,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/sfp-sc-welcome.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/4-shopfrontpro\/typography.png": {
+		"ft": 32768,
+		"iS": 37410,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/4-shopfrontpro\/typography.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/5-yano-designs\/Home.jpg": {
+		"ft": 16384,
+		"iS": 831102,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/5-yano-designs\/Home.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/5-yano-designs\/homepage-desktop.jpg": {
+		"ft": 16384,
+		"iS": 1728830,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/5-yano-designs\/homepage-desktop.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/5-yano-designs\/homepage-mobile.jpg": {
+		"ft": 16384,
+		"iS": 176648,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/5-yano-designs\/homepage-mobile.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/5-yano-designs\/lead.jpg": {
+		"ft": 16384,
+		"iS": 1095440,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/5-yano-designs\/lead.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/5-yano-designs\/logo.jpg": {
+		"ft": 16384,
+		"iS": 29006,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/5-yano-designs\/logo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/5-yano-designs\/project.simple.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/portfolio\/5-yano-designs\/project.simple.txt",
+		"oF": 0
+		},
+	"\/content\/portfolio\/6-pet-insurance\/Extreme Sas.jpg": {
+		"ft": 16384,
+		"iS": 1128180,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/6-pet-insurance\/Extreme Sas.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/6-pet-insurance\/Hero Copy 2.jpg": {
+		"ft": 16384,
+		"iS": 787860,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/6-pet-insurance\/Hero Copy 2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/6-pet-insurance\/homepage.jpg": {
+		"ft": 16384,
+		"iS": 1128180,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/6-pet-insurance\/homepage.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/6-pet-insurance\/homepage.png": {
+		"ft": 32768,
+		"iS": 1214180,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/6-pet-insurance\/homepage.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/6-pet-insurance\/lead.jpg": {
+		"ft": 16384,
+		"iS": 194682,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/6-pet-insurance\/lead.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/6-pet-insurance\/pet-insurance-logo.png": {
+		"ft": 32768,
+		"iS": 16627,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/6-pet-insurance\/pet-insurance-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/6-pet-insurance\/project.simple.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/portfolio\/6-pet-insurance\/project.simple.txt",
+		"oF": 0
+		},
+	"\/content\/portfolio\/7-brand-metabolism\/homepage-desktop.jpg": {
+		"ft": 16384,
+		"iS": 560781,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/7-brand-metabolism\/homepage-desktop.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/7-brand-metabolism\/lead.jpg": {
+		"ft": 16384,
+		"iS": 233394,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/7-brand-metabolism\/lead.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/7-brand-metabolism\/project.simple.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/portfolio\/7-brand-metabolism\/project.simple.txt",
+		"oF": 0
+		},
+	"\/content\/portfolio\/baby-gift-company\/colours.jpg": {
+		"ft": 16384,
+		"iS": 24826,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/baby-gift-company\/colours.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/baby-gift-company\/lead.jpg": {
+		"ft": 16384,
+		"iS": 37387,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/baby-gift-company\/lead.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/baby-gift-company\/logo.jpg": {
+		"ft": 16384,
+		"iS": 18592,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/baby-gift-company\/logo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/baby-gift-company\/mobile.png": {
+		"ft": 32768,
+		"iS": 195801,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/baby-gift-company\/mobile.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/baby-gift-company\/project.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/portfolio\/baby-gift-company\/project.txt",
+		"oF": 0
+		},
+	"\/content\/portfolio\/baby-gift-company\/website.png": {
+		"ft": 32768,
+		"iS": 1036650,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/baby-gift-company\/website.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/ecommerce-websites\/project.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/portfolio\/ecommerce-websites\/project.txt",
+		"oF": 0
+		},
+	"\/content\/portfolio\/extreme-sas\/background.jpg": {
+		"ft": 16384,
+		"iS": 161141,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/extreme-sas\/background.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/extreme-sas\/colours.jpg": {
+		"ft": 16384,
+		"iS": 93434,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/extreme-sas\/colours.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/extreme-sas\/feature-1.jpg": {
+		"ft": 16384,
+		"iS": 475526,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/extreme-sas\/feature-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/extreme-sas\/lead.jpg": {
+		"ft": 16384,
+		"iS": 226993,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/extreme-sas\/lead.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/extreme-sas\/logo.jpg": {
+		"ft": 16384,
+		"iS": 40967,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/extreme-sas\/logo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/extreme-sas\/mobile.png": {
+		"ft": 32768,
+		"iS": 290545,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/extreme-sas\/mobile.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/extreme-sas\/project.simple.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/portfolio\/extreme-sas\/project.simple.txt",
+		"oF": 0
+		},
+	"\/content\/portfolio\/extreme-sas\/website.png": {
+		"ft": 32768,
+		"iS": 1015530,
+		"oA": 0,
+		"oAP": "\/content\/portfolio\/extreme-sas\/website.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/portfolio\/modernised-living\/project.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/portfolio\/modernised-living\/project.txt",
+		"oF": 0
+		},
+	"\/content\/portfolio\/portfolio.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/portfolio\/portfolio.txt",
+		"oF": 0
+		},
+	"\/content\/portfolio\/the-rug-lady\/project.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/portfolio\/the-rug-lady\/project.txt",
+		"oF": 0
+		},
+	"\/content\/process\/process.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/process\/process.txt",
+		"oF": 0
+		},
+	"\/content\/resume\/resume.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/resume\/resume.txt",
+		"oF": 0
+		},
+	"\/content\/site.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/site.txt",
+		"oF": 0
+		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/kirby\/bootstrap.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/bootstrap.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/default.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/branches\/default.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/branches\/multilang.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/content.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/branches\/multilang\/content.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/field.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/branches\/multilang\/field.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/file.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/branches\/multilang\/file.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/language.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/branches\/multilang\/language.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/languages.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/branches\/multilang\/languages.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/page.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/branches\/multilang\/page.php",
+		"oF": 0
+		},
+	"\/kirby\/branches\/multilang\/site.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/branches\/multilang\/site.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/asset.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/asset.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/avatar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/avatar.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/children.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/children.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/content.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/content.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/field.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/field.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/file.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/file.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/files.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/files.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/kirbytag.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/kirbytag.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/kirbytext.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/kirbytext.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/page.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/page.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/pages.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/pages.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/role.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/role.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/roles.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/roles.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/site.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/site.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/user.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/user.php",
+		"oF": 0
+		},
+	"\/kirby\/core\/users.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/core\/users.php",
+		"oF": 0
+		},
+	"\/kirby\/extensions\/methods.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/extensions\/methods.php",
+		"oF": 0
+		},
+	"\/kirby\/extensions\/tags.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/extensions\/tags.php",
+		"oF": 0
+		},
+	"\/kirby\/helpers.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/helpers.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/component.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/css.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/component\/css.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/js.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/component\/js.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/markdown.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/component\/markdown.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/response.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/component\/response.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/smartypants.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/component\/smartypants.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/snippet.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/component\/snippet.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/template.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/component\/template.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/thumb.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/component\/thumb.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/component\/tinyurl.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/component\/tinyurl.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/blueprint.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/blueprint.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/component.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/component.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/controller.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/controller.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/entry.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/entry.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/field.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/field.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/hook.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/hook.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/method.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/method.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/model.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/model.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/option.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/option.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/route.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/route.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/snippet.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/snippet.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/tag.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/tag.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/template.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/template.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/registry\/widget.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/registry\/widget.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/request.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/request.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/request\/params.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/request\/params.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/request\/path.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/request\/path.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/request\/query.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/request\/query.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/roots.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/roots.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/traits\/image.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/traits\/image.php",
+		"oF": 0
+		},
+	"\/kirby\/kirby\/urls.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/kirby\/urls.php",
+		"oF": 0
+		},
+	"\/kirby\/lib\/pageextension.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/lib\/pageextension.php",
+		"oF": 0
+		},
+	"\/kirby\/lib\/structure.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/lib\/structure.php",
+		"oF": 0
+		},
+	"\/kirby\/readme.md": {
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/system.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/system.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/bootstrap.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/bootstrap.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/helpers.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/helpers.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/a.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/a.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/bitmask.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/bitmask.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/brick.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/brick.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/c.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/c.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/kirby\/toolkit\/lib\/cache",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/cache.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/cache.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/collection.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/collection.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/cookie.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/cookie.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/crypt.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/crypt.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/data.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/data.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/database.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/database.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/database\/query.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/database\/query.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/db.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/db.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/detect.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/detect.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/dimensions.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/dimensions.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/dir.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/dir.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/email.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/email.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/embed.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/embed.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/error.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/error.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/errorreporting.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/errorreporting.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/escape.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/escape.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/exif.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/exif.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/exif\/camera.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/exif\/camera.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/exif\/location.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/exif\/location.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/f.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/f.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/folder.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/folder.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/header.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/header.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/html.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/html.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/i.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/i.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/l.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/l.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/media.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/media.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/obj.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/obj.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/pagination.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/pagination.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/password.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/password.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/r.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/r.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/redirect.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/redirect.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/remote.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/remote.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/response.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/response.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/router.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/router.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/s.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/s.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/server.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/server.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/silo.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/silo.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/sql.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/sql.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/str.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/str.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/system.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/system.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/thumb.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/thumb.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/timer.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/timer.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/toolkit.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/toolkit.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/tpl.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/tpl.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/upload.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/upload.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/url.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/url.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/v.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/v.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/visitor.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/visitor.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/xml.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/xml.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/lib\/yaml.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/lib\/yaml.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/readme.md": {
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/kirby\/toolkit\/vendors\/abeautifulsite\/SimpleImage.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/vendors\/abeautifulsite\/SimpleImage.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/vendors\/mimereader\/mimereader.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/vendors\/mimereader\/mimereader.php",
+		"oF": 0
+		},
+	"\/kirby\/toolkit\/vendors\/yaml\/yaml.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/toolkit\/vendors\/yaml\/yaml.php",
+		"oF": 0
+		},
+	"\/kirby\/vendors\/parsedown.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/vendors\/parsedown.php",
+		"oF": 0
+		},
+	"\/kirby\/vendors\/parsedownextra.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/vendors\/parsedownextra.php",
+		"oF": 0
+		},
+	"\/kirby\/vendors\/smartypants.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/kirby\/vendors\/smartypants.php",
+		"oF": 0
+		},
+	"\/license.md": {
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/license.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/panel\/app\/bootstrap.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/bootstrap.php",
+		"oF": 0
+		},
+	"\/panel\/app\/config\/routes.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/config\/routes.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/assets.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/assets.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/auth.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/auth.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/autocomplete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/autocomplete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/avatars.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/avatars.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/dashboard.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/dashboard.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/error.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/error.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/field.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/field.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/files.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/files.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/installation.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/installation.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/options.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/options.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/pages.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/pages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/search.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/search.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/subpages.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/subpages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/controllers\/users.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/controllers\/users.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/base\/base.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/base\/base.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/checkbox\/checkbox.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/checkbox\/checkbox.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/checkboxes\/checkboxes.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/checkboxes\/checkboxes.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/date\/assets\/js\/date.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/date\/assets\/js\/min\/date-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/date\/date.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/date\/date.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/datetime\/datetime.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/datetime\/datetime.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/email\/email.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/email\/email.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/filename\/filename.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/filename\/filename.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/headline\/assets\/css\/headline.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/headline\/assets\/css\/headline-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/app\/fields\/headline\/headline.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/headline\/headline.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/hidden\/hidden.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/hidden\/hidden.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/image\/assets\/css\/image.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/image\/assets\/css\/image-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/app\/fields\/image\/assets\/js\/image.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/image\/assets\/js\/min\/image-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/image\/image.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/image\/image.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/info\/info.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/info\/info.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/input\/input.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/input\/input.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/inputlist\/inputlist.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/inputlist\/inputlist.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/line\/line.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/line\/line.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/number\/number.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/number\/number.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/page\/page.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/page\/page.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/password\/password.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/password\/password.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/radio\/radio.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/radio\/radio.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/select\/select.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/select\/select.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/assets\/css\/structure.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/assets\/css\/structure-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/app\/fields\/structure\/assets\/js\/structure.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/assets\/js\/min\/structure-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/structure\/controller.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/controller.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/forms\/add.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/forms\/add.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/forms\/delete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/forms\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/forms\/update.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/forms\/update.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/structure.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/structure.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/styles\/items.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/styles\/items.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/styles\/table.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/styles\/table.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/template.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/template.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/views\/add.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/views\/add.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/views\/delete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/views\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/structure\/views\/update.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/structure\/views\/update.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/tags\/tags.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/tags\/tags.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/tel\/tel.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/tel\/tel.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/text\/assets\/css\/counter.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/text\/assets\/css\/counter-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/app\/fields\/text\/assets\/js\/counter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/text\/assets\/js\/min\/counter-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/text\/text.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/text\/text.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/assets\/js\/editor.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/textarea\/assets\/js\/min\/editor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/textarea\/buttons.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/textarea\/buttons.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/controller.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/textarea\/controller.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/forms\/email.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/textarea\/forms\/email.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/forms\/link.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/textarea\/forms\/link.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/textarea.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/textarea\/textarea.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/views\/email.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/textarea\/views\/email.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/textarea\/views\/link.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/textarea\/views\/link.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/time\/time.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/time\/time.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/title\/title.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/title\/title.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/toggle\/toggle.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/toggle\/toggle.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/url\/assets\/js\/url.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/url\/assets\/js\/min\/url-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/app\/fields\/url\/url.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/url\/url.php",
+		"oF": 0
+		},
+	"\/panel\/app\/fields\/user\/user.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/fields\/user\/user.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/auth\/login.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/auth\/login.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/avatars\/delete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/avatars\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/editor\/email.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/editor\/email.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/editor\/link.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/editor\/link.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/files\/delete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/files\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/files\/edit.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/files\/edit.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/installation\/check.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/installation\/check.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/installation\/signup.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/installation\/signup.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/add.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/pages\/add.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/delete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/pages\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/edit.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/pages\/edit.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/template.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/pages\/template.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/toggle.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/pages\/toggle.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/pages\/url.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/pages\/url.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/users\/delete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/users\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/forms\/users\/user.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/forms\/users\/user.php",
+		"oF": 0
+		},
+	"\/panel\/app\/helpers.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/helpers.php",
+		"oF": 0
+		},
+	"\/panel\/app\/layouts\/app.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/layouts\/app.php",
+		"oF": 0
+		},
+	"\/panel\/app\/layouts\/base.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/layouts\/base.php",
+		"oF": 0
+		},
+	"\/panel\/app\/layouts\/fatal.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/layouts\/fatal.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/breadcrumb.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/breadcrumb.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/languages.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/languages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/menu.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/menu.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/meta.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/meta.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pages\/sidebar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/pages\/sidebar.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pages\/sidebar\/file.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/pages\/sidebar\/file.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pages\/sidebar\/files.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/pages\/sidebar\/files.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pages\/sidebar\/subpage.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/pages\/sidebar\/subpage.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pages\/sidebar\/subpages.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/pages\/sidebar\/subpages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/pagination.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/pagination.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/search.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/search.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/subpages\/subpage.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/subpages\/subpage.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/template.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/template.php",
+		"oF": 0
+		},
+	"\/panel\/app\/snippets\/uploader.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/snippets\/uploader.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/autocomplete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/autocomplete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/collections\/children.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/collections\/children.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/collections\/files.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/collections\/files.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/collections\/users.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/collections\/users.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/controllers\/base.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/controllers\/base.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/controllers\/field.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/controllers\/field.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/form.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/form.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/form\/fieldoptions.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/form\/fieldoptions.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/form\/plugins.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/form\/plugins.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/installer.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/installer.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/layout.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/layout.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/login.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/login.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/file.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/file.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/file\/menu.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/file\/menu.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/addbutton.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/addbutton.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint\/field.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint\/field.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint\/fields.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint\/fields.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint\/files.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint\/files.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint\/options.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint\/options.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/blueprint\/pages.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/blueprint\/pages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/changes.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/changes.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/menu.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/menu.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/sidebar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/sidebar.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/sorter.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/sorter.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/page\/uploader.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/page\/uploader.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/site.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/site.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/user.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/user.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/user\/avatar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/user\/avatar.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/user\/blueprint.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/user\/blueprint.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/models\/user\/history.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/models\/user\/history.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/roots.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/roots.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/search.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/search.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/snippet.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/snippet.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/structure.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/structure.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/structure\/store.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/structure\/store.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/topbar.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/topbar.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/translation.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/translation.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/upload.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/upload.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/urls.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/urls.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/view.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/view.php",
+		"oF": 0
+		},
+	"\/panel\/app\/src\/panel\/widgets.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/src\/panel\/widgets.php",
+		"oF": 0
+		},
+	"\/panel\/app\/topbars\/error.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/topbars\/error.php",
+		"oF": 0
+		},
+	"\/panel\/app\/topbars\/user.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/topbars\/user.php",
+		"oF": 0
+		},
+	"\/panel\/app\/translations\/ar\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ar\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ar\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ar\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/bg\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/bg\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/bg\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/bg\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ca\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ca\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ca\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ca\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/cs\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/cs\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/cs\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/cs\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/da\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/da\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/da\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/da\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/de\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/de\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/de\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/de\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/en\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/en\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/en\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/en\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/es_419\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/es_419\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/es_419\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/es_419\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/es_ES\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/es_ES\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/es_ES\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/es_ES\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fa\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fa\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fa\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fa\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fi\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fi\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fi\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fi\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fr\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fr\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/fr\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/fr\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/hu\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/hu\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/hu\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/hu\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/id\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/id\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/id\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/id\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/it\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/it\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/it\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/it\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ja\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ja\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ja\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ja\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/nb\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/nb\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/nb\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/nb\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/nl\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/nl\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/nl\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/nl\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pl\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pl\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pl\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pl\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pt_BR\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pt_BR\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pt_BR\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pt_BR\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pt_PT\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pt_PT\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/pt_PT\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/pt_PT\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ro\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ro\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ro\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ro\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ru\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ru\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/ru\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/ru\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/sv_SE\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/sv_SE\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/sv_SE\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/sv_SE\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/tr\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/tr\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/tr\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/tr\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/zh_CN\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/zh_CN\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/zh_CN\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/zh_CN\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/zh_TW\/core.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/zh_TW\/core-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/translations\/zh_TW\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/panel\/app\/translations\/zh_TW\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/panel\/app\/views\/auth\/block.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/auth\/block.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/auth\/error.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/auth\/error.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/auth\/login.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/auth\/login.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/avatars\/delete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/avatars\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/dashboard\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/dashboard\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/error\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/error\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/error\/modal.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/error\/modal.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/files\/delete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/files\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/files\/edit.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/files\/edit.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/files\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/files\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/installation\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/installation\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/options\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/options\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/add.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/pages\/add.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/delete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/pages\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/edit.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/pages\/edit.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/template.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/pages\/template.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/toggle.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/pages\/toggle.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/pages\/url.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/pages\/url.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/search\/results.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/search\/results.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/subpages\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/subpages\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/users\/delete.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/users\/delete.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/users\/edit.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/users\/edit.php",
+		"oF": 0
+		},
+	"\/panel\/app\/views\/users\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/views\/users\/index.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/account\/account.html.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/widgets\/account\/account.html.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/account\/account.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/widgets\/account\/account.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/history\/history.html.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/widgets\/history\/history.html.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/history\/history.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/widgets\/history\/history.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/license\/license.html.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/widgets\/license\/license.html.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/license\/license.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/widgets\/license\/license.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/pages\/pages.html.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/widgets\/pages\/pages.html.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/pages\/pages.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/widgets\/pages\/pages.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/site\/site.html.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/widgets\/site\/site.html.php",
+		"oF": 0
+		},
+	"\/panel\/app\/widgets\/site\/site.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/app\/widgets\/site\/site.php",
+		"oF": 0
+		},
+	"\/panel\/assets\/css\/form.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/css\/form.min-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/assets\/css\/panel.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/css\/panel.min-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/panel\/assets\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-400-italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-400-italic.woff",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-400-italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-400-italic.woff2",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-400.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-400.woff",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-400.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-400.woff2",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-600.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-600.woff",
+		"oF": 0
+		},
+	"\/panel\/assets\/fonts\/sourcesanspro-600.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/panel\/assets\/fonts\/sourcesanspro-600.woff2",
+		"oF": 0
+		},
+	"\/panel\/assets\/images\/avatar.png": {
+		"ft": 32768,
+		"iS": 324,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/avatar.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/images\/hint.arrows.png": {
+		"ft": 32768,
+		"iS": 549,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/hint.arrows.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/images\/loader.black.gif": {
+		"ft": 4194304,
+		"iS": 718,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/loader.black.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/images\/loader.white.gif": {
+		"ft": 4194304,
+		"iS": 718,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/loader.white.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/images\/pattern.png": {
+		"ft": 32768,
+		"iS": 116,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/pattern.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/images\/placeholder.png": {
+		"ft": 32768,
+		"iS": 98,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/images\/placeholder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/panel\/assets\/js\/dist\/app.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/js\/dist\/min\/app.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/assets\/js\/dist\/form.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/js\/dist\/min\/form.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/assets\/js\/dist\/panel.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/panel\/assets\/js\/dist\/min\/panel.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/panel\/index.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/panel\/index.php",
+		"oF": 0
+		},
+	"\/panel\/readme.md": {
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/panel\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/site\/accounts\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/accounts\/index.html",
+		"oF": 0
+		},
+	"\/site\/accounts\/warwickgav.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/accounts\/warwickgav.php",
+		"oF": 0
+		},
+	"\/site\/blueprints\/default.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/blueprints\/default.php",
+		"oF": 0
+		},
+	"\/site\/blueprints\/error.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/blueprints\/error.php",
+		"oF": 0
+		},
+	"\/site\/blueprints\/home.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/blueprints\/home.php",
+		"oF": 0
+		},
+	"\/site\/blueprints\/journal-entries.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/blueprints\/journal-entries.php",
+		"oF": 0
+		},
+	"\/site\/blueprints\/site.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/blueprints\/site.php",
+		"oF": 0
+		},
+	"\/site\/cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/site\/cache",
+		"oF": 0
+		},
+	"\/site\/config\/config.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/config\/config.php",
+		"oF": 0
+		},
+	"\/site\/controllers\/blog.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/controllers\/blog.php",
+		"oF": 0
+		},
+	"\/site\/plugins\/cachebuster.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/plugins\/cachebuster.php",
+		"oF": 0
+		},
+	"\/site\/plugins\/cdn\/cdn.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/plugins\/cdn\/cdn.php",
+		"oF": 0
+		},
+	"\/site\/plugins\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/plugins\/index.html",
+		"oF": 0
+		},
+	"\/site\/snippets\/contact-me.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/contact-me.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/footer.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/footer.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/head-labs.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/head-labs.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/head.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/head.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/header.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/header.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/journal-entries.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/journal-entries.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/labs-projects.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/labs-projects.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/menu.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/menu.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/newsletter.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/newsletter.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/projects.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/snippets\/projects.php",
+		"oF": 0
+		},
+	"\/site\/templates\/about.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/about.php",
+		"oF": 0
+		},
+	"\/site\/templates\/default.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/default.php",
+		"oF": 0
+		},
+	"\/site\/templates\/entry.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/entry.php",
+		"oF": 0
+		},
+	"\/site\/templates\/error.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/error.php",
+		"oF": 0
+		},
+	"\/site\/templates\/experiment.contemporary.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/experiment.contemporary.php",
+		"oF": 0
+		},
+	"\/site\/templates\/experiment.editorial.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/experiment.editorial.php",
+		"oF": 0
+		},
+	"\/site\/templates\/experiment.noir.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/experiment.noir.php",
+		"oF": 0
+		},
+	"\/site\/templates\/home.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/home.php",
+		"oF": 0
+		},
+	"\/site\/templates\/journal.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/journal.php",
+		"oF": 0
+		},
+	"\/site\/templates\/labs.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/labs.php",
+		"oF": 0
+		},
+	"\/site\/templates\/portfolio.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/portfolio.php",
+		"oF": 0
+		},
+	"\/site\/templates\/process.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/process.php",
+		"oF": 0
+		},
+	"\/site\/templates\/project.expanded.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/project.expanded.php",
+		"oF": 0
+		},
+	"\/site\/templates\/project.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/project.php",
+		"oF": 0
+		},
+	"\/site\/templates\/project.simple.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/project.simple.php",
+		"oF": 0
+		},
+	"\/site\/templates\/resume.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/templates\/resume.php",
+		"oF": 0
+		},
+	"\/warwick-gavaghan-resume.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/warwick-gavaghan-resume.pdf",
+		"oF": 0
+		},
+	"\/yano-email-signature.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/yano-email-signature.html",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 499520548,
+	"displayValue": "warwickgav",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-leo"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 1,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all', 'consistent'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "{'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "['error', 'data', 'err', 'e', 'cb', 'callback']"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "{'WithStatement', 'try-catch'}"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-reflect": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', 'avoid-escape'"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888\/warwickgav\/",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*-ck.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "styles.min.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"outputStyle": 2,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 0,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}
